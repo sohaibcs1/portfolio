@@ -2,13 +2,17 @@
 
 # compiled output
 /dist
+/docs
 /tmp
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
 
-# dependencies
-/node_modules
+# dependencies (root project and nested services)
+node_modules/
+
+# local Cloudflare development state
+.wrangler/
 
 # profiling files
 chrome-profiler-events*.json
@@ -44,3 +48,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+*.zip
