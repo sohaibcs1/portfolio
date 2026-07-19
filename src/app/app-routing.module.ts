@@ -4,6 +4,7 @@ import {MainPageComponent} from './main-page/main-page.component';
 import {ReviewsComponent} from './reviews/reviews.component';
 import {RedirectGuard} from './redirect.guard';
 import {ReadingGroupComponent} from './reading-group/reading-group.component';
+import {VisitorDashboardComponent} from './visitor-dashboard/visitor-dashboard.component';
 import {DefaultUrlSerializer, UrlTree} from '@angular/router';
 
 export class LowerCaseUrlSerializer extends DefaultUrlSerializer {
@@ -27,6 +28,7 @@ const routes: Routes = [
     }
   },
   {path: 'reviews', component: ReviewsComponent},
+  {path: 'visitors', component: VisitorDashboardComponent},
   {path: '', component: MainPageComponent},
   {
     path: 'assets/Light_Attention_Predicts_Protein_Location_from_the_Language_of_Life.pdf',

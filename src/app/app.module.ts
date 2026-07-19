@@ -50,7 +50,9 @@ import {EquiBindImageComponent} from "./equibindimage/equibindimage.component";
     LAArchImageComponent,
     MultiConfImageComponent,
     BYOLImageComponent,
-    EquiBindImageComponent
+    EquiBindImageComponent,
+    VisitorMapComponent,
+    VisitorDashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -74,6 +76,7 @@ import {EquiBindImageComponent} from "./equibindimage/equibindimage.component";
     MatFormFieldModule,
     BrowserModule,
     ReactiveFormsModule,
+    FormsModule,
     HttpClientModule,
     NoopAnimationsModule,
     MatInputModule,
