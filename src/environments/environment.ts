@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  visitorApiUrl: 'https://sohaib-portfolio-visitors.sohaibcs1.workers.dev'
+  visitorApiUrl: 'http://localhost:8787'
 };
 
 /*
