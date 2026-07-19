@@ -1,8 +1,8 @@
 <div  (window:scroll)="onWindowScroll($event)">
-  <div class="header" [class.elevation]="scrolled">
+  <div *ngIf="!isVisitorPage" class="header" [class.elevation]="scrolled">
     <app-header></app-header>
   </div>
-  <div id="main">
+  <div id="main" [class.visitor-page-main]="isVisitorPage">
     <router-outlet></router-outlet>
   </div>
   <app-footer></app-footer>

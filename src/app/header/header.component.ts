@@ -21,6 +21,12 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scrollToSection(event: MouseEvent, sectionId: string): void {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) section.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+
   goToLink(event, url: string): void {
     if (event.button === 0 || event.button === 1) {
       window.open(url, '_blank');

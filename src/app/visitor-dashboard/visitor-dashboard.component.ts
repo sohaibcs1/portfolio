@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../../environments/environment';
 
@@ -7,7 +7,7 @@ import {environment} from '../../environments/environment';
   templateUrl: './visitor-dashboard.component.html',
   styleUrls: ['./visitor-dashboard.component.scss']
 })
-export class VisitorDashboardComponent implements OnInit {
+export class VisitorDashboardComponent implements OnInit, OnDestroy {
   days = 30;
   page = 1;
   pageSize = 10;
@@ -17,13 +17,19 @@ export class VisitorDashboardComponent implements OnInit {
   visits: any[] = [];
   summary = {totalVisits: 0, countries: 0, visitsToday: 0};
   selectedLocation: any = null;
+  private refreshTimer: any;
 
   constructor(private http: HttpClient) {}
 
-  ngOnInit(): void { this.load(); }
+  ngOnInit(): void {
+    this.load();
+    this.refreshTimer = setInterval(() => this.load(false), 30000);
+  }
 
-  load(): void {
-    this.loading = true;
+  ngOnDestroy(): void { if (this.refreshTimer) clearInterval(this.refreshTimer); }
+
+  load(showLoading: boolean = true): void {
+    if (showLoading) this.loading = true;
     const location = this.selectedLocation ? `&country=${this.selectedLocation.countryCode}&city=${encodeURIComponent(this.selectedLocation.city || '')}` : '';
     this.http.get<any>(`${environment.visitorApiUrl}/visitor-map?days=${this.days}&page=${this.page}&limit=${this.pageSize}${location}`)
       .subscribe(data => {

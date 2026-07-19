@@ -34,6 +34,8 @@ import {LAArchImageComponent} from "./laarchimage/laarchimage.component";
 import {MultiConfImageComponent} from "./multiconfimage/multiconfimage.component";
 import {BYOLImageComponent} from "./byolimage/byolimage.component";
 import {EquiBindImageComponent} from "./equibindimage/equibindimage.component";
+import {VisitorMapComponent} from './visitor-map/visitor-map.component';
+import {VisitorDashboardComponent} from './visitor-dashboard/visitor-dashboard.component';
 
 
 @NgModule({

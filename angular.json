@@ -32,6 +32,7 @@
               "src/sitemap.xml"
             ],
             "styles": [
+              "node_modules/leaflet/dist/leaflet.css",
               "theme.scss",
               "src/styles.scss"
             ],
@@ -101,6 +102,7 @@
               "src/sitemap.xml"
             ],
             "styles": [
+              "node_modules/leaflet/dist/leaflet.css",
               "theme.scss",
               "src/styles.scss"
             ],

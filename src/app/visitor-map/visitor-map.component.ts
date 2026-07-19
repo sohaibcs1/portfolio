@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, OnChanges, SimpleChanges } from '@angular/core';
+import {AfterViewInit, Component, ElementRef, EventEmitter, Input, OnChanges, OnDestroy, Output, SimpleChanges, ViewChild} from '@angular/core';
 import * as L from 'leaflet';
 
 @Component({
@@ -6,100 +6,103 @@ import * as L from 'leaflet';
   templateUrl: './visitor-map.component.html',
   styleUrls: ['./visitor-map.component.scss']
 })
-export class VisitorMapComponent implements OnInit, OnChanges {
+export class VisitorMapComponent implements AfterViewInit, OnChanges, OnDestroy {
   @Input() locations: any[] = [];
-  @Input() compact: boolean = false;
+  @Input() compact = false;
   @Output() locationSelected = new EventEmitter<any>();
-
-  @ViewChild('mapContainer', { static: false }) mapContainer: ElementRef;
+  @ViewChild('mapContainer', {static: false}) mapContainer: ElementRef;
 
   private map: L.Map;
-  private markers: L.Layer[] = [];
+  private markerLayer: L.LayerGroup;
 
-  constructor() { }
+  ngAfterViewInit(): void {
+    this.map = L.map(this.mapContainer.nativeElement, {
+      center: [20, 0],
+      zoom: this.compact ? 1 : 2,
+      minZoom: 1,
+      maxZoom: 8,
+      dragging: !this.compact,
+      scrollWheelZoom: !this.compact,
+      doubleClickZoom: !this.compact,
+      touchZoom: !this.compact,
+      zoomControl: !this.compact,
+      worldCopyJump: true
+    });
 
-  ngOnInit(): void {
-    this.initializeMap();
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 18
+    }).addTo(this.map);
+
+    this.markerLayer = L.layerGroup().addTo(this.map);
+    this.map.on('zoomend', () => this.renderMarkers());
+    this.renderMarkers();
+    setTimeout(() => this.map.invalidateSize(), 0);
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes['locations'] && !changes['locations'].firstChange && this.map) {
-      this.updateMarkers();
-    }
+    if (changes.locations && this.map) this.renderMarkers();
   }
 
-  private initializeMap(): void {
-    setTimeout(() => {
-      if (!this.mapContainer) return;
-
-      const defaultCenter: L.LatLng = L.latLng(20, 0);
-      const defaultZoom = this.compact ? 2 : 2;
-
-      this.map = L.map(this.mapContainer.nativeElement).setView(defaultCenter, defaultZoom);
-
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors',
-        maxZoom: 19
-      }).addTo(this.map);
-
-      this.updateMarkers();
-    }, 0);
+  ngOnDestroy(): void {
+    if (this.map) this.map.remove();
   }
 
-  private updateMarkers(): void {
-    if (!this.map) return;
+  private renderMarkers(): void {
+    if (!this.markerLayer) return;
+    this.markerLayer.clearLayers();
 
-    // Clear existing markers
-    this.markers.forEach(marker => this.map.removeLayer(marker));
-    this.markers = [];
+    this.clusterLocations().forEach(cluster => {
+      const size = Math.min(54, 30 + Math.sqrt(cluster.visits) * 2.2);
+      const icon = L.divIcon({
+        className: 'visitor-cluster-marker',
+        html: `<span>${cluster.visits}</span>`,
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2]
+      });
+      const marker = L.marker([cluster.latitude, cluster.longitude], {icon});
+      marker.bindTooltip(this.clusterLabel(cluster), {direction: 'top', offset: [0, -size / 2]});
+      marker.on('click', () => {
+        if (this.compact) return;
+        if (cluster.locations.length === 1) {
+          this.locationSelected.emit(cluster.locations[0]);
+        } else {
+          this.map.setView([cluster.latitude, cluster.longitude], Math.min(7, this.map.getZoom() + 2));
+        }
+      });
+      marker.addTo(this.markerLayer);
+    });
+  }
 
-    if (!this.locations || this.locations.length === 0) return;
+  private clusterLocations(): any[] {
+    const zoom = this.map ? this.map.getZoom() : 1;
+    const gridSize = zoom <= 1 ? 16 : zoom === 2 ? 8 : zoom === 3 ? 4 : zoom === 4 ? 2 : .25;
+    const groups: {[key: string]: any} = {};
 
-    // Calculate bounds to fit all markers
-    const bounds = L.latLngBounds([]);
-    let hasValidCoordinates = false;
-
-    this.locations.forEach(location => {
-      if (location.latitude && location.longitude) {
-        hasValidCoordinates = true;
-        const lat = parseFloat(location.latitude);
-        const lng = parseFloat(location.longitude);
-
-        const marker = L.circleMarker([lat, lng], {
-          radius: Math.min(20, Math.max(5, Math.sqrt(location.visits || 1) * 2)),
-          fillColor: '#016fff',
-          color: '#016fff',
-          weight: 2,
-          opacity: 0.8,
-          fillOpacity: 0.6
-        });
-
-        marker.bindPopup(`
-          <div class="popup-content">
-            <strong>${location.city || 'Unknown'}</strong><br>
-            ${location.country || ''}<br>
-            <small>${location.visits || 0} visits</small>
-          </div>
-        `);
-
-        marker.on('click', () => {
-          this.locationSelected.emit(location);
-        });
-
-        this.markers.push(marker);
-        marker.addTo(this.map);
-        bounds.extend([lat, lng]);
-      }
+    (this.locations || []).forEach(location => {
+      const latitude = Number(location.latitude);
+      const longitude = Number(location.longitude);
+      if (!isFinite(latitude) || !isFinite(longitude)) return;
+      const key = `${Math.round(latitude / gridSize)}:${Math.round(longitude / gridSize)}`;
+      if (!groups[key]) groups[key] = {latitude: 0, longitude: 0, weight: 0, visits: 0, locations: []};
+      const weight = Math.max(1, Number(location.visits) || 1);
+      groups[key].latitude += latitude * weight;
+      groups[key].longitude += longitude * weight;
+      groups[key].weight += weight;
+      groups[key].visits += weight;
+      groups[key].locations.push(location);
     });
 
-    // Fit map to bounds if we have valid coordinates
-    if (hasValidCoordinates && this.markers.length > 0) {
-      try {
-        this.map.fitBounds(bounds, { padding: [50, 50], maxZoom: 6 });
-      } catch (e) {
-        // Handle case where bounds are invalid
-        this.map.setView([20, 0], 2);
-      }
-    }
+    return Object.keys(groups).map(key => ({
+      ...groups[key],
+      latitude: groups[key].latitude / groups[key].weight,
+      longitude: groups[key].longitude / groups[key].weight
+    }));
+  }
+
+  private clusterLabel(cluster: any): string {
+    const cities = cluster.locations.map(location => location.city || location.country || 'Unknown')
+      .filter((city, index, all) => all.indexOf(city) === index).slice(0, 3).join(', ');
+    return `${cities}${cluster.locations.length > 3 ? '…' : ''} · ${cluster.visits} ${cluster.visits === 1 ? 'visit' : 'visits'}`;
   }
 }

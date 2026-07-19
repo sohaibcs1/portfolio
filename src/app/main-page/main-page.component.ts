@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {faGithub, faLinkedin, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import {
   faCopy,
@@ -23,13 +23,14 @@ import {LAArchImageComponent} from "../laarchimage/laarchimage.component";
 import {MultiConfImageComponent} from "../multiconfimage/multiconfimage.component";
 import {BYOLImageComponent} from "../byolimage/byolimage.component";
 import {EquiBindImageComponent} from "../equibindimage/equibindimage.component";
+import {environment} from '../../environments/environment';
 
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.scss']
 })
-export class MainPageComponent implements OnInit {
+export class MainPageComponent implements OnInit, OnDestroy {
   showMoreProjects = false;
   github = faGithub;
   linkedin = faLinkedin;
@@ -48,6 +49,10 @@ export class MainPageComponent implements OnInit {
   safeURLNerf;
   safeURL3DPretrain;
   safeURLLightAttention;
+  visitorStats: any = null;
+  visitorLoading = false;
+  visitorApiConfigured = Boolean(environment.visitorApiUrl);
+  private visitorRefreshTimer: any;
 
   constructor(private http: HttpClient, private sanitizer: DomSanitizer, private dialog: MatDialog) {
     this.safeURLNerf = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/8MCWE7R0xN8');
@@ -56,6 +61,33 @@ export class MainPageComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.loadVisitorActivity();
+    this.visitorRefreshTimer = setInterval(() => this.refreshVisitorActivity(), 30000);
+  }
+
+  ngOnDestroy(): void {
+    if (this.visitorRefreshTimer) clearInterval(this.visitorRefreshTimer);
+  }
+
+  loadVisitorActivity(): void {
+    if (!this.visitorApiConfigured) return;
+    this.visitorLoading = true;
+    this.http.post<any>(`${environment.visitorApiUrl}/visit`, {path: window.location.pathname})
+      .subscribe(stats => {
+        this.visitorStats = stats;
+        this.visitorLoading = false;
+      }, () => {
+        this.http.get<any>(`${environment.visitorApiUrl}/visitors`).subscribe(stats => {
+          this.visitorStats = stats;
+        }, () => this.visitorStats = null, () => this.visitorLoading = false);
+      });
+  }
+
+  private refreshVisitorActivity(): void {
+    if (!this.visitorApiConfigured) return;
+    this.http.get<any>(`${environment.visitorApiUrl}/visitors`).subscribe(stats => {
+      this.visitorStats = stats;
+    });
   }
 
   goToLink(event, url: string): void {
@@ -142,4 +174,3 @@ export class MainPageComponent implements OnInit {
     this.dialog.open(EquiBindImageComponent, dialogConfig);
   }
 }
-
