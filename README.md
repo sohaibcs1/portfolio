@@ -10,11 +10,10 @@ Requirements: Node.js and npm.
 git clone https://github.com/sohaibcs1/portfolio.git
 cd portfolio
 npm install --legacy-peer-deps
-npm run worker:db:init
-npm run dev
+npm start
 ```
 
-Open [http://localhost:4200](http://localhost:4200). The Worker runs at [http://localhost:8787](http://localhost:8787).
+Open [http://localhost:4200](http://localhost:4200). The portfolio uses the deployed visitor API, so the map works without running Cloudflare locally.
 
 Only one root `node_modules` directory is used. Do not run `npm install` inside `visitor-api`.
 
@@ -22,7 +21,7 @@ Only one root `node_modules` directory is used. Do not run `npm install` inside 
 
 ```bash
 npm start              # Angular site only
-npm run dev            # Angular site and local Worker
+npm run dev            # Angular site and local Worker tools
 npm run build:pages    # Production build in docs/ with SPA fallback
 npm test               # Angular tests
 npm run worker:dev     # Local Worker only
