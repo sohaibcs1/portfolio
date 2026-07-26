@@ -66,12 +66,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _multiconfimage_multiconfimage_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../multiconfimage/multiconfimage.component */ "wfxU");
 /* harmony import */ var _byolimage_byolimage_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../byolimage/byolimage.component */ "mPSg");
 /* harmony import */ var _equibindimage_equibindimage_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../equibindimage/equibindimage.component */ "91xG");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
-/* harmony import */ var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/flex-layout/flex */ "XiUz");
-/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/flex-layout/extended */ "znSr");
-/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "6NWb");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../environments/environment */ "AytR");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
+/* harmony import */ var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/flex-layout/flex */ "XiUz");
+/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/flex-layout/extended */ "znSr");
+/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "6NWb");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _visitor_map_visitor_map_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../visitor-map/visitor-map.component */ "uOk1");
 
 
 
@@ -92,20 +95,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function MainPageComponent_div_642_Template(rf, ctx) { if (rf & 1) {
+
+
+
+function MainPageComponent_div_650_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "\uD83C\uDF10 get-ipinfo: Python Library");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 123);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 134);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " get-ipinfo is the open-source python library available on pypi.org. This library allows us to get some useful insights from IP addresses such as Country, Region, City, GPS, ZIP, and ISP. To install and try: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "b");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "pip install get-ipinfo");
@@ -113,115 +119,115 @@ function MainPageComponent_div_642_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " . ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "\uD83D\uDE37 Face Mask Detection using OpenCV & Python");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 124);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 135);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " Developed a real-time face mask detection system using OpenCV and Python, capable of identifying whether a person is wearing a face mask or not. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "\uD83E\uDDE0 TinyBERT-Tokenization");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 125);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 136);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " This repository demonstrates the use of text classification techniques by using three popular tokenization methods: BPE (Byte Pair Encoding), WordPiece, and SentencePiece. In addition to tokenization, the project includes fine-tuning of a lightweight BERT model, Tiny BERT, to achieve efficient and accurate classification on datasets like IMDb, AG News, and Yelp. This combination of tokenization strategies and model fine-tuning showcases the impact of preprocessing and optimization on NLP tasks. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "\u2709\uFE0F LinkedIn AI Email Writer ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 126);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " Designed and developed an internal AI-powered tool inspired by Warmer.ai and Smartwriter.ai to generate personalized email and LinkedIn intros using LinkedIn profile URLs as input. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "\uD83E\uDDEA Transformer-Based Model for Analyzing User Behavior in App Design");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 127);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 138);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, " Developed the BERT-FRIDE model to analyze user reviews and extract app design insights, such as color scheme, navigation, loading speed, and readability, achieving 98% accuracy. Introduced a new labeling method and custom loss function, outperforming XLNet, RoBERTa, and GPT-2. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "\uD83C\uDF10 Python Toolkit");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 128);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 139);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, " Developed an online platform using Flask, including a Website Scraper, IP Tracker, QR code Generator/Scanner, DNS Lookup, and more. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "\u26F3 Golf Round Tracker App with OCR & GPS Integration ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "a", 129);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "a", 140);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, " Developed a Google AppSheet-based mobile application for golf enthusiasts to track and analyze golf rounds, seamlessly integrated with a centralized web database. The app supported three data entry modes: manual shot input, GPS-based tracking via the GOLFBERT API, and OCR-driven scorecard image recognition. Designed and implemented secure user authentication, profile management, and an intuitive interface for effortless data entry and review. Integrated custom APIs to ensure reliable, user-specific data synchronization with the web platform. Prioritized performance optimization and cross-platform compatibility to deliver a smooth and stable user experience. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "\uD83D\uDEF0\uFE0F Nexus the Navigation System");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "a", 130);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "a", 141);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Designed and developed a comprehensive multi-role delivery management system to address modern challenges in product delivery, including communication gaps, time constraints, and cost inefficiencies. The system comprises three interconnected applications: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "b");
@@ -244,72 +250,142 @@ function MainPageComponent_div_642_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, " The system ensures smooth coordination between customers, managers, and delivery agents, while optimizing delivery operations and reducing fuel/time costs. Notifications for new deliveries are dispatched via SMS alerts, maintaining continuous workflow. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](96, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](96, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "\uD83E\uDDE0 Mind Game");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "a", 131);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "a", 142);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, " In this game, we match pairs. Match the couple of tiles and testing your memory. This memory game is based on the classical concept of matching corresponding tiles. This game has three difficulty levels. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "\uD83D\uDCFF Tasbih");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "a", 132);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "a", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, " It\u2019s a tasbeeh counter application. We can use this mobile application for the names of ALLAH or any dhikr. Select the dhikr and count it. Even you close the Tasbeeh application, the number of the dhikr will not be erased. When you restart the application, the dhikr number will appear on the screen. Using buttons, you can pulse/decrement in the number and can reset. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](116, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](116, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "\uD83D\uDDC3\uFE0F Practice SQL");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 133);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 144);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, " Practice SQL is an online SQL practice tool that lets you execute SQL queries and see the results for the realistic test data. I Build this ML Web App with Streamlit and deploy the App on Heroku cloud platform. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](126, "hr", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "a", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](126, "hr", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "a", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "\uD83D\uDDBC\uFE0F Image Caption Generator");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "a", 134);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "a", 145);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, " \uD83D\uDCBB Github Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "p", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "p", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, " A Flask-based application utilizing a pre-trained LSTM model to generate descriptive captions for user-uploaded images, providing real-time feedback through an interface. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](136, "hr", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](136, "hr", 87);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function MainPageComponent_ng_container_808_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 146);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 147);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Total visits");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](7, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 147);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Countries");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](13, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 147);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Today");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](19, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 148);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 149);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "app-visitor-map", 150);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Explore Visitor Map \u2192");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](7, 5, ctx_r1.visitorStats.totalVisits));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](13, 7, ctx_r1.visitorStats.countries));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](19, 9, ctx_r1.visitorStats.visitsToday));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("locations", ctx_r1.visitorStats.locations)("compact", true);
+} }
+function MainPageComponent_ng_template_809_div_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 153);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Loading visitor activity\u2026");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function MainPageComponent_ng_template_809_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 153);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Visitor activity will appear here shortly.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function MainPageComponent_ng_template_809_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, MainPageComponent_ng_template_809_div_0_Template, 2, 0, "div", 152);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, MainPageComponent_ng_template_809_div_1_Template, 2, 0, "div", 152);
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r3.visitorLoading);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r3.visitorLoading);
 } }
 class MainPageComponent {
     constructor(http, sanitizer, dialog) {
@@ -330,11 +406,45 @@ class MainPageComponent {
         this.paper = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faCopy"];
         this.handPointLeft = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faFireAlt"];
         this.mobile = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faMobile"];
+        this.visitorStats = null;
+        this.visitorLoading = false;
+        this.visitorApiConfigured = Boolean(_environments_environment__WEBPACK_IMPORTED_MODULE_12__["environment"].visitorApiUrl);
         this.safeURLNerf = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/8MCWE7R0xN8');
         this.safeURLLightAttention = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/6gDy8-yOJqY');
         this.safeURL3DPretrain = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/wF4RG171OR0');
     }
     ngOnInit() {
+        this.loadVisitorActivity();
+        this.visitorRefreshTimer = setInterval(() => this.refreshVisitorActivity(), 30000);
+    }
+    ngOnDestroy() {
+        if (this.visitorRefreshTimer)
+            clearInterval(this.visitorRefreshTimer);
+    }
+    loadVisitorActivity() {
+        if (!this.visitorApiConfigured)
+            return;
+        this.visitorLoading = true;
+        this.http.post(`${_environments_environment__WEBPACK_IMPORTED_MODULE_12__["environment"].visitorApiUrl}/visit`, { path: window.location.pathname })
+            .subscribe(stats => {
+            this.visitorStats = stats;
+            this.visitorLoading = false;
+        }, () => {
+            this.http.get(`${_environments_environment__WEBPACK_IMPORTED_MODULE_12__["environment"].visitorApiUrl}/visitors`).subscribe(stats => {
+                this.visitorStats = stats;
+                this.visitorLoading = false;
+            }, () => {
+                this.visitorStats = null;
+                this.visitorLoading = false;
+            });
+        });
+    }
+    refreshVisitorActivity() {
+        if (!this.visitorApiConfigured)
+            return;
+        this.http.get(`${_environments_environment__WEBPACK_IMPORTED_MODULE_12__["environment"].visitorApiUrl}/visitors`).subscribe(stats => {
+            this.visitorStats = stats;
+        });
     }
     goToLink(event, url) {
         if (event.button === 0 || event.button === 1) {
@@ -405,8 +515,8 @@ class MainPageComponent {
         this.dialog.open(_equibindimage_equibindimage_component__WEBPACK_IMPORTED_MODULE_11__["EquiBindImageComponent"], dialogConfig);
     }
 }
-MainPageComponent.ɵfac = function MainPageComponent_Factory(t) { return new (t || MainPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_13__["DomSanitizer"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MatDialog"])); };
-MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MainPageComponent, selectors: [["app-main-page"]], decls: 792, vars: 47, consts: [["fxLayout", "column", "fxLayoutAlign", "center center", "ngClass.lt-md", "text-align-center"], ["fxLayout", "row", "fxLayout.lt-md", "column", "fxLayoutAlign", "center center"], ["fxFlex", "30", "fxLayoutAlign", "end center", "fxLayoutAlign.lt-md", "center center"], ["src", "assets/photo.jpeg", "alt", "Profile Image", 1, "profile-image"], ["fxFlex", "60", "ngClass.sm", "small-margin", "ngClass.xs", "small-margin--xs"], ["fxFlex.lt-md", "auto", "fxFlex", "70", "fxLayout", "column", "fxLayoutAlign.lt-md", "center center"], [1, "Name"], ["fxLayout", "column", "fxLayoutAlign.lt-md", "center center", 1, "item"], [1, "text-align-left"], ["href", "https://medium.com/@sohaibcs1", "target", "_blank", 1, "btn", "btn-green", "rounded-pill", "shadow-lg", "px-4", "py-2", "text-white"], ["fxLayout", "row", "fxLayout.xs", "column"], ["href", "https://github.com/sohaibcs1", "target", "_blank", 1, "socials-links", "link-style-black", "text-black"], [1, "link-icon-style-green", 3, "icon"], ["href", "https://www.linkedin.com/in/sohaibcs1/", "target", "_blank", 1, "socials-links", "link-style-black", "text-black"], ["href", "mailto:sohaib.cs1@gmail.com", 1, "socials-links", "link-style-black", "text-black"], ["href", "https://scholar.google.com/citations?user=0EeIox4AAAAJ&hl=en", "target", "_blank", 1, "socials-links", "link-style-black", "text-black"], ["fxLayout", "column", 1, "width100"], ["fxHide.lt-md", ""], ["fxLayout", "row", "fxLayout.lt-md", "column", "fxLayoutAlign.lt-md", "center center", "fxLayoutAlign", "center start"], ["fxFlex", "30", "fxLayoutAlign", "end start", "fxLayoutAlign.lt-md", "center center"], ["fxFlex.gt-sm", "200px", "fxFlex.lt-md", "100", "ngClass.gt-sm", "underline-title", "ngClass.lt-md", "", "fxLayoutAlign.lt-md", "center center"], [1, "left-titles"], ["fxFlex", "60"], ["fxFlex.lt-md", "", "fxFlex", "70", "fxLayout", "column", "fxLayoutAlign.lt-md", "center center", 1, "underline-title"], [1, "left-titles--hidden"], ["fxHide.gt-sm", "", "ngClass.sm", "small-margin", "ngClass.xs", "small-margin--xs", "fxLayoutAlign", "center center", 1, "underline-title"], ["ngClass.sm", "small-margin", "ngClass.xs", "small-margin--xs", "fxLayout", "row", "fxLayout.lt-md", "column", "fxLayoutAlign.lt-md", "center center", "fxLayoutAlign", "center start"], ["fxFlex.lt-md", "", "fxFlex", "70", "fxLayout", "column", "fxLayoutAlign.lt-md", "center center", 1, "text-area"], [1, "item-title"], ["fxLayout", "row"], ["href", "https://www.unr.edu/", "target", "_blank", 1, "item-subtitle", "link-style-black"], [1, "item-date-loc"], [1, "icon-right-margin", 3, "icon"], ["fxHide.xs", ""], [1, "icon-right-margin--left", 3, "icon"], [1, "item-content"], ["href", "https://www.unr.edu/ebme/people/bahram-parvin", "target", "_blank", 1, "link-style-green"], ["ngClass.gt-sm", "separator", "ngClass.lt-md", "separator--small"], ["href", "https://www.tju.edu.cn/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://cic.tju.edu.cn/info/1193/3708.htm", "target", "_blank", 1, "link-style-green"], ["href", "https://www.gcu.edu.pk/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://scholar.google.com/citations?user=bnXfJdEAAAAJ", "target", "_blank", 1, "socials-links", "link-style-black", "text-black"], ["href", "https://github.com/sohaibcs1/deconv3d", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxLayout", "column", "fxLayoutGap", "5px"], ["fxLayout", "row", "fxLayoutGap", "5px", "fxLayoutAlign", "center center"], ["fxFlex", "40", "src", "assets/deconv1.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/deconv2.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/deconv3.png", "alt", "image at full size", 1, "previewable-image"], ["ngClass.gt-sm", "separator-slim", "ngClass.lt-md", "separator-slim--small"], ["href", "https://ieeexplore.ieee.org/abstract/document/10777490", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/3d_organoid.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/10a_day7.gif", "alt", "image at full size", 1, "previewable-image2"], ["fxFlex", "20", "src", "assets/10a_day5_c.gif", "alt", "image at full size", 1, "previewable-image2"], ["href", "https://doi.org/10.1109/WACV61041.2025.00427", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/wacv1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/wacv2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://www.sciencedirect.com/science/article/pii/S1746809425012224", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/maca1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/maca2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://ieeexplore.ieee.org/document/11284693", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "40", "src", "assets/maf1.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/maf2.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/maf3.png", "alt", "image at full size", 1, "previewable-image"], ["href", "https://ieeexplore.ieee.org/document/10981294", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "40", "src", "assets/cas1.gif", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cas2.gif", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cas3.gif", "alt", "image at full size", 1, "previewable-image"], ["href", "https://doi.org/10.1016/j.cmpb.2025.109135", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "40", "src", "assets/cm2.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cm1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cm3.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://ieeexplore.ieee.org/document/10980672", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/log1.gif", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/log2.gif", "alt", "image at full size", 1, "previewable-image"], ["href", "https://arxiv.org/abs/2406.17080", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/cvpr.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/cvpr2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://link.springer.com/chapter/10.1007/978-3-031-60875-9_21", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/hci1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/hci2.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "20", "src", "assets/hci3.jpg", "alt", "image at full size", 1, "previewable-image2"], ["href", "https://arxiv.org/abs/2304.05065", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/jone.JPG", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/j1.JPG", "alt", "image at full size", 1, "previewable-image2"], ["fxFlex", "20", "src", "assets/j2.JPG", "alt", "image at full size", 1, "previewable-image2"], ["href", "https://www.genmab.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], [1, "item-subtitle", "link-style-black"], ["href", "https://scet.sharif.edu.pk/historical-profile/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://xintsolutions.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["id", "projects"], ["href", "https://www.huawei.com/en/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://youngstarsfoundation.org/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/3D-Organoid-SwinNet", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/MAT3D", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://www.engr.unr.edu/deconv3d", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://pypi.org/project/BioProps/", "target", "_blank", 1, "item-subtitle", "link-style-black"], [1, "btn", "btn-green", "rounded-pill", "shadow-lg", "px-4", "py-2", "text-white", 3, "click"], [4, "ngIf"], ["href", "https://www.unr.edu/building-directory/the-quad", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/degree.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "49.01", "controls", "", 1, "previewable-image"], ["src", "assets/degree_video.mp4", "type", "video/mp4"], ["href", "https://www.unr.edu/building-directory/scrugham-engineering-and-mines", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/defense1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/defense2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://wacv2025.thecvf.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/wacv3.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/wacv4.jpeg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://bhi.embs.org/2024/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/bhi1.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/bhi2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://www.unr.edu/cybersecurity/conference", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/cyber1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/cyber2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://www.hilton.com/en/hotels/dcawhhh-washington-hilton/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/h3.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/h1.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://seattleconventioncenter.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "100", "src", "assets/cvpr.jpeg", "alt", "image at full size", 1, "previewable-image"], [2, "text-align", "center", "font-size", "15px", "font-weight", "bold", "color", "#d92929", "text-decoration", "underline", "margin", "20px auto"], [2, "text-align", "center", "margin-top", "20px"], ["href", "https://mapmyvisitors.com/web/1c4tu", "target", "_blank", "title", "Visit tracker"], ["src", "https://mapmyvisitors.com/map.png?d=JhdGS7iTypXlH8hgAYBspR08yKGiVj4Iq2JFIv1oClI&cl=ffffff", "alt", "Visitor Map", 2, "width", "100%", "max-width", "450px", "height", "auto", "border", "2px solid #ddd", "border-radius", "10px", "box-shadow", "0px 4px 10px rgba(0,0,0,0.2)"], ["href", "https://pypi.org/project/get-ipinfo/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Face-mask-detection-using-OpenCV-Python-code", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/FineTuneTinyBERT-TokenizerExploration", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/LinkedIn_AI_EMAil_Writer", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/bert-fried", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://www.msubox.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/appsheet_api_ocr_dashboard", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Online-food-ordering-system-project", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/mobile-app-MindGame-", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Tasbeeh-Mobile-app-", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/sql-practice", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Flask_Image_Summary_Using_deep_Learning", "target", "_blank", 1, "item-subtitle", "link-style-black"]], template: function MainPageComponent_Template(rf, ctx) { if (rf & 1) {
+MainPageComponent.ɵfac = function MainPageComponent_Factory(t) { return new (t || MainPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_14__["DomSanitizer"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MatDialog"])); };
+MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MainPageComponent, selectors: [["app-main-page"]], decls: 813, vars: 49, consts: [["fxLayout", "column", "fxLayoutAlign", "center center", "ngClass.lt-md", "text-align-center"], ["fxLayout", "row", "fxLayout.lt-md", "column", "fxLayoutAlign", "center center"], ["fxFlex", "30", "fxLayoutAlign", "end center", "fxLayoutAlign.lt-md", "center center"], ["src", "assets/photo.jpeg", "alt", "Profile Image", 1, "profile-image"], ["fxFlex", "60", "ngClass.sm", "small-margin", "ngClass.xs", "small-margin--xs"], ["fxFlex.lt-md", "auto", "fxFlex", "70", "fxLayout", "column", "fxLayoutAlign.lt-md", "center center"], [1, "Name"], ["fxLayout", "column", "fxLayoutAlign.lt-md", "center center", "id", "home", 1, "item"], [1, "text-align-left"], ["href", "https://www.unr.edu/", "target", "_blank", "rel", "noopener noreferrer", 1, "link-style-green"], ["href", "https://www.unr.edu/ebme/people/bahram-parvin", "target", "_blank", "rel", "noopener noreferrer", 1, "link-style-green"], ["fxLayout", "row wrap", "fxLayoutGap", "16px", 1, "profile-links"], ["href", "https://scholar.google.com/citations?hl=en&user=0EeIox4AAAAJ", "target", "_blank", "rel", "noopener noreferrer", 1, "socials-links", "link-style-black", "text-black"], [1, "link-icon-style-green", 3, "icon"], ["href", "https://github.com/sohaibcs1", "target", "_blank", "rel", "noopener noreferrer", 1, "socials-links", "link-style-black", "text-black"], ["href", "https://www.linkedin.com/in/sohaibcs1/", "target", "_blank", "rel", "noopener noreferrer", 1, "socials-links", "link-style-black", "text-black"], ["href", "mailto:sohaib.cs1@gmail.com", 1, "socials-links", "link-style-black", "text-black"], ["href", "https://medium.com/@sohaibcs1", "target", "_blank", "rel", "noopener noreferrer", 1, "socials-links", "link-style-black", "text-black"], ["fxLayout", "column", 1, "width100"], ["id", "papers"], ["fxHide.lt-md", ""], ["fxLayout", "row", "fxLayout.lt-md", "column", "fxLayoutAlign.lt-md", "center center", "fxLayoutAlign", "center start"], ["fxFlex", "30", "fxLayoutAlign", "end start", "fxLayoutAlign.lt-md", "center center"], ["fxFlex.gt-sm", "200px", "fxFlex.lt-md", "100", "ngClass.gt-sm", "underline-title", "ngClass.lt-md", "", "fxLayoutAlign.lt-md", "center center"], [1, "left-titles"], ["fxFlex", "60"], ["fxFlex.lt-md", "", "fxFlex", "70", "fxLayout", "column", "fxLayoutAlign.lt-md", "center center", 1, "underline-title"], ["href", "https://scholar.google.com/citations?user=0EeIox4AAAAJ&hl=en", "target", "_blank", 1, "socials-links", "link-style-black", "text-black"], ["fxHide.gt-sm", "", "ngClass.sm", "small-margin", "ngClass.xs", "small-margin--xs", "fxLayoutAlign", "center center", 1, "underline-title"], ["href", "https://scholar.google.com/citations?user=bnXfJdEAAAAJ", "target", "_blank", 1, "socials-links", "link-style-black", "text-black"], ["ngClass.sm", "small-margin", "ngClass.xs", "small-margin--xs", "fxLayout", "row", "fxLayout.lt-md", "column", "fxLayoutAlign.lt-md", "center center", "fxLayoutAlign", "center start"], ["fxFlex.lt-md", "", "fxFlex", "70", "fxLayout", "column", "fxLayoutAlign.lt-md", "center center", 1, "text-area"], ["fxLayout", "column", "fxLayoutAlign.lt-md", "center center", 1, "item"], ["fxLayout", "row"], ["href", "https://github.com/sohaibcs1/deconv3d", "target", "_blank", 1, "item-subtitle", "link-style-black"], [1, "item-date-loc"], [1, "icon-right-margin", 3, "icon"], [1, "item-content"], ["fxLayout", "column", "fxLayoutGap", "5px"], ["fxLayout", "row", "fxLayoutGap", "5px", "fxLayoutAlign", "center center"], ["fxFlex", "40", "src", "assets/deconv1.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/deconv2.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/deconv3.png", "alt", "image at full size", 1, "previewable-image"], ["ngClass.gt-sm", "separator-slim", "ngClass.lt-md", "separator-slim--small"], ["href", "https://ieeexplore.ieee.org/abstract/document/10777490", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/3d_organoid.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/10a_day7.gif", "alt", "image at full size", 1, "previewable-image2"], ["fxFlex", "20", "src", "assets/10a_day5_c.gif", "alt", "image at full size", 1, "previewable-image2"], ["href", "https://doi.org/10.1109/WACV61041.2025.00427", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/wacv1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/wacv2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://www.sciencedirect.com/science/article/pii/S1746809425012224", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/maca1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/maca2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://ieeexplore.ieee.org/document/11284693", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "40", "src", "assets/maf1.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/maf2.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/maf3.png", "alt", "image at full size", 1, "previewable-image"], ["href", "https://ieeexplore.ieee.org/document/10981294", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "40", "src", "assets/cas1.gif", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cas2.gif", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cas3.gif", "alt", "image at full size", 1, "previewable-image"], ["href", "https://doi.org/10.1016/j.cmpb.2025.109135", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "40", "src", "assets/cm2.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cm1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/cm3.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://ieeexplore.ieee.org/document/10980672", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/log1.gif", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/log2.gif", "alt", "image at full size", 1, "previewable-image"], ["href", "https://arxiv.org/abs/2406.17080", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/cvpr.png", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/cvpr2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://link.springer.com/chapter/10.1007/978-3-031-60875-9_21", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/hci1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/hci2.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "20", "src", "assets/hci3.jpg", "alt", "image at full size", 1, "previewable-image2"], ["href", "https://arxiv.org/abs/2304.05065", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/jone.JPG", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "30", "src", "assets/j1.JPG", "alt", "image at full size", 1, "previewable-image2"], ["fxFlex", "20", "src", "assets/j2.JPG", "alt", "image at full size", 1, "previewable-image2"], ["id", "education"], ["fxFlex.gt-sm", "200px", "fxFlex.lt-md", "100", "ngClass.gt-sm", "underline-title", "fxLayoutAlign.lt-md", "center center"], [1, "left-titles--hidden"], [1, "item-title"], ["href", "https://www.unr.edu/", "target", "_blank", "rel", "noopener noreferrer", 1, "item-subtitle", "link-style-black"], ["fxHide.xs", ""], [1, "icon-right-margin--left", 3, "icon"], ["ngClass.gt-sm", "separator", "ngClass.lt-md", "separator--small"], ["href", "https://www.tju.edu.cn/", "target", "_blank", "rel", "noopener noreferrer", 1, "item-subtitle", "link-style-black"], ["href", "https://www.gcu.edu.pk/", "target", "_blank", "rel", "noopener noreferrer", 1, "item-subtitle", "link-style-black"], ["id", "experience"], ["href", "https://www.unr.edu/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://www.genmab.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], [1, "item-subtitle", "link-style-black"], ["href", "https://scet.sharif.edu.pk/historical-profile/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://www.huawei.com/en/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://www.tju.edu.cn/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://youngstarsfoundation.org/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["id", "projects"], ["href", "https://github.com/sohaibcs1/3D-Organoid-SwinNet", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/MAT3D", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://www.engr.unr.edu/deconv3d", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://pypi.org/project/BioProps/", "target", "_blank", 1, "item-subtitle", "link-style-black"], [1, "btn", "btn-green", "rounded-pill", "shadow-lg", "px-4", "py-2", "text-white", 3, "click"], [4, "ngIf"], ["id", "activities", 1, "activities-section"], ["href", "https://www.unr.edu/building-directory/the-quad", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/degree.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "49.01", "controls", "", "poster", "assets/degree_video_poster.jpg", "preload", "metadata", "playsinline", "", 1, "previewable-image", "commencement-video"], ["src", "assets/degree_video.mp4", "type", "video/mp4"], ["href", "https://www.unr.edu/building-directory/scrugham-engineering-and-mines", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/defense1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/defense2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://wacv2025.thecvf.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/wacv3.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/wacv4.jpeg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://bhi.embs.org/2024/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/bhi1.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/bhi2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://www.unr.edu/cybersecurity/conference", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/cyber1.jpg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/cyber2.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://www.hilton.com/en/hotels/dcawhhh-washington-hilton/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "50", "src", "assets/h3.jpeg", "alt", "image at full size", 1, "previewable-image"], ["fxFlex", "50", "src", "assets/h1.jpg", "alt", "image at full size", 1, "previewable-image"], ["href", "https://seattleconventioncenter.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["fxFlex", "100", "src", "assets/cvpr.jpeg", "alt", "image at full size", 1, "previewable-image"], [1, "visitor-widget"], [1, "visitor-widget__heading"], [1, "visitor-widget__eyebrow"], ["title", "Automatically refreshes every 30 seconds", 1, "visitor-widget__live"], [4, "ngIf", "ngIfElse"], ["visitorState", ""], [1, "visitor-widget__privacy"], ["href", "https://pypi.org/project/get-ipinfo/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Face-mask-detection-using-OpenCV-Python-code", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/FineTuneTinyBERT-TokenizerExploration", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/LinkedIn_AI_EMAil_Writer", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/bert-fried", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://www.msubox.com/", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/appsheet_api_ocr_dashboard", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Online-food-ordering-system-project", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/mobile-app-MindGame-", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Tasbeeh-Mobile-app-", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/sql-practice", "target", "_blank", 1, "item-subtitle", "link-style-black"], ["href", "https://github.com/sohaibcs1/Flask_Image_Summary_Using_deep_Learning", "target", "_blank", 1, "item-subtitle", "link-style-black"], [1, "visitor-summary"], [1, "visitor-summary__card"], [1, "visitor-map-preview"], ["routerLink", "/visitors", "aria-label", "Open detailed visitor map", 1, "visitor-map-preview__map-link"], [3, "locations", "compact"], ["routerLink", "/visitors", 1, "visitor-map-preview__button"], ["class", "visitor-widget__state", 4, "ngIf"], [1, "visitor-widget__state"]], template: function MainPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -419,1224 +529,1252 @@ MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " My research focuses on developing machine learning methods for analyzing complex biomedical data and enabling automated interpretation. I primarily work with 2D histology and 3D organoid imaging, designing deep learning models and scalable AI systems that make these methods practical and accessible. While my work is centered on biomedical imaging, the approaches I develop are broadly applicable to a wide range of machine learning and computer vision problems. \uD83D\uDCDA ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " Reading Blog ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " I completed my ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Ph.D. in Biomedical Engineering");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "\uD83C\uDF1F ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " at the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " University of Nevada, Reno ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "fa-icon", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " GitHub ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, ", under the supervision of ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Prof. Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "fa-icon", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " LinkedIn ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, ". ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "fa-icon", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " sohaib.cs1@gmail.com ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " My research focuses on developing machine learning methods for analyzing complex biomedical data and enabling automated interpretation. I primarily work with 2D histology and 3D organoid imaging, designing deep learning models and scalable AI systems that make these methods practical and accessible. While my work is centered on biomedical imaging, the approaches I develop are broadly applicable to machine learning and computer vision. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "fa-icon", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " Google Scholar ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "fa-icon", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " Google Scholar ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "fa-icon", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " GitHub ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "fa-icon", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " LinkedIn ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "fa-icon", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " Email ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, " \uD83D\uDCDA Blog ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "EDUCATION");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "h1", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "MAIN PAPERS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "(all papers: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "fa-icon", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "EDUCATION");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, ")");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "PhD in Biomedical Engineering | AI and Machine Learning");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "University of Nevada, Reno");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "PAPERS (all papers: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "a", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "fa-icon", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, " June 2023 - May 2026 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Reno, Nevada, USA ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, ")");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, " Advisor Prof. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "a", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Bahram Parvin");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Deconv3D: Attention-Guided Volumetric Deconvolution Enables High-Throughput Organoid Imaging");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Master in Electronic Information | AI and Machine Learning ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "a", 38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Tianjin University");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, ", et al., ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Computer Methods and Programs in Biomedicine, 2026");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, " Oct 2021 - Sept 2023 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, " Tianjin, China ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "img", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "img", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "img", 42);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " Advisor Prof. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "a", 39);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Zhang Xiaowang");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "a", 44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "3D-Organoid-SwinNet: High-content profiling of 3D organoids");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "B.Sc. Computer Science ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](87, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "a", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, " Government College University Lahore");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, ", Siyavash Shabani, Sahar Mohammed, Qingsu Cheng, Garrett Winkelmaier, Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "IEEE-EMBS International Conference on Biomedical and Health Informatics 2024, \uD83C\uDDFA\uD83C\uDDF8@Houston, TX USA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](90, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, " Sept 2014 - Sept 2018 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](93, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, " Lahore, Pakistan ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](96, "img", 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](97, "img", 46);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](98, "img", 47);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](100, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "a", 48);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "Multi-Aperture Transformers for 3D (MAT3D) Segmentation of Clinical and Microscopic Images");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, ", Siyavash Shabani, Sahar Mohammed, Garrett Winkelmaier, Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "MAIN PAPERS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), \uD83C\uDDFA\uD83C\uDDF8@Tucson, Arizona.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](115, "img", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](116, "img", 50);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "(all papers: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](107, "fa-icon", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, ")");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](117, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](118, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "a", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "MACA-Net: Multi-Aperture Curvature-Aware Network for Instance Nuclei Segmentation,");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "PAPERS (all papers: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "a", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "fa-icon", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, ")");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](116, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 42);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Deconv3D: Attention-Guided Volumetric Deconvolution Enables High-Throughput Organoid Imaging");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](125, "fa-icon", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](124, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, " S. Shabani, ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "b");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, ", et al., ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, ", S. Mohammad, B. Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "p", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Computer Methods and Programs in Biomedicine, 2026");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, " Biomedical Signal Processing and Control, 2025");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](134, "img", 45);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "img", 46);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](136, "img", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](134, "img", 52);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "img", 53);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](137, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](138, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "a", 49);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "3D-Organoid-SwinNet: High-content profiling of 3D organoids");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](136, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](137, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "a", 54);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](141, "Multi-Aperture Fusion of Transformer-Convolutional Networks with Curvature-Aware Loss Function Enhances 3D Segmentation of Clinical and Microscopy Images ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](144, "fa-icon", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, " S. Shabani, S. Mohammad, ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "b");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, ", Siyavash Shabani, Sahar Mohammed, Qingsu Cheng, Garrett Winkelmaier, Bahram Parvin ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, ", S. Mohammad, B. Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "p", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "IEEE-EMBS International Conference on Biomedical and Health Informatics 2024, \uD83C\uDDFA\uD83C\uDDF8@Houston, TX USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "IEEE Journal of Biomedical and Health Informatics (JBHI), 2025");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](153, "img", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "img", 51);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](155, "img", 52);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](153, "img", 55);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "img", 56);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](155, "img", 57);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](156, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](157, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](157, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "a", 53);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Multi-Aperture Transformers for 3D (MAT3D) Segmentation of Clinical and Microscopic Images");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "a", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Coupled Swin Transformers and Multi-Aperture Network (CSTA-Net) Improves Medical Image Segmentation ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](163, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](165, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](163, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](164, " S. Shabani, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](166, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](166, ", Siyavash Shabani, Sahar Mohammed, Garrett Winkelmaier, Bahram Parvin ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, ", S. Mohammad, B. Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](169, "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), \uD83C\uDDFA\uD83C\uDDF8@Tucson, Arizona.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](172, "img", 54);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](173, "img", 55);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](170, "IEEE International Symposium on Biomedical Imaging (ISBI), 2025");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](174, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](175, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "a", 56);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "MACA-Net: Multi-Aperture Curvature-Aware Network for Instance Nuclei Segmentation,");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](173, "img", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](174, "img", 60);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](175, "img", 61);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](181, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, " S. Shabani, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "Muhammad Sohaib");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, ", S. Mohammad, B. Parvin ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, " Biomedical Signal Processing and Control, 2025");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](191, "img", 57);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](192, "img", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](193, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](194, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "a", 59);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, "Multi-Aperture Fusion of Transformer-Convolutional Networks with Curvature-Aware Loss Function Enhances 3D Segmentation of Clinical and Microscopy Images ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](176, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](177, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "a", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Robust Analysis of the Tumor Spectrum in a Preclinical Model of Breast Cancer Reveals Stable Subtypes with Distinct Growth Patterns ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](200, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, " S. Shabani, S. Mohammad, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](183, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, " S. Mohammad, S. Shabani, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, ", S. Mohammad, B. Parvin ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](187, ", B. Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](206, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](207, "IEEE Journal of Biomedical and Health Informatics (JBHI), 2025");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](210, "img", 60);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](211, "img", 61);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](212, "img", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "Computer Methods and Programs in Biomedicine, 2025");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](213, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](214, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](216, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "a", 63);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](218, "Coupled Swin Transformers and Multi-Aperture Network (CSTA-Net) Improves Medical Image Segmentation ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](193, "img", 63);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](194, "img", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](195, "img", 65);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](219, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](220, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](221, " S. Shabani, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, "Muhammad Sohaib");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](224, ", S. Mohammad, B. Parvin ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](226, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](227, "IEEE International Symposium on Biomedical Imaging (ISBI), 2025");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](229, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](230, "img", 64);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](231, "img", 65);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](232, "img", 66);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](233, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](234, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "a", 67);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](238, "Robust Analysis of the Tumor Spectrum in a Preclinical Model of Breast Cancer Reveals Stable Subtypes with Distinct Growth Patterns ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](196, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](197, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "a", 66);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, "LoGSAGE: A Dual Encoder Network with LoG-Based Saliency for Precise Nuclei Segmentation in Immunofluorescence Histology Sections ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](240, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](241, " S. Mohammad, S. Shabani, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](203, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, " S. Mohammad, S. Shabani, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](207, ", B. Parvin ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "IEEE International Symposium on Biomedical Imaging (ISBI), 2024");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](212, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](213, "img", 67);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](214, "img", 68);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](215, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](216, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](218, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](219, "a", 69);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, "Multi-Aperture Fusion of Transformer-Convolutional Network (MFTC-Net) for 3D Medical Image Segmentation and Visualization");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](222, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, " Siyavash Shabani, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](224, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](225, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](226, ", Sahar Mohammed, Bahram Parvin. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](227, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](229, "CVPR 2024, \uD83C\uDDFA\uD83C\uDDF8@Seattle, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](230, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](232, "img", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](233, "img", 71);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](234, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](235, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](238, "a", 72);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](239, "HCI-Driven Machine Learning for Early Detection of Lung Cancer: An Ensemble Approach");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](240, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](241, "fa-icon", 36);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](242, "b");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](243, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](244, ", B. Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](246, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](247, "Computer Methods and Programs in Biomedicine, 2025");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](246, "International Conference on Human-Computer Interaction 2024, \uD83C\uDDFA\uD83C\uDDF8@Washington, D.C. USA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](248, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](250, "img", 68);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](251, "img", 69);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](252, "img", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](248, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](249, "img", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](250, "img", 74);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](251, "img", 75);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](253, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](254, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](256, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "a", 71);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](258, "LoGSAGE: A Dual Encoder Network with LoG-Based Saliency for Precise Nuclei Segmentation in Immunofluorescence Histology Sections ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](252, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](253, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](254, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](256, "a", 76);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](257, "Artificial intelligence based prediction on lung cancer risk factors using deep learning ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](259, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](260, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](261, " S. Mohammad, S. Shabani, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](263, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](258, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](259, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](260, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](261, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](264, ", B. Parvin ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](262, ", Mary Adewunmi ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](266, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](267, "IEEE International Symposium on Biomedical Imaging (ISBI), 2024");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](263, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](264, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](265, "International Journal of Informatics and Communication Technology 2023");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](268, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](269, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](270, "img", 72);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](271, "img", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](266, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](267, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](268, "img", 77);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](269, "img", 78);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](270, "img", 79);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](272, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](273, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](274, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](275, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](276, "a", 74);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](277, "Multi-Aperture Fusion of Transformer-Convolutional Network (MFTC-Net) for 3D Medical Image Segmentation and Visualization");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](278, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](279, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](280, " Siyavash Shabani, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](281, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](282, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](283, ", Sahar Mohammed, Bahram Parvin. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](271, "div", 80);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](272, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](273, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](274, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](275, "div", 81);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](276, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](277, "EDUCATION");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](284, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](285, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](286, "CVPR 2024, \uD83C\uDDFA\uD83C\uDDF8@Seattle, USA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](287, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](288, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](289, "img", 75);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](290, "img", 76);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](278, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](279, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](280, "h1", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](281, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](291, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](292, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](293, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](294, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](295, "a", 77);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](296, "HCI-Driven Machine Learning for Early Detection of Lung Cancer: An Ensemble Approach");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](297, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](298, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](299, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](300, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](282, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](283, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](284, "EDUCATION");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](301, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](302, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](303, "International Conference on Human-Computer Interaction 2024, \uD83C\uDDFA\uD83C\uDDF8@Washington, D.C. USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](285, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](286, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](287, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](288, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](289, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](291, " Ph.D. in Biomedical Engineering ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](292, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](293, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](294, "a", 84);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](295, " University of Nevada, Reno ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](304, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](305, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](306, "img", 78);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](307, "img", 79);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](308, "img", 80);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](309, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](310, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](311, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](312, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](313, "a", 81);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](314, "Artificial intelligence based prediction on lung cancer risk factors using deep learning ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](296, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](297, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](298, " June 2023 \u2013 May 2026 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](299, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](300, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](301, " Reno, Nevada, USA ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](302, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](303, " Advisor: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](304, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](305, " Prof. Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](315, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](316, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](317, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](318, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](319, ", Mary Adewunmi ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](306, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](307, "em");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](308, " Graduate research focused on Artificial Intelligence, Machine Learning, and Biomedical Image Analysis. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](320, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](321, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](322, "International Journal of Informatics and Communication Technology 2023");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](323, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](324, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](325, "img", 82);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](326, "img", 83);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](327, "img", 84);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](309, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](310, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](311, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](312, " Master of Science in Biomedical Engineering ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](313, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](314, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](315, "a", 84);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](316, " University of Nevada, Reno ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](317, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](318, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](319, " Awarded: 2025 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](320, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](321, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](322, " Reno, Nevada, USA ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](328, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](329, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](330, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](331, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](332, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](333, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](334, "PROFESSIONAL EXPERIENCE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](323, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](324, " Earned during the Ph.D. program. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](325, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](326, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](327, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](328, " Graduate Studies in Electronic Information ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](335, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](336, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](337, "h1", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](338, ".");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](329, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](330, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](331, "a", 88);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](332, " Tianjin University ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](333, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](334, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](335, " October 2020 \u2013 May 2023 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](336, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](337, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](338, " Tianjin, China ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](339, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](340, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](341, "PROFESSIONAL");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](339, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](340, " Graduate research in artificial intelligence and Machine Learning. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](341, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](342, " Chinese Government Scholarship recipient. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](342, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](343, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](344, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](345, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](346, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](347, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](348, "Graduate Research Assistant");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](349, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](350, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](351, "a", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](352, " University of Nevada Reno");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](343, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](344, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](345, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](346, " Bachelor of Science in Computer Science ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](347, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](348, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](349, "a", 89);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](350, " Government College University Lahore ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](353, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](354, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](355, " June 2023 - Current ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](356, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](357, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](358, " Reno, USA ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](351, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](352, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](353, " September 2014 \u2013 September 2018 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](354, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](355, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](356, " Lahore, Pakistan ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](359, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](360, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](361, " Developed a 3D cell segmentation model using a Swin Transformer and convolutional layers in the encoder, and a multiscale MLP in the decoder, achieving better performance with fewer parameters. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](362, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](363, " Designed a computational platform for high-content screening of 3D cell culture models, integrating nuclei segmentation, colony visualization, and morphogenesis analysis. This system enhances quality control and facilitates heterogeneity analysis to profile cell growth properties across various experimental conditions, utilizing advanced bioinformatics tools such as ParaView. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](357, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](358, " Merit Scholarship recipient. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](364, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](365, "Provides advanced 2D/3D segmentation, image processing, interactive 3D rendering with VTK(Kitware), and heatmap generation for detailed analysis, including colony radius, nuclear volume, colony flatness, elongation, neighborhood distances, and convex hull volume of colonies.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](366, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](367, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](368, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](369, "AI/ML Intern");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](370, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](371, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](372, "a", 85);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](373, " Genmab");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](359, "div", 90);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](360, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](361, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](362, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](363, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](364, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](365, "EXPERIENCE");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](374, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](375, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](376, " June 2025 - August 2025 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](377, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](378, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](379, " New Jersey, USA ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](366, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](367, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](368, "h1", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](369, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](380, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](381, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](382, " Trained and tested Gigapath, Titan, and Sequoia models to extract features from WSIs in TCGA and in-house datasets, including segmentation, patch extraction, and generation of slide- and patch-level embeddings. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](383, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](384, "Trained and validated Random Forest regression models to predict 50 Hallmark gene set enrichment scores (NES) computed via ssGSEA from matched RNA-seq data.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](385, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](386, "Applied GPT-based patch interpretation to associate morphological patterns with predicted pathway activity. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](370, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](371, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](372, "PROFESSIONAL");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](387, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](388, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](389, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](390, "Machine Learning Engineer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](391, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](392, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](393, "a", 86);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](394, " Confidential");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](373, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](374, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](375, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](376, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](377, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](378, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](379, "Graduate Research Assistant");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](380, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](381, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](382, "a", 91);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](383, " University of Nevada Reno");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](395, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](396, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](397, " May 2021 - May 2023 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](398, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](399, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](400, " Lahore, Pakistan ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](384, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](385, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](386, " June 2023 - Current ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](387, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](388, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](389, " Reno, USA ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](401, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](402, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](403, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](404, "Junior Lecturer and Web Developer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](390, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](391, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](392, " Developed a 3D cell segmentation model using a Swin Transformer and convolutional layers in the encoder, and a multiscale MLP in the decoder, achieving better performance with fewer parameters. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](405, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](406, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](407, "a", 87);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](408, " Sharif College of Engineering and Technology (affiliated with UET Lahore)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](393, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](394, " Designed a computational platform for high-content screening of 3D cell culture models, integrating nuclei segmentation, colony visualization, and morphogenesis analysis. This system enhances quality control and facilitates heterogeneity analysis to profile cell growth properties across various experimental conditions, utilizing advanced bioinformatics tools such as ParaView. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](395, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](396, "Provides advanced 2D/3D segmentation, image processing, interactive 3D rendering with VTK(Kitware), and heatmap generation for detailed analysis, including colony radius, nuclear volume, colony flatness, elongation, neighborhood distances, and convex hull volume of colonies.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](409, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](410, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](411, " November 2018 - May 2021 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](412, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](413, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](414, " Lahore, Pakistan ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](397, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](398, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](399, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](400, "AI/ML Intern");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](415, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](416, " Instructed undergraduate courses in Machine Learning, AI, and Python while overseeing the university website. Led effective admission campaigns, achieving a 10% increase in student enrollments. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](401, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](402, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](403, "a", 92);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](404, " Genmab");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](417, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](418, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](419, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](420, "Android Developer Intern");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](421, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](422, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](423, "a", 88);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](424, " Xint Solutions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](405, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](406, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](407, " June 2025 - August 2025 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](408, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](409, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](410, " New Jersey, USA ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](411, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](412, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](413, " Trained and tested Gigapath, Titan, and Sequoia models to extract features from WSIs in TCGA and in-house datasets, including segmentation, patch extraction, and generation of slide- and patch-level embeddings. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](425, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](426, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](427, " July 1, 2016 \u2013 September 2, 2016 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](428, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](429, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](430, " Lahore, Pakistan ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](414, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](415, "Trained and validated Random Forest regression models to predict 50 Hallmark gene set enrichment scores (NES) computed via ssGSEA from matched RNA-seq data.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](416, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](417, "LLM-based patch interpretation to associate morphological patterns with predicted pathway activity. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](431, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](432, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](433, " Implemented Google Firebase Realtime Database and Firebase Authentication to enable secure and real-time remote data storage. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](434, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](435, " Integrated Google Maps API and Geocoder to display dynamic location markers. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](436, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](437, " Utilized Google Play Services (GPS, Maps, AdMob) to enhance app functionality. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](418, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](419, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](420, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](421, "Machine Learning Engineer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](438, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](439, "Gained hands-on experience in developing and deploying Android apps to the Google Play Store. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](422, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](423, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](424, "a", 93);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](425, " Confidential");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](426, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](427, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](428, " May 2021 - May 2023 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](429, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](430, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](431, " Lahore, Pakistan ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](432, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](433, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](434, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](435, "Junior Lecturer and Web Developer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](440, "div", 89);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](441, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](442, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](443, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](444, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](445, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](446, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](447, "AWARDS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](436, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](437, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](438, "a", 94);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](439, " Sharif College of Engineering and Technology (affiliated with UET Lahore)");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](448, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](449, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](450, "h1", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](451, ".");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](440, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](441, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](442, " November 2018 - May 2021 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](443, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](444, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](445, " Lahore, Pakistan ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](446, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](447, " Instructed undergraduate courses in Machine Learning, AI, and Python while overseeing the university website. Led effective admission campaigns, achieving a 10% increase in student enrollments. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](452, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](453, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](454, "AWARDS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](455, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](456, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](457, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](458, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](459, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](460, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](461, " Awarded with Chinese Government Scholarship for master students in China (2020). ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](462, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](463, " Awarded with Merit Scholarship for bachelor students form GC University Lahore (2014-18). ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](448, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](449, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](450, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](451, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](452, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](453, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](454, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](455, "AWARDS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](464, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](465, " First position in programming competition held by Bazingo Inc. Software House. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](466, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](467, " Class topper from grade 6 to grade 10 among 40-60 students in each class. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](468, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](469, " 3rd position in quiz competition from Punjab College. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](456, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](457, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](458, "h1", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](459, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](470, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](471, " Awarded with laptop from youth prime minister\u2019s scheme in bachelor studies. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](460, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](461, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](462, "AWARDS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](472, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](473, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](474, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](475, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](476, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](477, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](478, "Certification");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](463, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](464, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](465, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](466, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](467, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](468, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](469, " Awarded with Chinese Government Scholarship for master students in China (2020). ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](470, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](471, " Awarded with Merit Scholarship for bachelor students form GC University Lahore (2014-18). ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](472, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](473, " First position in programming competition held by Bazingo Inc. Software House. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](479, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](480, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](481, "h1", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](482, ".");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](474, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](475, " Class topper from grade 6 to grade 10 among 40-60 students in each class. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](476, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](477, " 3rd position in quiz competition from Punjab College. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](478, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](479, " Awarded with laptop from youth prime minister\u2019s scheme in bachelor studies. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](483, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](484, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](485, "Certification");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](486, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](487, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](488, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](489, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](490, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](491, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](492, "Huawei Certified Academy Instructor (HCAI) \u2014 Instructor at SCET-HAINA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](493, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](494, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](495, "a", 90);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](496, " Huawei");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](480, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](481, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](482, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](483, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](484, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](485, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](486, "Certification");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](497, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](498, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](499, " Jan 2020 \u2013 Jan 2024 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](487, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](488, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](489, "h1", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](490, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](500, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](501, " Trained undergraduate students and prepared them for the Huawei ICT Competition through hands-on instruction in networking, cloud, and AI technologies. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](491, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](492, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](493, "Projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](502, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](503, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](504, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](505, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](506, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](507, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](508, "Participations");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](494, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](495, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](496, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](497, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](498, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](499, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](500, "Huawei Certified Academy Instructor (HCAI) \u2014 Instructor at SCET-HAINA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](501, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](502, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](503, "a", 95);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](504, " Huawei");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](509, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](510, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](511, "h1", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](512, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](505, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](506, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](507, " Jan 2020 \u2013 Jan 2024 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](508, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](509, " Trained undergraduate students and prepared them for the Huawei ICT Competition through hands-on instruction in networking, cloud, and AI technologies. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](513, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](514, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](515, "Participations");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](516, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](517, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](518, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](519, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](520, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](521, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](522, " Attended seminar on \u201CSelf-Assessment Mechanism Based on HEC and PEC Criteria\u201D at UET Lahore. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](523, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](524, " Participated in the IEEE National Workshop on Big Data and Technology 2019 at the University of the Punjab. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](510, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](511, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](512, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](513, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](514, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](515, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](516, "Participations");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](525, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](526, " Attended Android App Development Workshop organized by Microtechx at GCU Lahore. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](527, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](528, " Participated in HCII 2024 International Conference on Human-Computer Interaction, contributing to global HCI discussions. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](529, "li", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](530, " Competed in Badminton Tournament at GCU Lahore, promoting teamwork and sportsmanship. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](517, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](518, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](519, "h1", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](520, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](521, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](522, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](523, "Participations");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](531, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](532, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](533, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](534, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](535, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](536, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](537, "Voluntary Work");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](524, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](525, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](526, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](527, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](528, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](529, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](530, " Attended seminar on \u201CSelf-Assessment Mechanism Based on HEC and PEC Criteria\u201D at UET Lahore. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](531, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](532, " Participated in the IEEE National Workshop on Big Data and Technology 2019 at the University of the Punjab. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](538, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](539, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](540, "h1", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](541, ".");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](533, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](534, " Attended Android App Development Workshop organized by Microtechx at GCU Lahore. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](535, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](536, " Participated in HCII 2024 International Conference on Human-Computer Interaction, contributing to global HCI discussions. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](537, "li", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](538, " Competed in Badminton Tournament at GCU Lahore, promoting teamwork and sportsmanship. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](542, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](543, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](544, "Voluntary Work");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](545, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](546, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](547, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](548, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](549, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](550, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](551, "International Student Ambassador");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](552, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](553, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](554, "a", 38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](555, " Tianjin University");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](539, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](540, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](541, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](542, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](543, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](544, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](545, "Voluntary Work");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](556, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](557, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](558, " Dec 2020 - Dec 2021 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](559, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](560, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](561, " Tianjin, China ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](546, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](547, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](548, "h1", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](549, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](562, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](563, "Awarded 1st prize as International Student Ambassador. Guided incoming students on college life, Chinese culture, and academic programs. Organized seminars abroad to promote university opportunities. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](564, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](565, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](566, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](567, "UN Volunteer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](568, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](569, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](570, "a", 91);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](571, " Youngstars Foundation");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](550, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](551, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](552, "Voluntary Work");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](553, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](554, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](555, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](556, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](557, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](558, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](559, "International Student Ambassador");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](572, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](573, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](574, " January 2020 - June 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](575, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](576, "fa-icon", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](577, " Nigeria, Africa ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](560, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](561, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](562, "a", 96);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](563, " Tianjin University");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](578, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](579, "Engaged in a self-esteem program for African women, empowering them to overcome societal barriers and pursue greatness. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](564, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](565, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](566, " Dec 2020 - Dec 2021 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](567, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](568, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](569, " Tianjin, China ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](570, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](571, "Awarded 1st prize as International Student Ambassador. Guided incoming students on college life, Chinese culture, and academic programs. Organized seminars abroad to promote university opportunities. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](580, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](581, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](582, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](583, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](584, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](585, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](586, "Projects");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](572, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](573, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](574, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](575, "UN Volunteer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](576, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](577, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](578, "a", 97);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](579, " Youngstars Foundation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](587, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](588, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](589, "h1", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](590, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](580, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](581, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](582, " January 2020 - June 2020 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](583, "a", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](584, "fa-icon", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](585, " Nigeria, Africa ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](586, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](587, "Engaged in a self-esteem program for African women, empowering them to overcome societal barriers and pursue greatness. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](591, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](592, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](593, "Certification");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](594, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](595, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](596, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](597, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](598, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](599, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](600, "\uD83D\uDD2C 3D-Organoid-SwinNet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](601, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](602, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](603, "a", 92);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](604, " \uD83D\uDCBB Github Link");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](588, "div", 98);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](589, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](590, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](591, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](592, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](593, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](594, "Projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](605, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](606, " Created a transformer-convolutional model for 3D organoid segmentation, achieving a 94.9 Dice Score with only 21M parameters. Enabled cell-by-cell profiling for cancer research. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](595, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](596, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](597, "h1", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](598, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](607, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](608, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](609, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](610, "\uD83E\uDDEC MAT3D: Multi-Aperture Transformers for 3D Segmentation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](611, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](612, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](613, "a", 93);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](614, " \uD83D\uDCBB Github Link");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](599, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](600, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](601, "Projects1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](615, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](616, " MAT3D integrates Swin Transformers and 3D fusion blocks for efficient segmentation. Designed a novel loss function incorporating Dice Cross-Entropy, cell count loss, and distance loss to ensure morphometric consistency. Achieved state-of-the-art segmentation with 40M parameters, improving efficiency and accuracy over previous methods. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](602, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](603, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](604, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](605, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](606, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](607, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](608, "\uD83D\uDD2C 3D-Organoid-SwinNet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](617, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](618, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](619, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](620, "Deconv3D");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](609, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](610, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](611, "a", 99);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](612, " \uD83D\uDCBB Github Link");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](621, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](622, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](623, "a", 94);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](624, " Website Link");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](613, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](614, " Created a transformer-convolutional model for 3D organoid segmentation, achieving a 94.9 Dice Score with only 21M parameters. Enabled cell-by-cell profiling for cancer research. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](625, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](626, " A deep learning-based platform for 3D biomedical image restoration and volumetric deconvolution, designed to enhance organoid microscopy data for downstream analysis. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](615, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](616, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](617, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](618, "\uD83E\uDDEC MAT3D: Multi-Aperture Transformers for 3D Segmentation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](627, "hr", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](628, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](629, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](630, "BioProps: A python library");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](619, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](620, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](621, "a", 100);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](622, " \uD83D\uDCBB Github Link");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](631, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](632, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](633, "a", 95);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](634, " \uD83D\uDCBB Github Link");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](623, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](624, " MAT3D integrates Swin Transformers and 3D fusion blocks for efficient segmentation. Designed a novel loss function incorporating Dice Cross-Entropy, cell count loss, and distance loss to ensure morphometric consistency. Achieved state-of-the-art segmentation with 40M parameters, improving efficiency and accuracy over previous methods. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](635, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](636, " A Python library for analyzing 3D cell nuclei and colonies in medical images. It computes properties like elongation, flatness, volume, size, and edge lengths from NIfTI files with binary cell data. To install and try: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](637, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](638, "pip install BioProps");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](639, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](625, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](626, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](627, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](628, "Deconv3D");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](629, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](630, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](631, "a", 101);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](632, " Website Link");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](640, "button", 96);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MainPageComponent_Template_button_click_640_listener() { return ctx.showMoreProjects = !ctx.showMoreProjects; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](641);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](642, MainPageComponent_div_642_Template, 137, 0, "div", 97);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](633, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](634, " A deep learning-based platform for 3D biomedical image restoration and volumetric deconvolution, designed to enhance organoid microscopy data for downstream analysis. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](635, "hr", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](636, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](637, "a", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](638, "BioProps: A python library");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](643, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](644, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](645, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](646, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](647, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](648, "In-Person");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](639, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](640, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](641, "a", 102);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](642, " \uD83D\uDCBB Github Link");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](649, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](650, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](651, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](652, "(Attended)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](643, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](644, " A Python library for analyzing 3D cell nuclei and colonies in medical images. It computes properties like elongation, flatness, volume, size, and edge lengths from NIfTI files with binary cell data. To install and try: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](645, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](646, "pip install BioProps");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](647, ". ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](648, "button", 103);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MainPageComponent_Template_button_click_648_listener() { return ctx.showMoreProjects = !ctx.showMoreProjects; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](649);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](650, MainPageComponent_div_650_Template, 137, 0, "div", 104);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](653, "div", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](654, "h1", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](655, "In-Person ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](656, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](657, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](658, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](659, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](660, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](661, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](662, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](663, "a", 98);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](664, "PhD Commencement 2026 \uD83C\uDF93");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](651, "div", 105);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](652, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](653, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](654, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](655, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](656, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](657, "In-Person");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](665, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](666, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](667, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](668, "Commencement Day \u2728");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](658, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](659, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](660, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](661, "(Attended)");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](669, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](670, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](671, "14 May, 2026 at 8:30 AM @ University of Nevada, Reno \uD83C\uDDFA\uD83C\uDDF8 | Location: The Quad");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](672, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](673, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](674, "img", 99);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](675, "video", 100);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](676, "source", 101);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](677, " Your browser does not support the video tag. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](662, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](663, "h1", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](664, "In-Person ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](678, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](679, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](680, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](681, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](682, "a", 102);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](683, "OrganixInsights: High throughput imaging and high content screening of organoids");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](665, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](666, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](667, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](668, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](669, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](670, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](671, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](672, "a", 106);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](673, "PhD Commencement 2026 \uD83C\uDF93");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](684, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](685, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](686, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](687, "Committee Members:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](688, " Dr. David Alvarez-Ponce, Dr. Yantao Shen, Dr. Xiaoshan Zhu ,Dr. Hao Xu, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](689, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](690, "Dr. Bahram Parvin");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](674, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](675, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](676, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](677, "Commencement Day \u2728");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](691, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](692, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](693, "PhD Defense Completed \uD83C\uDF93 (7 April, 2026), @University of Nevada, Reno \uD83C\uDDFA\uD83C\uDDF8");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](678, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](679, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](680, "14 May, 2026 at 8:30 AM @ University of Nevada, Reno \uD83C\uDDFA\uD83C\uDDF8 | Location: The Quad");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](694, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](695, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](696, "img", 103);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](697, "img", 104);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](681, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](682, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](683, "img", 107);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](684, "video", 108);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](685, "source", 109);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](686, " Your browser does not support the video tag. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](698, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](699, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](700, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](701, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](702, "a", 105);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](703, "Multi-Aperture Transformers for 3D (MAT3D) Segmentation of Clinical and Microscopic Images");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](687, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](688, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](689, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](690, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](691, "a", 110);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](692, "OrganixInsights: High throughput imaging and high content screening of organoids");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](704, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](705, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](706, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](707, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](708, ", Siyavash Shabani, Sahar Mohammed, Garrett Winkelmaier, Bahram Parvin ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](693, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](694, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](695, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](696, "Committee Members:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](709, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](710, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](711, "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), \uD83C\uDDFA\uD83C\uDDF8@Tucson, Arizona.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](697, " Dr. David Alvarez-Ponce, Dr. Yantao Shen, Dr. Xiaoshan Zhu ,Dr. Hao Xu, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](698, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](699, "Dr. Bahram Parvin");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](712, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](713, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](714, "img", 106);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](715, "img", 107);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](700, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](701, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](702, "PhD Defense Completed \uD83C\uDF93 (7 April, 2026), @University of Nevada, Reno \uD83C\uDDFA\uD83C\uDDF8");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](716, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](717, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](718, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](719, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](720, "a", 108);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](721, "3D-Organoid-SwinNet: High-content profiling of 3D organoids");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](703, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](704, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](705, "img", 111);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](706, "img", 112);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](707, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](708, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](709, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](710, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](711, "a", 113);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](712, "Multi-Aperture Transformers for 3D (MAT3D) Segmentation of Clinical and Microscopic Images");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](722, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](723, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](724, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](725, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](726, ", Siyavash Shabani, Sahar Mohammed, Qingsu Cheng, Garrett Winkelmaier, Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](727, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](728, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](729, "EEE-EMBS International Conference on Biomedical and Health Informatics 2024, \uD83C\uDDFA\uD83C\uDDF8@Houston, TX USA. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](713, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](714, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](715, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](716, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](717, ", Siyavash Shabani, Sahar Mohammed, Garrett Winkelmaier, Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](730, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](731, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](732, "img", 109);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](733, "img", 110);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](718, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](719, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](720, "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), \uD83C\uDDFA\uD83C\uDDF8@Tucson, Arizona.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](734, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](735, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](736, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](737, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](738, "a", 111);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](739, "Enhancing Mobile App Security: A Fine-Tuned BERT Based Transfer Learning Approach for Cybersecurity-Driven Vulnerability Detection");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](721, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](722, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](723, "img", 114);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](724, "img", 115);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](725, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](726, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](727, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](728, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](729, "a", 116);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](730, "3D-Organoid-SwinNet: High-content profiling of 3D organoids");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](740, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](741, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](742, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](743, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](744, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](745, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](746, "UNR Cybersecurity Conference, Edges of Cybersecurity: From machine learning to quantum, 5 Oct 2023 \uD83C\uDDFA\uD83C\uDDF8@Reno, USA.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](731, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](732, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](733, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](734, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](735, ", Siyavash Shabani, Sahar Mohammed, Qingsu Cheng, Garrett Winkelmaier, Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](747, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](748, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](749, "img", 112);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](750, "img", 113);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](736, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](737, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](738, "EEE-EMBS International Conference on Biomedical and Health Informatics 2024, \uD83C\uDDFA\uD83C\uDDF8@Houston, TX USA. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](751, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](752, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](753, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](754, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](755, "a", 114);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](756, "HCI-Driven Machine Learning for Early Detection of Lung Cancer: An Ensemble Approach");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](739, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](740, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](741, "img", 117);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](742, "img", 118);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](743, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](744, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](745, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](746, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](747, "a", 119);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](748, "Enhancing Mobile App Security: A Fine-Tuned BERT Based Transfer Learning Approach for Cybersecurity-Driven Vulnerability Detection");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](757, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](758, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](759, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](760, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](761, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](762, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](763, "International Conference on Human-Computer Interaction 2024. \uD83C\uDDFA\uD83C\uDDF8@Washington, D.C. USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](749, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](750, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](751, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](752, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](764, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](765, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](766, "img", 115);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](767, "img", 116);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](753, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](754, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](755, "UNR Cybersecurity Conference, Edges of Cybersecurity: From machine learning to quantum, 5 Oct 2023 \uD83C\uDDFA\uD83C\uDDF8@Reno, USA.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](768, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](769, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](770, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](771, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](772, "a", 117);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](773, "Multi-Aperture Fusion of Transformer-Convolutional Network (MFTC-Net) for 3D Medical Image Segmentation and Visualization ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](756, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](757, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](758, "img", 120);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](759, "img", 121);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](760, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](761, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](762, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](763, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](764, "a", 122);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](765, "HCI-Driven Machine Learning for Early Detection of Lung Cancer: An Ensemble Approach");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](774, "p", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](775, "fa-icon", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](776, " Siyavash Shabani, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](777, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](778, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](779, ", Sahar Mohammed, Bahram Parvin ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](780, "p", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](781, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](782, "CVPR 2024, \uD83C\uDDFA\uD83C\uDDF8@Seattle WA, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](766, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](767, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](768, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](769, "Muhammad Sohaib");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](783, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](784, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](785, "img", 118);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](770, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](771, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](772, "International Conference on Human-Computer Interaction 2024. \uD83C\uDDFA\uD83C\uDDF8@Washington, D.C. USA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](786, "hr", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](787, "div", 119);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](788, " Page Visitors ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](773, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](774, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](775, "img", 123);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](776, "img", 124);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](789, "div", 120);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](790, "a", 121);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](791, "img", 122);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](777, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](778, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](779, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](780, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](781, "a", 125);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](782, "Multi-Aperture Fusion of Transformer-Convolutional Network (MFTC-Net) for 3D Medical Image Segmentation and Visualization ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](783, "p", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](784, "fa-icon", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](785, " Siyavash Shabani, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](786, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](787, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](788, ", Sahar Mohammed, Bahram Parvin ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](789, "p", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](790, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](791, "CVPR 2024, \uD83C\uDDFA\uD83C\uDDF8@Seattle WA, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](792, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](793, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](794, "img", 126);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](795, "hr", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](796, "section", 127);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](797, "div", 128);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](798, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](799, "span", 129);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](800, "Around the world");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](801, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](802, "Visitor Activity");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](803, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](804, "Recent visits shown with privacy-safe, approximate locations.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](805, "span", 130);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](806, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](807, "Live");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](808, MainPageComponent_ng_container_808_Template, 25, 11, "ng-container", 131);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](809, MainPageComponent_ng_template_809_Template, 2, 2, "ng-template", null, 132, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](811, "p", 133);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](812, "Approximate city and country only. IP addresses are never stored or displayed.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1649,27 +1787,16 @@ MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](16);
+        const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](810);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.Gscholar);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.github);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.linkedin);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.mail);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.Gscholar);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.Gscholar);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.Gscholar);
@@ -1703,6 +1830,22 @@ MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
@@ -1711,11 +1854,7 @@ MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.location);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](69);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](62);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](59);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.calendar);
@@ -1729,7 +1868,7 @@ MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.showMoreProjects ? "Show Less Projects" : "View More Projects", "\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.showMoreProjects);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.authors);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](19);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.authors);
@@ -1743,7 +1882,9 @@ MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.authors);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.authors);
-    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_14__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_14__["DefaultLayoutAlignDirective"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_15__["DefaultClassDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_14__["DefaultFlexDirective"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_16__["FaIconComponent"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_15__["DefaultShowHideDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_14__["DefaultLayoutGapDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_17__["NgIf"]], styles: [".profile-image[_ngcontent-%COMP%] {\n  border-radius: 50%;\n  max-width: 300px;\n  margin: 32px;\n}\n\n.responsive[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  height: 0;\n  padding: 0;\n  overflow: hidden;\n}\n\n.responsive[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  height: 100%;\n  width: 100%;\n  border: 0;\n}\n\n.video[_ngcontent-%COMP%] {\n  padding-bottom: 56.25%;\n  \n}\n\n.video-container[_ngcontent-%COMP%] {\n  padding-top: 10px;\n}\n\n.width100[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\nfa-icon[_ngcontent-%COMP%] {\n  color: var(--color-grey);\n}\n\n.Name[_ngcontent-%COMP%] {\n  font-size: 40px;\n  font-weight: 480;\n  color: var(--color-primary);\n  padding: 20px 0px;\n}\n\n.socials-links[_ngcontent-%COMP%] {\n  position: relative;\n  padding: 5px 10px;\n}\n\nh3[_ngcontent-%COMP%] {\n  margin: 0;\n}\n\n.text-black[_ngcontent-%COMP%] {\n  color: black;\n}\n\n.link-icon-style-orange[_ngcontent-%COMP%] {\n  color: var(--color-accent);\n}\n\n.link-icon-style-green[_ngcontent-%COMP%] {\n  color: var(--color-primary);\n}\n\n.link-style-black[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n}\n\n.link-style-green[_ngcontent-%COMP%], .link-style-green[_ngcontent-%COMP%]:visited {\n  color: var(--color-primary);\n  font-weight: 500;\n  text-decoration: none;\n  position: relative;\n}\n\n.link-style-green[_ngcontent-%COMP%]:after, .link-style-green[_ngcontent-%COMP%]:visited:after {\n  content: \"\";\n  height: 2px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0%;\n  background: var(--color-primary);\n  transition: 0.2s;\n  z-index: 1111;\n}\n\n.link-style-green[_ngcontent-%COMP%]:hover:after, .link-style-green[_ngcontent-%COMP%]:visited:hover:after {\n  width: 100%;\n}\n\n.link-style-green.block[_ngcontent-%COMP%], .link-style-green[_ngcontent-%COMP%]:visited.block {\n  display: block;\n  padding: 0.5em;\n}\n\n.link-style-black[_ngcontent-%COMP%], .link-style-black[_ngcontent-%COMP%]:visited {\n  text-decoration: none;\n  position: relative;\n}\n\n.link-style-black[_ngcontent-%COMP%]:after, .link-style-black[_ngcontent-%COMP%]:visited:after {\n  content: \"\";\n  height: 2px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0%;\n  background: var(--color-primary);\n  transition: 0.2s;\n  z-index: 1111;\n}\n\n.link-style-black[_ngcontent-%COMP%]:hover:after, .link-style-black[_ngcontent-%COMP%]:visited:hover:after {\n  width: 100%;\n}\n\n.link-style-black.block[_ngcontent-%COMP%], .link-style-black[_ngcontent-%COMP%]:visited.block {\n  display: block;\n  padding: 0.5em;\n}\n\n.previewable-image[_ngcontent-%COMP%]:hover {\n  filter: grayscale(0%);\n  -webkit-filter: grayscale(0%);\n}\n\n.previewable-image[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  transform: scale(1.01);\n  -webkit-transform: scale(1.01);\n  -moz-transform: scale(1.01);\n}\n\n.previewable-image2[_ngcontent-%COMP%]:hover {\n  filter: grayscale(0%);\n  -webkit-filter: grayscale(0%);\n}\n\n.previewable-image2[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  transform: scale(2);\n  -webkit-transform: scale(2);\n  -moz-transform: scale(2);\n}\n\n.link-style-orange[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n}\n\n.link-style-orange[_ngcontent-%COMP%], .link-style-orange[_ngcontent-%COMP%]:visited {\n  text-decoration: none;\n  position: relative;\n  font-weight: 500;\n  color: var(--color-accent);\n}\n\n.link-style-orange[_ngcontent-%COMP%]:after, .link-style-orange[_ngcontent-%COMP%]:visited:after {\n  content: \"\";\n  height: 2px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0%;\n  background: var(--color-accent);\n  transition: 0.2s;\n  z-index: 1111;\n}\n\n.link-style-orange[_ngcontent-%COMP%]:hover:after, .link-style-orange[_ngcontent-%COMP%]:visited:hover:after {\n  width: 100%;\n}\n\n.link-style-orange.block[_ngcontent-%COMP%], .link-style-orange[_ngcontent-%COMP%]:visited.block {\n  display: block;\n  padding: 0.5em;\n}\n\n.left-titles[_ngcontent-%COMP%], .left-titles--hidden[_ngcontent-%COMP%] {\n  margin-bottom: 0;\n  color: var(--color-primary);\n  font-weight: 520;\n}\n\n.left-titles--hidden[_ngcontent-%COMP%] {\n  color: transparent;\n}\n\n.text-area[_ngcontent-%COMP%] {\n  margin-top: 5px;\n}\n\n.float-right[_ngcontent-%COMP%] {\n  top: 0;\n  left: 0;\n  bottom: 0;\n  border: 0;\n  float: right;\n  display: block;\n  width: 320px;\n  height: 180px;\n  margin-right: 10px;\n}\n\n.item-title[_ngcontent-%COMP%] {\n  margin: 0;\n  margin-bottom: 3px;\n  font-weight: 520;\n  font-size: 20px;\n}\n\n.margin-left-right[_ngcontent-%COMP%] {\n  margin-right: 10px;\n  margin-left: 10px;\n}\n\n.item-subtitle[_ngcontent-%COMP%] {\n  color: var(--color-primary);\n  font-weight: 520;\n  margin: 0;\n}\n\n.icon-right-margin[_ngcontent-%COMP%], .icon-right-margin--left[_ngcontent-%COMP%] {\n  margin-right: 5px;\n}\n\n.icon-right-margin--left[_ngcontent-%COMP%] {\n  margin-left: 40px;\n}\n\n.icon-right-margin-color[_ngcontent-%COMP%], .icon-right-margin-color--left[_ngcontent-%COMP%] {\n  margin-right: 5px;\n  color: var(--color-accent);\n}\n\n.icon-right-margin-color--left[_ngcontent-%COMP%] {\n  margin-left: 40px;\n}\n\n.separator[_ngcontent-%COMP%], .separator--small[_ngcontent-%COMP%] {\n  border: 0;\n  border-top: 2px dashed var(--color-light-grey);\n  width: 100%;\n}\n\n.separator--small[_ngcontent-%COMP%] {\n  width: 80%;\n}\n\n.separator-slim[_ngcontent-%COMP%], .separator-slim--small[_ngcontent-%COMP%] {\n  border: 0;\n  margin: 0;\n  border-top: 2px dashed var(--color-light-grey);\n  width: 100%;\n}\n\n.separator-slim--small[_ngcontent-%COMP%] {\n  width: 80%;\n}\n\n.item-content[_ngcontent-%COMP%] {\n  margin: 0;\n  margin-top: 3px;\n}\n\n.text-align-center[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n.text-align-left[_ngcontent-%COMP%] {\n  text-align: left;\n}\n\n.large-br[_ngcontent-%COMP%] {\n  height: 300pt;\n}\n\n.item-date-loc[_ngcontent-%COMP%] {\n  margin: 0;\n}\n\n.underline-title[_ngcontent-%COMP%], .underline-title--top[_ngcontent-%COMP%] {\n  border-bottom: 3px solid var(--color-primary);\n}\n\n.underline-title--top[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.item[_ngcontent-%COMP%] {\n  margin: 5px 0px;\n}\n\n.small-margin[_ngcontent-%COMP%], .small-margin--xs[_ngcontent-%COMP%] {\n  margin: 0px 60px;\n}\n\n.small-margin--xs[_ngcontent-%COMP%] {\n  margin: 0px 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi1wYWdlL21haW4tcGFnZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0FBQUY7O0FBR0E7RUFDRSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxTQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0FBQUY7O0FBR0E7RUFDRSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxPQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtBQUFGOztBQUdBO0VBQ0Usc0JBQUE7RUFBeUIscURBQUE7QUFDM0I7O0FBRUE7RUFDRSxpQkFBQTtBQUNGOztBQUVBO0VBQ0UsV0FBQTtBQUNGOztBQUVBO0VBQ0Usd0JBQUE7QUFDRjs7QUFFQTtFQUNFLGVBQUE7RUFDQSxnQkFBQTtFQUNBLDJCQUFBO0VBQ0EsaUJBQUE7QUFDRjs7QUFHQTtFQUNFLGtCQUFBO0VBQ0EsaUJBQUE7QUFBRjs7QUFHQTtFQUNFLFNBQUE7QUFBRjs7QUFJQTtFQUNFLFlBQUE7QUFERjs7QUFJQTtFQUNFLDBCQUFBO0FBREY7O0FBSUE7RUFDRSwyQkFBQTtBQURGOztBQUlBO0VBQ0UsZUFBQTtBQURGOztBQUlBO0VBQ0UsMkJBQUE7RUFDQSxnQkFBQTtFQUNELHFCQUFBO0VBQ0Esa0JBQUE7QUFERDs7QUFFQztFQUNDLFdBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSxTQUFBO0VBQ0EsT0FBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtFQUNBLGdCQUFBO0VBQ0UsYUFBQTtBQUFKOztBQUdDO0VBQ0MsV0FBQTtBQURGOztBQUlDO0VBQ0MsY0FBQTtFQUNBLGNBQUE7QUFGRjs7QUFTQTtFQUNDLHFCQUFBO0VBQ0Esa0JBQUE7QUFQRDs7QUFRQztFQUNDLFdBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSxTQUFBO0VBQ0EsT0FBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtFQUNBLGdCQUFBO0VBQ0UsYUFBQTtBQU5KOztBQVNDO0VBQ0MsV0FBQTtBQVBGOztBQVVDO0VBQ0MsY0FBQTtFQUNBLGNBQUE7QUFSRjs7QUFnQkE7RUFDRSxxQkFBQTtFQUNBLDZCQUFBO0FBZEY7O0FBZ0JBO0VBQ0UsZUFBQTtFQUNBLHNCQUFBO0VBQ0EsOEJBQUE7RUFDQSwyQkFBQTtBQWJGOztBQWdCQTtFQUNFLHFCQUFBO0VBQ0EsNkJBQUE7QUFiRjs7QUFlQTtFQUNFLGVBQUE7RUFDQSxtQkFBQTtFQUNBLDJCQUFBO0VBQ0Esd0JBQUE7QUFaRjs7QUFlQTtFQUNFLGVBQUE7QUFaRjs7QUFlQTtFQUNDLHFCQUFBO0VBQ0Esa0JBQUE7RUFDQyxnQkFBQTtFQUNBLDBCQUFBO0FBWkY7O0FBYUM7RUFDQyxXQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxTQUFBO0VBQ0EsK0JBQUE7RUFDQSxnQkFBQTtFQUNFLGFBQUE7QUFYSjs7QUFjQztFQUNDLFdBQUE7QUFaRjs7QUFlQztFQUNDLGNBQUE7RUFDQSxjQUFBO0FBYkY7O0FBcUJBO0VBQ0UsZ0JBQUE7RUFDQSwyQkFBQTtFQUNBLGdCQUFBO0FBbkJGOztBQXFCRTtFQUVFLGtCQUFBO0FBcEJKOztBQXdCQTtFQUNFLGVBQUE7QUFyQkY7O0FBd0JBO0VBQ0UsTUFBQTtFQUNBLE9BQUE7RUFDQSxTQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxjQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtBQXJCRjs7QUF3QkE7RUFDRSxTQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUFyQkY7O0FBd0JBO0VBQ0Usa0JBQUE7RUFDQSxpQkFBQTtBQXJCRjs7QUF3QkE7RUFDRSwyQkFBQTtFQUNBLGdCQUFBO0VBQ0EsU0FBQTtBQXJCRjs7QUF3QkE7RUFDRSxpQkFBQTtBQXJCRjs7QUF1QkU7RUFFRSxpQkFBQTtBQXRCSjs7QUEwQkE7RUFDRSxpQkFBQTtFQUNBLDBCQUFBO0FBdkJGOztBQXdCRTtFQUVFLGlCQUFBO0FBdkJKOztBQTJCQTtFQUNFLFNBQUE7RUFDQSw4Q0FBQTtFQUNBLFdBQUE7QUF4QkY7O0FBMEJFO0VBRUUsVUFBQTtBQXpCSjs7QUE2QkE7RUFDRSxTQUFBO0VBQ0EsU0FBQTtFQUNBLDhDQUFBO0VBQ0EsV0FBQTtBQTFCRjs7QUE0QkU7RUFFRSxVQUFBO0FBM0JKOztBQStCQTtFQUNFLFNBQUE7RUFDQSxlQUFBO0FBNUJGOztBQStCQTtFQUNFLGtCQUFBO0FBNUJGOztBQStCQTtFQUNFLGdCQUFBO0FBNUJGOztBQStCQTtFQUNFLGFBQUE7QUE1QkY7O0FBZ0NBO0VBQ0UsU0FBQTtBQTdCRjs7QUFnQ0E7RUFDRSw2Q0FBQTtBQTdCRjs7QUErQkU7RUFFRSxXQUFBO0FBOUJKOztBQWtDQTtFQUNFLGVBQUE7QUEvQkY7O0FBa0NBO0VBQ0UsZ0JBQUE7QUEvQkY7O0FBaUNFO0VBRUUsZ0JBQUE7QUFoQ0oiLCJmaWxlIjoic3JjL2FwcC9tYWluLXBhZ2UvbWFpbi1wYWdlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4ucHJvZmlsZS1pbWFnZSB7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgbWF4LXdpZHRoOiAzMDBweDtcbiAgbWFyZ2luOiAzMnB4O1xufVxuXG4ucmVzcG9uc2l2ZSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGhlaWdodDogMDtcbiAgcGFkZGluZzogMDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuLnJlc3BvbnNpdmUgaWZyYW1lIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDA7XG4gIGxlZnQ6IDA7XG4gIGJvdHRvbTogMDtcbiAgaGVpZ2h0OiAxMDAlO1xuICB3aWR0aDogMTAwJTtcbiAgYm9yZGVyOiAwO1xufVxuXG4udmlkZW8ge1xuICBwYWRkaW5nLWJvdHRvbTogNTYuMjUlOyAgLyogb3IgNzUlIGRlcGVuZGluZyB1cG9uIHRoZSB0eXBlIG9mIHZpZGVvIHlvdSBoYXZlICovXG59XG5cbi52aWRlby1jb250YWluZXIge1xuICBwYWRkaW5nLXRvcDogMTBweDtcbn1cblxuLndpZHRoMTAwIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbmZhLWljb24ge1xuICBjb2xvcjogdmFyKC0tY29sb3ItZ3JleSk7XG59XG5cbi5OYW1lIHtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250LXdlaWdodDogNDgwO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIHBhZGRpbmc6IDIwcHggMHB4O1xufVxuXG5cbi5zb2NpYWxzLWxpbmtzIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBwYWRkaW5nOiA1cHggMTBweDtcbn1cblxuaDMge1xuICBtYXJnaW46IDBcbn1cblxuXG4udGV4dC1ibGFjayB7XG4gIGNvbG9yOiBibGFjaztcbn1cblxuLmxpbmstaWNvbi1zdHlsZS1vcmFuZ2Uge1xuICBjb2xvcjogdmFyKC0tY29sb3ItYWNjZW50KTtcbn1cblxuLmxpbmstaWNvbi1zdHlsZS1ncmVlbiB7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbn1cblxuLmxpbmstc3R5bGUtYmxhY2s6aG92ZXIge1xuICBjdXJzb3I6cG9pbnRlcjtcbn1cblxuLmxpbmstc3R5bGUtZ3JlZW4sIC5saW5rLXN0eWxlLWdyZWVuOnZpc2l0ZWQge1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG5cdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHQmOmFmdGVyIHtcblx0XHRjb250ZW50OiAnJztcblx0XHRoZWlnaHQ6IDJweDtcblx0XHRwb3NpdGlvbjogYWJzb2x1dGU7XG5cdFx0Ym90dG9tOiAwO1xuXHRcdGxlZnQ6IDA7XG5cdFx0d2lkdGg6IDAlO1xuXHRcdGJhY2tncm91bmQ6IHZhcigtLWNvbG9yLXByaW1hcnkpO1xuXHRcdHRyYW5zaXRpb246IDAuMnM7XG4gICAgei1pbmRleDogMTExMTtcblx0fVxuXG5cdCY6aG92ZXI6YWZ0ZXIge1xuXHRcdHdpZHRoOiAxMDAlO1xuXHR9XG5cblx0Ji5ibG9jayB7XG5cdFx0ZGlzcGxheTogYmxvY2s7XG5cdFx0cGFkZGluZzogMC41ZW07XG5cblx0XHQmOmhvdmVyIHtcblx0XHR9XG5cdH1cbn1cblxuLmxpbmstc3R5bGUtYmxhY2ssIC5saW5rLXN0eWxlLWJsYWNrOnZpc2l0ZWQge1xuXHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0JjphZnRlciB7XG5cdFx0Y29udGVudDogJyc7XG5cdFx0aGVpZ2h0OiAycHg7XG5cdFx0cG9zaXRpb246IGFic29sdXRlO1xuXHRcdGJvdHRvbTogMDtcblx0XHRsZWZ0OiAwO1xuXHRcdHdpZHRoOiAwJTtcblx0XHRiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcblx0XHR0cmFuc2l0aW9uOiAwLjJzO1xuICAgIHotaW5kZXg6IDExMTE7XG5cdH1cblxuXHQmOmhvdmVyOmFmdGVyIHtcblx0XHR3aWR0aDogMTAwJTtcblx0fVxuXG5cdCYuYmxvY2sge1xuXHRcdGRpc3BsYXk6IGJsb2NrO1xuXHRcdHBhZGRpbmc6IDAuNWVtO1xuXG5cdFx0Jjpob3ZlciB7XG5cdFx0fVxuXHR9XG59XG5cblxuLnByZXZpZXdhYmxlLWltYWdlOmhvdmVyIHtcbiAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuICAtd2Via2l0LWZpbHRlcjogZ3JheXNjYWxlKDAlKTtcbn1cbi5wcmV2aWV3YWJsZS1pbWFnZTpob3ZlciB7XG4gIGN1cnNvcjpwb2ludGVyO1xuICB0cmFuc2Zvcm06IHNjYWxlKDEuMDEpO1xuICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMS4wMSk7XG4gIC1tb3otdHJhbnNmb3JtOiBzY2FsZSgxLjAxKTtcbn1cblxuLnByZXZpZXdhYmxlLWltYWdlMjpob3ZlciB7XG4gIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcbiAgLXdlYmtpdC1maWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG59XG4ucHJldmlld2FibGUtaW1hZ2UyOmhvdmVyIHtcbiAgY3Vyc29yOnBvaW50ZXI7XG4gIHRyYW5zZm9ybTogc2NhbGUoMik7XG4gIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgyKTtcbiAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDIpO1xufVxuXG4ubGluay1zdHlsZS1vcmFuZ2U6aG92ZXIge1xuICBjdXJzb3I6cG9pbnRlcjtcbn1cblxuLmxpbmstc3R5bGUtb3JhbmdlLCAubGluay1zdHlsZS1vcmFuZ2U6dmlzaXRlZCB7XG5cdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuICBmb250LXdlaWdodDogNTAwO1xuICBjb2xvcjogdmFyKC0tY29sb3ItYWNjZW50KTtcblx0JjphZnRlciB7XG5cdFx0Y29udGVudDogJyc7XG5cdFx0aGVpZ2h0OiAycHg7XG5cdFx0cG9zaXRpb246IGFic29sdXRlO1xuXHRcdGJvdHRvbTogMDtcblx0XHRsZWZ0OiAwO1xuXHRcdHdpZHRoOiAwJTtcblx0XHRiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1hY2NlbnQpO1xuXHRcdHRyYW5zaXRpb246IDAuMnM7XG4gICAgei1pbmRleDogMTExMTtcblx0fVxuXG5cdCY6aG92ZXI6YWZ0ZXIge1xuXHRcdHdpZHRoOiAxMDAlO1xuXHR9XG5cblx0Ji5ibG9jayB7XG5cdFx0ZGlzcGxheTogYmxvY2s7XG5cdFx0cGFkZGluZzogMC41ZW07XG5cblx0XHQmOmhvdmVyIHtcblx0XHR9XG5cdH1cbn1cblxuXG4ubGVmdC10aXRsZXMge1xuICBtYXJnaW4tYm90dG9tOiAwO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIGZvbnQtd2VpZ2h0OiA1MjA7XG5cbiAgJi0taGlkZGVuIHtcbiAgICBAZXh0ZW5kIC5sZWZ0LXRpdGxlcztcbiAgICBjb2xvcjogdHJhbnNwYXJlbnQ7XG4gIH1cbn1cblxuLnRleHQtYXJlYSB7XG4gIG1hcmdpbi10b3A6IDVweDtcbn1cblxuLmZsb2F0LXJpZ2h0IHtcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xuICBib3R0b206IDA7XG4gIGJvcmRlcjogMDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBkaXNwbGF5OiBibG9jaztcbiAgd2lkdGg6IDMyMHB4O1xuICBoZWlnaHQ6IDE4MHB4O1xuICBtYXJnaW4tcmlnaHQ6IDEwcHg7XG59XG5cbi5pdGVtLXRpdGxlIHtcbiAgbWFyZ2luOiAwO1xuICBtYXJnaW4tYm90dG9tOiAzcHg7XG4gIGZvbnQtd2VpZ2h0OiA1MjA7XG4gIGZvbnQtc2l6ZTogMjBweDtcbn1cblxuLm1hcmdpbi1sZWZ0LXJpZ2h0IHtcbiAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xuICBtYXJnaW4tbGVmdDogMTBweDtcbn1cblxuLml0ZW0tc3VidGl0bGUge1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIGZvbnQtd2VpZ2h0OiA1MjA7XG4gIG1hcmdpbjogMDtcbn1cblxuLmljb24tcmlnaHQtbWFyZ2luIHtcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7XG5cbiAgJi0tbGVmdCB7XG4gICAgQGV4dGVuZCAuaWNvbi1yaWdodC1tYXJnaW47XG4gICAgbWFyZ2luLWxlZnQ6IDQwcHg7XG4gIH1cbn1cblxuLmljb24tcmlnaHQtbWFyZ2luLWNvbG9yIHtcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1hY2NlbnQpO1xuICAmLS1sZWZ0IHtcbiAgICBAZXh0ZW5kIC5pY29uLXJpZ2h0LW1hcmdpbi1jb2xvcjtcbiAgICBtYXJnaW4tbGVmdDogNDBweDtcbiAgfVxufVxuXG4uc2VwYXJhdG9yIHtcbiAgYm9yZGVyOiAwO1xuICBib3JkZXItdG9wOiAycHggZGFzaGVkIHZhcigtLWNvbG9yLWxpZ2h0LWdyZXkpO1xuICB3aWR0aDogMTAwJTtcblxuICAmLS1zbWFsbCB7XG4gICAgQGV4dGVuZCAuc2VwYXJhdG9yO1xuICAgIHdpZHRoOiA4MCU7XG4gIH1cbn1cblxuLnNlcGFyYXRvci1zbGltIHtcbiAgYm9yZGVyOiAwO1xuICBtYXJnaW46IDA7XG4gIGJvcmRlci10b3A6IDJweCBkYXNoZWQgdmFyKC0tY29sb3ItbGlnaHQtZ3JleSk7XG4gIHdpZHRoOiAxMDAlO1xuXG4gICYtLXNtYWxsIHtcbiAgICBAZXh0ZW5kIC5zZXBhcmF0b3Itc2xpbTtcbiAgICB3aWR0aDogODAlO1xuICB9XG59XG5cbi5pdGVtLWNvbnRlbnQge1xuICBtYXJnaW46IDA7XG4gIG1hcmdpbi10b3A6IDNweDtcbn1cblxuLnRleHQtYWxpZ24tY2VudGVyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4udGV4dC1hbGlnbi1sZWZ0IHtcbiAgdGV4dC1hbGlnbjogbGVmdDtcbn1cblxuLmxhcmdlLWJyIHtcbiAgaGVpZ2h0OiAzMDBwdDtcbn1cblxuXG4uaXRlbS1kYXRlLWxvYyB7XG4gIG1hcmdpbjogMDtcbn1cblxuLnVuZGVybGluZS10aXRsZSB7XG4gIGJvcmRlci1ib3R0b206IDNweCBzb2xpZCB2YXIoLS1jb2xvci1wcmltYXJ5KTs7XG5cbiAgJi0tdG9wIHtcbiAgICBAZXh0ZW5kIC51bmRlcmxpbmUtdGl0bGU7XG4gICAgd2lkdGg6IDEwMCU7XG4gIH1cbn1cblxuLml0ZW0ge1xuICBtYXJnaW46IDVweCAwcHg7XG59XG5cbi5zbWFsbC1tYXJnaW4ge1xuICBtYXJnaW46IDBweCA2MHB4O1xuXG4gICYtLXhzIHtcbiAgICBAZXh0ZW5kIC5zbWFsbC1tYXJnaW47XG4gICAgbWFyZ2luOiAwcHggMTBweDtcbiAgfVxufVxuXG4iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.visitorStats)("ngIfElse", _r2);
+    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_15__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_15__["DefaultLayoutAlignDirective"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_16__["DefaultClassDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_15__["DefaultFlexDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_15__["DefaultLayoutGapDirective"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_17__["FaIconComponent"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_16__["DefaultShowHideDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_18__["NgIf"], _angular_router__WEBPACK_IMPORTED_MODULE_19__["RouterLinkWithHref"], _visitor_map_visitor_map_component__WEBPACK_IMPORTED_MODULE_20__["VisitorMapComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_18__["DecimalPipe"]], styles: [".profile-image[_ngcontent-%COMP%] {\n  border-radius: 50%;\n  max-width: 300px;\n  margin: 32px;\n}\n\n.responsive[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  height: 0;\n  padding: 0;\n  overflow: hidden;\n}\n\n.responsive[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  height: 100%;\n  width: 100%;\n  border: 0;\n}\n\n.video[_ngcontent-%COMP%] {\n  padding-bottom: 56.25%;\n  \n}\n\n.video-container[_ngcontent-%COMP%] {\n  padding-top: 10px;\n}\n\n.width100[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\nfa-icon[_ngcontent-%COMP%] {\n  color: var(--color-grey);\n}\n\n.Name[_ngcontent-%COMP%] {\n  font-size: 40px;\n  font-weight: 480;\n  color: var(--color-primary);\n  padding: 20px 0px;\n}\n\n.socials-links[_ngcontent-%COMP%] {\n  position: relative;\n  padding: 5px 10px;\n}\n\nh3[_ngcontent-%COMP%] {\n  margin: 0;\n}\n\n.text-black[_ngcontent-%COMP%] {\n  color: black;\n}\n\n.link-icon-style-orange[_ngcontent-%COMP%] {\n  color: var(--color-accent);\n}\n\n.link-icon-style-green[_ngcontent-%COMP%] {\n  color: var(--color-primary);\n}\n\n.link-style-black[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n}\n\n.link-style-green[_ngcontent-%COMP%], .link-style-green[_ngcontent-%COMP%]:visited {\n  color: var(--color-primary);\n  font-weight: 500;\n  text-decoration: none;\n  position: relative;\n}\n\n.link-style-green[_ngcontent-%COMP%]:after, .link-style-green[_ngcontent-%COMP%]:visited:after {\n  content: \"\";\n  height: 2px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0%;\n  background: var(--color-primary);\n  transition: 0.2s;\n  z-index: 1111;\n}\n\n.link-style-green[_ngcontent-%COMP%]:hover:after, .link-style-green[_ngcontent-%COMP%]:visited:hover:after {\n  width: 100%;\n}\n\n.link-style-green.block[_ngcontent-%COMP%], .link-style-green[_ngcontent-%COMP%]:visited.block {\n  display: block;\n  padding: 0.5em;\n}\n\n.link-style-black[_ngcontent-%COMP%], .link-style-black[_ngcontent-%COMP%]:visited {\n  text-decoration: none;\n  position: relative;\n}\n\n.link-style-black[_ngcontent-%COMP%]:after, .link-style-black[_ngcontent-%COMP%]:visited:after {\n  content: \"\";\n  height: 2px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0%;\n  background: var(--color-primary);\n  transition: 0.2s;\n  z-index: 1111;\n}\n\n.link-style-black[_ngcontent-%COMP%]:hover:after, .link-style-black[_ngcontent-%COMP%]:visited:hover:after {\n  width: 100%;\n}\n\n.link-style-black.block[_ngcontent-%COMP%], .link-style-black[_ngcontent-%COMP%]:visited.block {\n  display: block;\n  padding: 0.5em;\n}\n\n.previewable-image[_ngcontent-%COMP%]:hover {\n  filter: grayscale(0%);\n  -webkit-filter: grayscale(0%);\n}\n\n.previewable-image[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  transform: scale(1.01);\n  -webkit-transform: scale(1.01);\n  -moz-transform: scale(1.01);\n}\n\n.previewable-image2[_ngcontent-%COMP%]:hover {\n  filter: grayscale(0%);\n  -webkit-filter: grayscale(0%);\n}\n\n.previewable-image2[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n  transform: scale(2);\n  -webkit-transform: scale(2);\n  -moz-transform: scale(2);\n}\n\n.link-style-orange[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n}\n\n.link-style-orange[_ngcontent-%COMP%], .link-style-orange[_ngcontent-%COMP%]:visited {\n  text-decoration: none;\n  position: relative;\n  font-weight: 500;\n  color: var(--color-accent);\n}\n\n.link-style-orange[_ngcontent-%COMP%]:after, .link-style-orange[_ngcontent-%COMP%]:visited:after {\n  content: \"\";\n  height: 2px;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0%;\n  background: var(--color-accent);\n  transition: 0.2s;\n  z-index: 1111;\n}\n\n.link-style-orange[_ngcontent-%COMP%]:hover:after, .link-style-orange[_ngcontent-%COMP%]:visited:hover:after {\n  width: 100%;\n}\n\n.link-style-orange.block[_ngcontent-%COMP%], .link-style-orange[_ngcontent-%COMP%]:visited.block {\n  display: block;\n  padding: 0.5em;\n}\n\n.left-titles[_ngcontent-%COMP%], .left-titles--hidden[_ngcontent-%COMP%] {\n  margin-bottom: 0;\n  color: var(--color-primary);\n  font-weight: 520;\n}\n\n.left-titles--hidden[_ngcontent-%COMP%] {\n  color: transparent;\n}\n\n.text-area[_ngcontent-%COMP%] {\n  margin-top: 5px;\n}\n\n.float-right[_ngcontent-%COMP%] {\n  top: 0;\n  left: 0;\n  bottom: 0;\n  border: 0;\n  float: right;\n  display: block;\n  width: 320px;\n  height: 180px;\n  margin-right: 10px;\n}\n\n.item-title[_ngcontent-%COMP%] {\n  margin: 0;\n  margin-bottom: 3px;\n  font-weight: 520;\n  font-size: 20px;\n}\n\n.margin-left-right[_ngcontent-%COMP%] {\n  margin-right: 10px;\n  margin-left: 10px;\n}\n\n.item-subtitle[_ngcontent-%COMP%] {\n  color: var(--color-primary);\n  font-weight: 520;\n  margin: 0;\n}\n\n.icon-right-margin[_ngcontent-%COMP%], .icon-right-margin--left[_ngcontent-%COMP%] {\n  margin-right: 5px;\n}\n\n.icon-right-margin--left[_ngcontent-%COMP%] {\n  margin-left: 40px;\n}\n\n.icon-right-margin-color[_ngcontent-%COMP%], .icon-right-margin-color--left[_ngcontent-%COMP%] {\n  margin-right: 5px;\n  color: var(--color-accent);\n}\n\n.icon-right-margin-color--left[_ngcontent-%COMP%] {\n  margin-left: 40px;\n}\n\n.separator[_ngcontent-%COMP%], .separator--small[_ngcontent-%COMP%] {\n  border: 0;\n  border-top: 2px dashed var(--color-light-grey);\n  width: 100%;\n}\n\n.separator--small[_ngcontent-%COMP%] {\n  width: 80%;\n}\n\n.separator-slim[_ngcontent-%COMP%], .separator-slim--small[_ngcontent-%COMP%] {\n  border: 0;\n  margin: 0;\n  border-top: 2px dashed var(--color-light-grey);\n  width: 100%;\n}\n\n.separator-slim--small[_ngcontent-%COMP%] {\n  width: 80%;\n}\n\n.item-content[_ngcontent-%COMP%] {\n  margin: 0;\n  margin-top: 3px;\n}\n\n.text-align-center[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n.text-align-left[_ngcontent-%COMP%] {\n  text-align: left;\n}\n\n.large-br[_ngcontent-%COMP%] {\n  height: 300pt;\n}\n\n.visitor-widget[_ngcontent-%COMP%] {\n  margin: 48px 0 20px;\n  padding: 28px;\n  border: 1px solid rgba(1, 111, 255, 0.14);\n  border-radius: 18px;\n  background: linear-gradient(145deg, #f7fbff, #fff 55%, #f3f8ff);\n  box-shadow: 0 14px 35px rgba(30, 80, 140, 0.1);\n  color: #263246;\n}\n\n.visitor-widget__heading[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: flex-start;\n  justify-content: space-between;\n  gap: 24px;\n  margin-bottom: 22px;\n}\n\n.visitor-widget__heading[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  margin: 2px 0 4px;\n  color: var(--color-primary);\n  font-size: 27px;\n  font-weight: 520;\n}\n\n.visitor-widget__heading[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  margin: 0;\n  color: #697487;\n  font-size: 14px;\n}\n\n.visitor-widget__eyebrow[_ngcontent-%COMP%] {\n  color: #778399;\n  font-size: 11px;\n  font-weight: 600;\n  letter-spacing: 1.5px;\n  text-transform: uppercase;\n}\n\n.visitor-widget__live[_ngcontent-%COMP%] {\n  display: inline-flex;\n  align-items: center;\n  gap: 7px;\n  padding: 6px 10px;\n  border-radius: 999px;\n  background: #eaf8ef;\n  color: #208348;\n  font-size: 12px;\n  font-weight: 600;\n}\n\n.visitor-widget__live[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  width: 7px;\n  height: 7px;\n  border-radius: 50%;\n  background: #2fb765;\n  box-shadow: 0 0 0 4px rgba(47, 183, 101, 0.14);\n}\n\n.visitor-summary[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n  gap: 12px;\n  margin-bottom: 18px;\n}\n\n.visitor-summary__card[_ngcontent-%COMP%] {\n  padding: 15px 17px;\n  border: 1px solid #e4edf8;\n  border-radius: 12px;\n  background: rgba(255, 255, 255, 0.82);\n}\n\n.visitor-summary__card[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: block;\n  color: #7b8798;\n  font-size: 12px;\n}\n\n.visitor-summary__card[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  display: block;\n  margin-top: 2px;\n  color: #1e2f48;\n  font-size: 24px;\n  font-weight: 520;\n}\n\n.visitor-map-preview[_ngcontent-%COMP%] {\n  position: relative;\n  overflow: hidden;\n  border: 1px solid #e2ebf6;\n  border-radius: 12px;\n}\n\n.visitor-map-preview__map-link[_ngcontent-%COMP%] {\n  display: block;\n  cursor: pointer;\n  text-decoration: none;\n}\n\n.visitor-map-preview__button[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 14px;\n  bottom: 14px;\n  z-index: 500;\n  padding: 9px 14px;\n  border-radius: 999px;\n  background: var(--color-primary);\n  color: white;\n  font-size: 13px;\n  font-weight: 500;\n  text-decoration: none;\n  box-shadow: 0 8px 20px rgba(1, 111, 255, 0.25);\n}\n\n.visitor-widget__state[_ngcontent-%COMP%] {\n  padding: 24px;\n  border: 1px dashed #cbd9ea;\n  border-radius: 12px;\n  color: #738094;\n  text-align: center;\n}\n\n.visitor-widget__privacy[_ngcontent-%COMP%] {\n  margin: 15px 0 0;\n  color: #8792a3;\n  font-size: 11px;\n  text-align: center;\n}\n\n.commencement-video[_ngcontent-%COMP%] {\n  background: #000;\n  object-fit: contain;\n}\n\n@media (max-width: 600px) {\n  .visitor-widget[_ngcontent-%COMP%] {\n    padding: 20px 14px;\n    border-radius: 14px;\n  }\n\n  .visitor-summary[_ngcontent-%COMP%] {\n    gap: 7px;\n  }\n\n  .visitor-summary__card[_ngcontent-%COMP%] {\n    padding: 12px 10px;\n  }\n\n  .visitor-summary__card[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n    font-size: 20px;\n  }\n\n  .commencement-video[_ngcontent-%COMP%] {\n    width: 100%;\n    max-height: 70vh;\n    object-fit: contain;\n  }\n}\n\n.item-date-loc[_ngcontent-%COMP%] {\n  margin: 0;\n}\n\n.underline-title[_ngcontent-%COMP%], .underline-title--top[_ngcontent-%COMP%] {\n  border-bottom: 3px solid var(--color-primary);\n}\n\n.underline-title--top[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.item[_ngcontent-%COMP%] {\n  margin: 5px 0px;\n}\n\n.small-margin[_ngcontent-%COMP%], .small-margin--xs[_ngcontent-%COMP%] {\n  margin: 0px 60px;\n}\n\n.small-margin--xs[_ngcontent-%COMP%] {\n  margin: 0px 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi1wYWdlL21haW4tcGFnZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0FBQUY7O0FBR0E7RUFDRSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxTQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0FBQUY7O0FBR0E7RUFDRSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxPQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtBQUFGOztBQUdBO0VBQ0Usc0JBQUE7RUFBeUIscURBQUE7QUFDM0I7O0FBRUE7RUFDRSxpQkFBQTtBQUNGOztBQUVBO0VBQ0UsV0FBQTtBQUNGOztBQUVBO0VBQ0Usd0JBQUE7QUFDRjs7QUFFQTtFQUNFLGVBQUE7RUFDQSxnQkFBQTtFQUNBLDJCQUFBO0VBQ0EsaUJBQUE7QUFDRjs7QUFHQTtFQUNFLGtCQUFBO0VBQ0EsaUJBQUE7QUFBRjs7QUFHQTtFQUNFLFNBQUE7QUFBRjs7QUFJQTtFQUNFLFlBQUE7QUFERjs7QUFJQTtFQUNFLDBCQUFBO0FBREY7O0FBSUE7RUFDRSwyQkFBQTtBQURGOztBQUlBO0VBQ0UsZUFBQTtBQURGOztBQUlBO0VBQ0UsMkJBQUE7RUFDQSxnQkFBQTtFQUNELHFCQUFBO0VBQ0Esa0JBQUE7QUFERDs7QUFFQztFQUNDLFdBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSxTQUFBO0VBQ0EsT0FBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtFQUNBLGdCQUFBO0VBQ0UsYUFBQTtBQUFKOztBQUdDO0VBQ0MsV0FBQTtBQURGOztBQUlDO0VBQ0MsY0FBQTtFQUNBLGNBQUE7QUFGRjs7QUFTQTtFQUNDLHFCQUFBO0VBQ0Esa0JBQUE7QUFQRDs7QUFRQztFQUNDLFdBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSxTQUFBO0VBQ0EsT0FBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtFQUNBLGdCQUFBO0VBQ0UsYUFBQTtBQU5KOztBQVNDO0VBQ0MsV0FBQTtBQVBGOztBQVVDO0VBQ0MsY0FBQTtFQUNBLGNBQUE7QUFSRjs7QUFnQkE7RUFDRSxxQkFBQTtFQUNBLDZCQUFBO0FBZEY7O0FBZ0JBO0VBQ0UsZUFBQTtFQUNBLHNCQUFBO0VBQ0EsOEJBQUE7RUFDQSwyQkFBQTtBQWJGOztBQWdCQTtFQUNFLHFCQUFBO0VBQ0EsNkJBQUE7QUFiRjs7QUFlQTtFQUNFLGVBQUE7RUFDQSxtQkFBQTtFQUNBLDJCQUFBO0VBQ0Esd0JBQUE7QUFaRjs7QUFlQTtFQUNFLGVBQUE7QUFaRjs7QUFlQTtFQUNDLHFCQUFBO0VBQ0Esa0JBQUE7RUFDQyxnQkFBQTtFQUNBLDBCQUFBO0FBWkY7O0FBYUM7RUFDQyxXQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxTQUFBO0VBQ0EsK0JBQUE7RUFDQSxnQkFBQTtFQUNFLGFBQUE7QUFYSjs7QUFjQztFQUNDLFdBQUE7QUFaRjs7QUFlQztFQUNDLGNBQUE7RUFDQSxjQUFBO0FBYkY7O0FBcUJBO0VBQ0UsZ0JBQUE7RUFDQSwyQkFBQTtFQUNBLGdCQUFBO0FBbkJGOztBQXFCRTtFQUVFLGtCQUFBO0FBcEJKOztBQXdCQTtFQUNFLGVBQUE7QUFyQkY7O0FBd0JBO0VBQ0UsTUFBQTtFQUNBLE9BQUE7RUFDQSxTQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxjQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtBQXJCRjs7QUF3QkE7RUFDRSxTQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUFyQkY7O0FBd0JBO0VBQ0Usa0JBQUE7RUFDQSxpQkFBQTtBQXJCRjs7QUF3QkE7RUFDRSwyQkFBQTtFQUNBLGdCQUFBO0VBQ0EsU0FBQTtBQXJCRjs7QUF3QkE7RUFDRSxpQkFBQTtBQXJCRjs7QUF1QkU7RUFFRSxpQkFBQTtBQXRCSjs7QUEwQkE7RUFDRSxpQkFBQTtFQUNBLDBCQUFBO0FBdkJGOztBQXdCRTtFQUVFLGlCQUFBO0FBdkJKOztBQTJCQTtFQUNFLFNBQUE7RUFDQSw4Q0FBQTtFQUNBLFdBQUE7QUF4QkY7O0FBMEJFO0VBRUUsVUFBQTtBQXpCSjs7QUE2QkE7RUFDRSxTQUFBO0VBQ0EsU0FBQTtFQUNBLDhDQUFBO0VBQ0EsV0FBQTtBQTFCRjs7QUE0QkU7RUFFRSxVQUFBO0FBM0JKOztBQStCQTtFQUNFLFNBQUE7RUFDQSxlQUFBO0FBNUJGOztBQStCQTtFQUNFLGtCQUFBO0FBNUJGOztBQStCQTtFQUNFLGdCQUFBO0FBNUJGOztBQStCQTtFQUNFLGFBQUE7QUE1QkY7O0FBK0JBO0VBQWtCLG1CQUFBO0VBQXFCLGFBQUE7RUFBZSx5Q0FBQTtFQUF1QyxtQkFBQTtFQUFxQiwrREFBQTtFQUE4RCw4Q0FBQTtFQUE0QyxjQUFBO0FBckI1Tjs7QUFzQkE7RUFBMkIsYUFBQTtFQUFlLHVCQUFBO0VBQXlCLDhCQUFBO0VBQWdDLFNBQUE7RUFBVyxtQkFBQTtBQWQ5Rzs7QUFlQTtFQUE4QixpQkFBQTtFQUFtQiwyQkFBQTtFQUE2QixlQUFBO0VBQWlCLGdCQUFBO0FBUi9GOztBQVNBO0VBQTZCLFNBQUE7RUFBVyxjQUFBO0VBQWdCLGVBQUE7QUFIeEQ7O0FBSUE7RUFBMkIsY0FBQTtFQUFnQixlQUFBO0VBQWlCLGdCQUFBO0VBQWtCLHFCQUFBO0VBQXVCLHlCQUFBO0FBSXJHOztBQUhBO0VBQXdCLG9CQUFBO0VBQXNCLG1CQUFBO0VBQXFCLFFBQUE7RUFBVSxpQkFBQTtFQUFtQixvQkFBQTtFQUFzQixtQkFBQTtFQUFxQixjQUFBO0VBQWdCLGVBQUE7RUFBaUIsZ0JBQUE7QUFlNUs7O0FBZEE7RUFBNkIsVUFBQTtFQUFZLFdBQUE7RUFBYSxrQkFBQTtFQUFvQixtQkFBQTtFQUFxQiw4Q0FBQTtBQXNCL0Y7O0FBckJBO0VBQW1CLGFBQUE7RUFBZSxnREFBQTtFQUFnRCxTQUFBO0VBQVcsbUJBQUE7QUE0QjdGOztBQTNCQTtFQUF5QixrQkFBQTtFQUFvQix5QkFBQTtFQUEyQixtQkFBQTtFQUFxQixxQ0FBQTtBQWtDN0Y7O0FBakNBO0VBQThCLGNBQUE7RUFBZ0IsY0FBQTtFQUFnQixlQUFBO0FBdUM5RDs7QUF0Q0E7RUFBZ0MsY0FBQTtFQUFnQixlQUFBO0VBQWlCLGNBQUE7RUFBZ0IsZUFBQTtFQUFpQixnQkFBQTtBQThDbEc7O0FBN0NBO0VBQXVCLGtCQUFBO0VBQW9CLGdCQUFBO0VBQWtCLHlCQUFBO0VBQTJCLG1CQUFBO0FBb0R4Rjs7QUFuREE7RUFBaUMsY0FBQTtFQUFnQixlQUFBO0VBQWlCLHFCQUFBO0FBeURsRTs7QUF4REE7RUFBK0Isa0JBQUE7RUFBb0IsV0FBQTtFQUFhLFlBQUE7RUFBYyxZQUFBO0VBQWMsaUJBQUE7RUFBbUIsb0JBQUE7RUFBc0IsZ0NBQUE7RUFBa0MsWUFBQTtFQUFjLGVBQUE7RUFBaUIsZ0JBQUE7RUFBa0IscUJBQUE7RUFBdUIsOENBQUE7QUF1RS9POztBQXRFQTtFQUF5QixhQUFBO0VBQWUsMEJBQUE7RUFBNEIsbUJBQUE7RUFBcUIsY0FBQTtFQUFnQixrQkFBQTtBQThFekc7O0FBN0VBO0VBQTJCLGdCQUFBO0VBQWtCLGNBQUE7RUFBZ0IsZUFBQTtFQUFpQixrQkFBQTtBQW9GOUU7O0FBbkZBO0VBQXNCLGdCQUFBO0VBQWtCLG1CQUFBO0FBd0Z4Qzs7QUF2RkE7RUFDRTtJQUFrQixrQkFBQTtJQUFvQixtQkFBQTtFQTRGdEM7O0VBM0ZBO0lBQW1CLFFBQUE7RUErRm5COztFQTlGQTtJQUF5QixrQkFBQTtFQWtHekI7O0VBakdBO0lBQWdDLGVBQUE7RUFxR2hDOztFQXBHQTtJQUFzQixXQUFBO0lBQWEsZ0JBQUE7SUFBa0IsbUJBQUE7RUEwR3JEO0FBQ0Y7O0FBdkdBO0VBQ0UsU0FBQTtBQXlHRjs7QUF0R0E7RUFDRSw2Q0FBQTtBQXlHRjs7QUF2R0U7RUFFRSxXQUFBO0FBd0dKOztBQXBHQTtFQUNFLGVBQUE7QUF1R0Y7O0FBcEdBO0VBQ0UsZ0JBQUE7QUF1R0Y7O0FBckdFO0VBRUUsZ0JBQUE7QUFzR0oiLCJmaWxlIjoic3JjL2FwcC9tYWluLXBhZ2UvbWFpbi1wYWdlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4ucHJvZmlsZS1pbWFnZSB7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgbWF4LXdpZHRoOiAzMDBweDtcbiAgbWFyZ2luOiAzMnB4O1xufVxuXG4ucmVzcG9uc2l2ZSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGhlaWdodDogMDtcbiAgcGFkZGluZzogMDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuLnJlc3BvbnNpdmUgaWZyYW1lIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDA7XG4gIGxlZnQ6IDA7XG4gIGJvdHRvbTogMDtcbiAgaGVpZ2h0OiAxMDAlO1xuICB3aWR0aDogMTAwJTtcbiAgYm9yZGVyOiAwO1xufVxuXG4udmlkZW8ge1xuICBwYWRkaW5nLWJvdHRvbTogNTYuMjUlOyAgLyogb3IgNzUlIGRlcGVuZGluZyB1cG9uIHRoZSB0eXBlIG9mIHZpZGVvIHlvdSBoYXZlICovXG59XG5cbi52aWRlby1jb250YWluZXIge1xuICBwYWRkaW5nLXRvcDogMTBweDtcbn1cblxuLndpZHRoMTAwIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbmZhLWljb24ge1xuICBjb2xvcjogdmFyKC0tY29sb3ItZ3JleSk7XG59XG5cbi5OYW1lIHtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250LXdlaWdodDogNDgwO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIHBhZGRpbmc6IDIwcHggMHB4O1xufVxuXG5cbi5zb2NpYWxzLWxpbmtzIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBwYWRkaW5nOiA1cHggMTBweDtcbn1cblxuaDMge1xuICBtYXJnaW46IDBcbn1cblxuXG4udGV4dC1ibGFjayB7XG4gIGNvbG9yOiBibGFjaztcbn1cblxuLmxpbmstaWNvbi1zdHlsZS1vcmFuZ2Uge1xuICBjb2xvcjogdmFyKC0tY29sb3ItYWNjZW50KTtcbn1cblxuLmxpbmstaWNvbi1zdHlsZS1ncmVlbiB7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbn1cblxuLmxpbmstc3R5bGUtYmxhY2s6aG92ZXIge1xuICBjdXJzb3I6cG9pbnRlcjtcbn1cblxuLmxpbmstc3R5bGUtZ3JlZW4sIC5saW5rLXN0eWxlLWdyZWVuOnZpc2l0ZWQge1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG5cdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHQmOmFmdGVyIHtcblx0XHRjb250ZW50OiAnJztcblx0XHRoZWlnaHQ6IDJweDtcblx0XHRwb3NpdGlvbjogYWJzb2x1dGU7XG5cdFx0Ym90dG9tOiAwO1xuXHRcdGxlZnQ6IDA7XG5cdFx0d2lkdGg6IDAlO1xuXHRcdGJhY2tncm91bmQ6IHZhcigtLWNvbG9yLXByaW1hcnkpO1xuXHRcdHRyYW5zaXRpb246IDAuMnM7XG4gICAgei1pbmRleDogMTExMTtcblx0fVxuXG5cdCY6aG92ZXI6YWZ0ZXIge1xuXHRcdHdpZHRoOiAxMDAlO1xuXHR9XG5cblx0Ji5ibG9jayB7XG5cdFx0ZGlzcGxheTogYmxvY2s7XG5cdFx0cGFkZGluZzogMC41ZW07XG5cblx0XHQmOmhvdmVyIHtcblx0XHR9XG5cdH1cbn1cblxuLmxpbmstc3R5bGUtYmxhY2ssIC5saW5rLXN0eWxlLWJsYWNrOnZpc2l0ZWQge1xuXHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0JjphZnRlciB7XG5cdFx0Y29udGVudDogJyc7XG5cdFx0aGVpZ2h0OiAycHg7XG5cdFx0cG9zaXRpb246IGFic29sdXRlO1xuXHRcdGJvdHRvbTogMDtcblx0XHRsZWZ0OiAwO1xuXHRcdHdpZHRoOiAwJTtcblx0XHRiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcblx0XHR0cmFuc2l0aW9uOiAwLjJzO1xuICAgIHotaW5kZXg6IDExMTE7XG5cdH1cblxuXHQmOmhvdmVyOmFmdGVyIHtcblx0XHR3aWR0aDogMTAwJTtcblx0fVxuXG5cdCYuYmxvY2sge1xuXHRcdGRpc3BsYXk6IGJsb2NrO1xuXHRcdHBhZGRpbmc6IDAuNWVtO1xuXG5cdFx0Jjpob3ZlciB7XG5cdFx0fVxuXHR9XG59XG5cblxuLnByZXZpZXdhYmxlLWltYWdlOmhvdmVyIHtcbiAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuICAtd2Via2l0LWZpbHRlcjogZ3JheXNjYWxlKDAlKTtcbn1cbi5wcmV2aWV3YWJsZS1pbWFnZTpob3ZlciB7XG4gIGN1cnNvcjpwb2ludGVyO1xuICB0cmFuc2Zvcm06IHNjYWxlKDEuMDEpO1xuICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMS4wMSk7XG4gIC1tb3otdHJhbnNmb3JtOiBzY2FsZSgxLjAxKTtcbn1cblxuLnByZXZpZXdhYmxlLWltYWdlMjpob3ZlciB7XG4gIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcbiAgLXdlYmtpdC1maWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG59XG4ucHJldmlld2FibGUtaW1hZ2UyOmhvdmVyIHtcbiAgY3Vyc29yOnBvaW50ZXI7XG4gIHRyYW5zZm9ybTogc2NhbGUoMik7XG4gIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgyKTtcbiAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDIpO1xufVxuXG4ubGluay1zdHlsZS1vcmFuZ2U6aG92ZXIge1xuICBjdXJzb3I6cG9pbnRlcjtcbn1cblxuLmxpbmstc3R5bGUtb3JhbmdlLCAubGluay1zdHlsZS1vcmFuZ2U6dmlzaXRlZCB7XG5cdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuICBmb250LXdlaWdodDogNTAwO1xuICBjb2xvcjogdmFyKC0tY29sb3ItYWNjZW50KTtcblx0JjphZnRlciB7XG5cdFx0Y29udGVudDogJyc7XG5cdFx0aGVpZ2h0OiAycHg7XG5cdFx0cG9zaXRpb246IGFic29sdXRlO1xuXHRcdGJvdHRvbTogMDtcblx0XHRsZWZ0OiAwO1xuXHRcdHdpZHRoOiAwJTtcblx0XHRiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1hY2NlbnQpO1xuXHRcdHRyYW5zaXRpb246IDAuMnM7XG4gICAgei1pbmRleDogMTExMTtcblx0fVxuXG5cdCY6aG92ZXI6YWZ0ZXIge1xuXHRcdHdpZHRoOiAxMDAlO1xuXHR9XG5cblx0Ji5ibG9jayB7XG5cdFx0ZGlzcGxheTogYmxvY2s7XG5cdFx0cGFkZGluZzogMC41ZW07XG5cblx0XHQmOmhvdmVyIHtcblx0XHR9XG5cdH1cbn1cblxuXG4ubGVmdC10aXRsZXMge1xuICBtYXJnaW4tYm90dG9tOiAwO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIGZvbnQtd2VpZ2h0OiA1MjA7XG5cbiAgJi0taGlkZGVuIHtcbiAgICBAZXh0ZW5kIC5sZWZ0LXRpdGxlcztcbiAgICBjb2xvcjogdHJhbnNwYXJlbnQ7XG4gIH1cbn1cblxuLnRleHQtYXJlYSB7XG4gIG1hcmdpbi10b3A6IDVweDtcbn1cblxuLmZsb2F0LXJpZ2h0IHtcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xuICBib3R0b206IDA7XG4gIGJvcmRlcjogMDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBkaXNwbGF5OiBibG9jaztcbiAgd2lkdGg6IDMyMHB4O1xuICBoZWlnaHQ6IDE4MHB4O1xuICBtYXJnaW4tcmlnaHQ6IDEwcHg7XG59XG5cbi5pdGVtLXRpdGxlIHtcbiAgbWFyZ2luOiAwO1xuICBtYXJnaW4tYm90dG9tOiAzcHg7XG4gIGZvbnQtd2VpZ2h0OiA1MjA7XG4gIGZvbnQtc2l6ZTogMjBweDtcbn1cblxuLm1hcmdpbi1sZWZ0LXJpZ2h0IHtcbiAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xuICBtYXJnaW4tbGVmdDogMTBweDtcbn1cblxuLml0ZW0tc3VidGl0bGUge1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIGZvbnQtd2VpZ2h0OiA1MjA7XG4gIG1hcmdpbjogMDtcbn1cblxuLmljb24tcmlnaHQtbWFyZ2luIHtcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7XG5cbiAgJi0tbGVmdCB7XG4gICAgQGV4dGVuZCAuaWNvbi1yaWdodC1tYXJnaW47XG4gICAgbWFyZ2luLWxlZnQ6IDQwcHg7XG4gIH1cbn1cblxuLmljb24tcmlnaHQtbWFyZ2luLWNvbG9yIHtcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1hY2NlbnQpO1xuICAmLS1sZWZ0IHtcbiAgICBAZXh0ZW5kIC5pY29uLXJpZ2h0LW1hcmdpbi1jb2xvcjtcbiAgICBtYXJnaW4tbGVmdDogNDBweDtcbiAgfVxufVxuXG4uc2VwYXJhdG9yIHtcbiAgYm9yZGVyOiAwO1xuICBib3JkZXItdG9wOiAycHggZGFzaGVkIHZhcigtLWNvbG9yLWxpZ2h0LWdyZXkpO1xuICB3aWR0aDogMTAwJTtcblxuICAmLS1zbWFsbCB7XG4gICAgQGV4dGVuZCAuc2VwYXJhdG9yO1xuICAgIHdpZHRoOiA4MCU7XG4gIH1cbn1cblxuLnNlcGFyYXRvci1zbGltIHtcbiAgYm9yZGVyOiAwO1xuICBtYXJnaW46IDA7XG4gIGJvcmRlci10b3A6IDJweCBkYXNoZWQgdmFyKC0tY29sb3ItbGlnaHQtZ3JleSk7XG4gIHdpZHRoOiAxMDAlO1xuXG4gICYtLXNtYWxsIHtcbiAgICBAZXh0ZW5kIC5zZXBhcmF0b3Itc2xpbTtcbiAgICB3aWR0aDogODAlO1xuICB9XG59XG5cbi5pdGVtLWNvbnRlbnQge1xuICBtYXJnaW46IDA7XG4gIG1hcmdpbi10b3A6IDNweDtcbn1cblxuLnRleHQtYWxpZ24tY2VudGVyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4udGV4dC1hbGlnbi1sZWZ0IHtcbiAgdGV4dC1hbGlnbjogbGVmdDtcbn1cblxuLmxhcmdlLWJyIHtcbiAgaGVpZ2h0OiAzMDBwdDtcbn1cblxuLnZpc2l0b3Itd2lkZ2V0IHsgbWFyZ2luOiA0OHB4IDAgMjBweDsgcGFkZGluZzogMjhweDsgYm9yZGVyOiAxcHggc29saWQgcmdiYSgxLDExMSwyNTUsLjE0KTsgYm9yZGVyLXJhZGl1czogMThweDsgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDE0NWRlZywjZjdmYmZmLCNmZmYgNTUlLCNmM2Y4ZmYpOyBib3gtc2hhZG93OiAwIDE0cHggMzVweCByZ2JhKDMwLDgwLDE0MCwuMSk7IGNvbG9yOiAjMjYzMjQ2OyB9XG4udmlzaXRvci13aWRnZXRfX2hlYWRpbmcgeyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogZmxleC1zdGFydDsganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOyBnYXA6IDI0cHg7IG1hcmdpbi1ib3R0b206IDIycHg7IH1cbi52aXNpdG9yLXdpZGdldF9faGVhZGluZyBoMiB7IG1hcmdpbjogMnB4IDAgNHB4OyBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7IGZvbnQtc2l6ZTogMjdweDsgZm9udC13ZWlnaHQ6IDUyMDsgfVxuLnZpc2l0b3Itd2lkZ2V0X19oZWFkaW5nIHAgeyBtYXJnaW46IDA7IGNvbG9yOiAjNjk3NDg3OyBmb250LXNpemU6IDE0cHg7IH1cbi52aXNpdG9yLXdpZGdldF9fZXllYnJvdyB7IGNvbG9yOiAjNzc4Mzk5OyBmb250LXNpemU6IDExcHg7IGZvbnQtd2VpZ2h0OiA2MDA7IGxldHRlci1zcGFjaW5nOiAxLjVweDsgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsgfVxuLnZpc2l0b3Itd2lkZ2V0X19saXZlIHsgZGlzcGxheTogaW5saW5lLWZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogN3B4OyBwYWRkaW5nOiA2cHggMTBweDsgYm9yZGVyLXJhZGl1czogOTk5cHg7IGJhY2tncm91bmQ6ICNlYWY4ZWY7IGNvbG9yOiAjMjA4MzQ4OyBmb250LXNpemU6IDEycHg7IGZvbnQtd2VpZ2h0OiA2MDA7IH1cbi52aXNpdG9yLXdpZGdldF9fbGl2ZSBzcGFuIHsgd2lkdGg6IDdweDsgaGVpZ2h0OiA3cHg7IGJvcmRlci1yYWRpdXM6IDUwJTsgYmFja2dyb3VuZDogIzJmYjc2NTsgYm94LXNoYWRvdzogMCAwIDAgNHB4IHJnYmEoNDcsMTgzLDEwMSwuMTQpOyB9XG4udmlzaXRvci1zdW1tYXJ5IHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMyxtaW5tYXgoMCwxZnIpKTsgZ2FwOiAxMnB4OyBtYXJnaW4tYm90dG9tOiAxOHB4OyB9XG4udmlzaXRvci1zdW1tYXJ5X19jYXJkIHsgcGFkZGluZzogMTVweCAxN3B4OyBib3JkZXI6IDFweCBzb2xpZCAjZTRlZGY4OyBib3JkZXItcmFkaXVzOiAxMnB4OyBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwyNTUsMjU1LC44Mik7IH1cbi52aXNpdG9yLXN1bW1hcnlfX2NhcmQgc3BhbiB7IGRpc3BsYXk6IGJsb2NrOyBjb2xvcjogIzdiODc5ODsgZm9udC1zaXplOiAxMnB4OyB9XG4udmlzaXRvci1zdW1tYXJ5X19jYXJkIHN0cm9uZyB7IGRpc3BsYXk6IGJsb2NrOyBtYXJnaW4tdG9wOiAycHg7IGNvbG9yOiAjMWUyZjQ4OyBmb250LXNpemU6IDI0cHg7IGZvbnQtd2VpZ2h0OiA1MjA7IH1cbi52aXNpdG9yLW1hcC1wcmV2aWV3IHsgcG9zaXRpb246IHJlbGF0aXZlOyBvdmVyZmxvdzogaGlkZGVuOyBib3JkZXI6IDFweCBzb2xpZCAjZTJlYmY2OyBib3JkZXItcmFkaXVzOiAxMnB4OyB9XG4udmlzaXRvci1tYXAtcHJldmlld19fbWFwLWxpbmsgeyBkaXNwbGF5OiBibG9jazsgY3Vyc29yOiBwb2ludGVyOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IH1cbi52aXNpdG9yLW1hcC1wcmV2aWV3X19idXR0b24geyBwb3NpdGlvbjogYWJzb2x1dGU7IHJpZ2h0OiAxNHB4OyBib3R0b206IDE0cHg7IHotaW5kZXg6IDUwMDsgcGFkZGluZzogOXB4IDE0cHg7IGJvcmRlci1yYWRpdXM6IDk5OXB4OyBiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1wcmltYXJ5KTsgY29sb3I6IHdoaXRlOyBmb250LXNpemU6IDEzcHg7IGZvbnQtd2VpZ2h0OiA1MDA7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgYm94LXNoYWRvdzogMCA4cHggMjBweCByZ2JhKDEsMTExLDI1NSwuMjUpOyB9XG4udmlzaXRvci13aWRnZXRfX3N0YXRlIHsgcGFkZGluZzogMjRweDsgYm9yZGVyOiAxcHggZGFzaGVkICNjYmQ5ZWE7IGJvcmRlci1yYWRpdXM6IDEycHg7IGNvbG9yOiAjNzM4MDk0OyB0ZXh0LWFsaWduOiBjZW50ZXI7IH1cbi52aXNpdG9yLXdpZGdldF9fcHJpdmFjeSB7IG1hcmdpbjogMTVweCAwIDA7IGNvbG9yOiAjODc5MmEzOyBmb250LXNpemU6IDExcHg7IHRleHQtYWxpZ246IGNlbnRlcjsgfVxuLmNvbW1lbmNlbWVudC12aWRlbyB7IGJhY2tncm91bmQ6ICMwMDA7IG9iamVjdC1maXQ6IGNvbnRhaW47IH1cbkBtZWRpYSAobWF4LXdpZHRoOiA2MDBweCkge1xuICAudmlzaXRvci13aWRnZXQgeyBwYWRkaW5nOiAyMHB4IDE0cHg7IGJvcmRlci1yYWRpdXM6IDE0cHg7IH1cbiAgLnZpc2l0b3Itc3VtbWFyeSB7IGdhcDogN3B4OyB9XG4gIC52aXNpdG9yLXN1bW1hcnlfX2NhcmQgeyBwYWRkaW5nOiAxMnB4IDEwcHg7IH1cbiAgLnZpc2l0b3Itc3VtbWFyeV9fY2FyZCBzdHJvbmcgeyBmb250LXNpemU6IDIwcHg7IH1cbiAgLmNvbW1lbmNlbWVudC12aWRlbyB7IHdpZHRoOiAxMDAlOyBtYXgtaGVpZ2h0OiA3MHZoOyBvYmplY3QtZml0OiBjb250YWluOyB9XG59XG5cblxuLml0ZW0tZGF0ZS1sb2Mge1xuICBtYXJnaW46IDA7XG59XG5cbi51bmRlcmxpbmUtdGl0bGUge1xuICBib3JkZXItYm90dG9tOiAzcHggc29saWQgdmFyKC0tY29sb3ItcHJpbWFyeSk7O1xuXG4gICYtLXRvcCB7XG4gICAgQGV4dGVuZCAudW5kZXJsaW5lLXRpdGxlO1xuICAgIHdpZHRoOiAxMDAlO1xuICB9XG59XG5cbi5pdGVtIHtcbiAgbWFyZ2luOiA1cHggMHB4O1xufVxuXG4uc21hbGwtbWFyZ2luIHtcbiAgbWFyZ2luOiAwcHggNjBweDtcblxuICAmLS14cyB7XG4gICAgQGV4dGVuZCAuc21hbGwtbWFyZ2luO1xuICAgIG1hcmdpbjogMHB4IDEwcHg7XG4gIH1cbn1cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MainPageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1751,7 +1892,7 @@ MainPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                 templateUrl: './main-page.component.html',
                 styleUrls: ['./main-page.component.scss']
             }]
-    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClient"] }, { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_13__["DomSanitizer"] }, { type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MatDialog"] }]; }, null); })();
+    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HttpClient"] }, { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_14__["DomSanitizer"] }, { type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MatDialog"] }]; }, null); })();
 
 
 /***/ }),
@@ -1808,7 +1949,8 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 const environment = {
-    production: false
+    production: false,
+    visitorApiUrl: 'https://sohaib-portfolio-visitors.sohaibcs1.workers.dev'
 };
 /*
  * For easier debugging in development mode, you can import the following file
@@ -1856,6 +1998,286 @@ LAArchImageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
                 styleUrls: ['./laarchimage.component.scss']
             }]
     }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "EmY9":
+/*!******************************************************************!*\
+  !*** ./src/app/visitor-dashboard/visitor-dashboard.component.ts ***!
+  \******************************************************************/
+/*! exports provided: VisitorDashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VisitorDashboardComponent", function() { return VisitorDashboardComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../environments/environment */ "AytR");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _visitor_map_visitor_map_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../visitor-map/visitor-map.component */ "uOk1");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ "ofXK");
+
+
+
+
+
+
+
+
+function VisitorDashboardComponent_button_50_Template(rf, ctx) { if (rf & 1) {
+    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VisitorDashboardComponent_button_50_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5); const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.clearLocation(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Clear ", ctx_r0.selectedLocation.city || ctx_r0.selectedLocation.country, " filter \u00D7");
+} }
+function VisitorDashboardComponent_div_51_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Loading visitor activity\u2026");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function VisitorDashboardComponent_div_52_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "time");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](12, "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const visit_r6 = ctx.$implicit;
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r2.countryFlag(visit_r6.countryCode));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](visit_r6.city || "Unknown city");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](visit_r6.country);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", visit_r6.pageviews, " ", visit_r6.pageviews === 1 ? "page" : "pages", "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](12, 6, visit_r6.visitedAt, "MMM d, y, h:mm a"));
+} }
+function VisitorDashboardComponent_div_53_Template(rf, ctx) { if (rf & 1) {
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VisitorDashboardComponent_div_53_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.previousPage(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Previous");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "button", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VisitorDashboardComponent_div_53_Template_button_click_5_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r9.nextPage(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Next");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx_r3.page === 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("Page ", ctx_r3.page, " of ", ctx_r3.totalPages, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx_r3.page === ctx_r3.totalPages);
+} }
+class VisitorDashboardComponent {
+    constructor(http) {
+        this.http = http;
+        this.days = 30;
+        this.page = 1;
+        this.pageSize = 10;
+        this.totalPages = 1;
+        this.loading = true;
+        this.locations = [];
+        this.visits = [];
+        this.summary = { totalVisits: 0, countries: 0, visitsToday: 0 };
+        this.selectedLocation = null;
+    }
+    ngOnInit() {
+        this.load();
+        this.refreshTimer = setInterval(() => this.load(false), 30000);
+    }
+    ngOnDestroy() { if (this.refreshTimer)
+        clearInterval(this.refreshTimer); }
+    load(showLoading = true) {
+        if (showLoading)
+            this.loading = true;
+        const location = this.selectedLocation ? `&country=${this.selectedLocation.countryCode}&city=${encodeURIComponent(this.selectedLocation.city || '')}` : '';
+        this.http.get(`${_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].visitorApiUrl}/visitor-map?days=${this.days}&page=${this.page}&limit=${this.pageSize}${location}`)
+            .subscribe(data => {
+            this.locations = data.locations;
+            this.visits = data.visits;
+            this.summary = data.summary;
+            this.totalPages = Math.max(1, Math.ceil(data.total / this.pageSize));
+            this.loading = false;
+        }, () => this.loading = false);
+    }
+    changeRange() { this.page = 1; this.selectedLocation = null; this.load(); }
+    selectLocation(location) { this.selectedLocation = location; this.page = 1; this.load(); }
+    clearLocation() { this.selectedLocation = null; this.page = 1; this.load(); }
+    previousPage() { if (this.page > 1) {
+        this.page--;
+        this.load();
+    } }
+    nextPage() { if (this.page < this.totalPages) {
+        this.page++;
+        this.load();
+    } }
+    countryFlag(code) {
+        if (!code || code.length !== 2)
+            return '🌍';
+        return code.toUpperCase().replace(/./g, character => String.fromCodePoint(127397 + character.charCodeAt(0)));
+    }
+}
+VisitorDashboardComponent.ɵfac = function VisitorDashboardComponent_Factory(t) { return new (t || VisitorDashboardComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"])); };
+VisitorDashboardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VisitorDashboardComponent, selectors: [["app-visitor-dashboard"]], decls: 56, vars: 19, consts: [[1, "visitor-dashboard"], ["routerLink", "/", 1, "back-link"], [1, "dashboard-header"], [3, "ngModel", "ngModelChange", "change"], [3, "ngValue"], [1, "dashboard-summary"], [1, "map-card"], [3, "locations", "locationSelected"], [1, "activity-card"], [1, "activity-heading"], [3, "click", 4, "ngIf"], ["class", "loading", 4, "ngIf"], ["class", "visit-row", 4, "ngFor", "ngForOf"], ["class", "pagination", 4, "ngIf"], [1, "privacy-note"], [3, "click"], [1, "loading"], [1, "visit-row"], [1, "flag"], [1, "pagination"], [3, "disabled", "click"]], template: function VisitorDashboardComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "main", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "\u2190 Back to portfolio");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "header", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Global audience");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Visitor Map");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Real visits shown with privacy-safe, approximate locations.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Time period ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "select", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function VisitorDashboardComponent_Template_select_ngModelChange_13_listener($event) { return ctx.days = $event; })("change", function VisitorDashboardComponent_Template_select_change_13_listener() { return ctx.changeRange(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "option", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Today");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "option", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "7 days");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "option", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "30 days");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "option", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "All time");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "section", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Total visits");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](28, "number");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Countries");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](34, "number");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Today");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](40, "number");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "section", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "app-visitor-map", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("locationSelected", function VisitorDashboardComponent_Template_app_visitor_map_locationSelected_42_listener($event) { return ctx.selectLocation($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "section", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Visitor activity");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Recent visits");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](50, VisitorDashboardComponent_button_50_Template, 2, 1, "button", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](51, VisitorDashboardComponent_div_51_Template, 2, 0, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](52, VisitorDashboardComponent_div_52_Template, 13, 9, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](53, VisitorDashboardComponent_div_53_Template, 7, 4, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "p", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Locations are approximate. IP addresses and persistent identifiers are never displayed.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.days);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngValue", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngValue", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngValue", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngValue", 3650);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](28, 13, ctx.summary.totalVisits));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](34, 15, ctx.summary.countries));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](40, 17, ctx.summary.visitsToday));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("locations", ctx.locations);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.selectedLocation);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.loading);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.visits);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.loading);
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["SelectControlValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgModel"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_x"], _visitor_map_visitor_map_component__WEBPACK_IMPORTED_MODULE_5__["VisitorMapComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["DecimalPipe"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["DatePipe"]], styles: [".visitor-dashboard[_ngcontent-%COMP%] {\n  width: min(1120px, calc(100% - 32px));\n  margin: 0 auto;\n  padding: 44px 0 70px;\n  color: #263246;\n}\n\n.back-link[_ngcontent-%COMP%] {\n  color: var(--color-primary);\n  text-decoration: none;\n  font-weight: 500;\n}\n\n.dashboard-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  gap: 24px;\n  margin: 30px 0 22px;\n}\n\n.dashboard-header[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  color: #778399;\n  font-size: 11px;\n  font-weight: 600;\n  letter-spacing: 1.5px;\n  text-transform: uppercase;\n}\n\n.dashboard-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin: 3px 0;\n  color: var(--color-primary);\n  font-size: 42px;\n  font-weight: 520;\n}\n\n.dashboard-header[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  margin: 0;\n  color: #697487;\n}\n\n.dashboard-header[_ngcontent-%COMP%]   label[_ngcontent-%COMP%] {\n  color: #718096;\n  font-size: 12px;\n}\n\n.dashboard-header[_ngcontent-%COMP%]   select[_ngcontent-%COMP%] {\n  display: block;\n  min-width: 145px;\n  margin-top: 5px;\n  padding: 10px 12px;\n  border: 1px solid #d7e3f1;\n  border-radius: 9px;\n  background: white;\n}\n\n.dashboard-summary[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 13px;\n  margin-bottom: 16px;\n}\n\n.dashboard-summary[_ngcontent-%COMP%]   div[_ngcontent-%COMP%], .map-card[_ngcontent-%COMP%], .activity-card[_ngcontent-%COMP%] {\n  border: 1px solid #dce8f6;\n  border-radius: 16px;\n  background: #fff;\n  box-shadow: 0 12px 32px rgba(30, 80, 140, 0.08);\n}\n\n.dashboard-summary[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  padding: 17px 20px;\n}\n\n.dashboard-summary[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: block;\n  color: #7b8798;\n  font-size: 12px;\n}\n\n.dashboard-summary[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  font-size: 27px;\n  font-weight: 520;\n}\n\n.map-card[_ngcontent-%COMP%] {\n  padding: 12px;\n}\n\n.activity-card[_ngcontent-%COMP%] {\n  margin-top: 16px;\n  overflow: hidden;\n}\n\n.activity-heading[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px;\n  border-bottom: 1px solid #edf2f8;\n}\n\n.activity-heading[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  color: #7b8798;\n  font-size: 11px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n\n.activity-heading[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  margin: 2px 0 0;\n  font-size: 22px;\n}\n\n.activity-heading[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  border: 0;\n  border-radius: 999px;\n  padding: 8px 12px;\n  color: var(--color-primary);\n  background: #edf5ff;\n  cursor: pointer;\n}\n\n.visit-row[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: 40px minmax(0, 1fr) auto auto;\n  align-items: center;\n  gap: 12px;\n  padding: 13px 20px;\n  border-bottom: 1px solid #edf2f8;\n}\n\n.visit-row[_ngcontent-%COMP%]   .flag[_ngcontent-%COMP%] {\n  font-size: 25px;\n}\n\n.visit-row[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%], .visit-row[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: block;\n}\n\n.visit-row[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   span[_ngcontent-%COMP%], .visit-row[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%], .visit-row[_ngcontent-%COMP%]   time[_ngcontent-%COMP%] {\n  color: #758196;\n  font-size: 12px;\n}\n\n.loading[_ngcontent-%COMP%] {\n  padding: 35px;\n  text-align: center;\n  color: #758196;\n}\n\n.pagination[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 16px;\n  padding: 18px;\n}\n\n.pagination[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  padding: 8px 14px;\n  border: 1px solid #d7e3f1;\n  border-radius: 8px;\n  background: white;\n  cursor: pointer;\n}\n\n.pagination[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled {\n  opacity: 0.45;\n  cursor: default;\n}\n\n.privacy-note[_ngcontent-%COMP%] {\n  color: #8792a3;\n  font-size: 11px;\n  text-align: center;\n}\n\n@media (max-width: 650px) {\n  .dashboard-header[_ngcontent-%COMP%] {\n    display: block;\n  }\n\n  .dashboard-header[_ngcontent-%COMP%]   label[_ngcontent-%COMP%] {\n    display: block;\n    margin-top: 18px;\n  }\n\n  .dashboard-summary[_ngcontent-%COMP%] {\n    gap: 7px;\n  }\n\n  .dashboard-summary[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n    padding: 13px 10px;\n  }\n\n  .visit-row[_ngcontent-%COMP%] {\n    grid-template-columns: 34px minmax(0, 1fr) auto;\n  }\n\n  .visit-row[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%]:not(.flag) {\n    display: none;\n  }\n\n  .visitor-dashboard[_ngcontent-%COMP%] {\n    padding-top: 25px;\n  }\n\n  .dashboard-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n    font-size: 34px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlzaXRvci1kYXNoYm9hcmQvdmlzaXRvci1kYXNoYm9hcmQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBcUIscUNBQUE7RUFBdUMsY0FBQTtFQUFnQixvQkFBQTtFQUFzQixjQUFBO0FBS2xHOztBQUpBO0VBQWEsMkJBQUE7RUFBNkIscUJBQUE7RUFBdUIsZ0JBQUE7QUFVakU7O0FBVEE7RUFBb0IsYUFBQTtFQUFlLDhCQUFBO0VBQWdDLHFCQUFBO0VBQXVCLFNBQUE7RUFBVyxtQkFBQTtBQWlCckc7O0FBaEJBO0VBQXlCLGNBQUE7RUFBZ0IsZUFBQTtFQUFpQixnQkFBQTtFQUFrQixxQkFBQTtFQUF1Qix5QkFBQTtBQXdCbkc7O0FBdkJBO0VBQXVCLGFBQUE7RUFBZSwyQkFBQTtFQUE2QixlQUFBO0VBQWlCLGdCQUFBO0FBOEJwRjs7QUE3QkE7RUFBc0IsU0FBQTtFQUFXLGNBQUE7QUFrQ2pDOztBQWpDQTtFQUEwQixjQUFBO0VBQWdCLGVBQUE7QUFzQzFDOztBQXJDQTtFQUEyQixjQUFBO0VBQWdCLGdCQUFBO0VBQWtCLGVBQUE7RUFBaUIsa0JBQUE7RUFBb0IseUJBQUE7RUFBMkIsa0JBQUE7RUFBb0IsaUJBQUE7QUErQ2pKOztBQTlDQTtFQUFxQixhQUFBO0VBQWUscUNBQUE7RUFBdUMsU0FBQTtFQUFXLG1CQUFBO0FBcUR0Rjs7QUFwREE7RUFBb0QseUJBQUE7RUFBMkIsbUJBQUE7RUFBcUIsZ0JBQUE7RUFBa0IsK0NBQUE7QUEyRHRIOztBQTFEQTtFQUF5QixrQkFBQTtBQThEekI7O0FBN0RBO0VBQTBCLGNBQUE7RUFBZ0IsY0FBQTtFQUFnQixlQUFBO0FBbUUxRDs7QUFsRUE7RUFBNEIsZUFBQTtFQUFpQixnQkFBQTtBQXVFN0M7O0FBdEVBO0VBQVksYUFBQTtBQTBFWjs7QUF6RUE7RUFBaUIsZ0JBQUE7RUFBa0IsZ0JBQUE7QUE4RW5DOztBQTdFQTtFQUFvQixhQUFBO0VBQWUsOEJBQUE7RUFBZ0MsbUJBQUE7RUFBcUIsYUFBQTtFQUFlLGdDQUFBO0FBcUZ2Rzs7QUFwRkE7RUFBeUIsY0FBQTtFQUFnQixlQUFBO0VBQWlCLHlCQUFBO0VBQTJCLG1CQUFBO0FBMkZyRjs7QUExRkE7RUFBdUIsZUFBQTtFQUFpQixlQUFBO0FBK0Z4Qzs7QUE5RkE7RUFBMkIsU0FBQTtFQUFXLG9CQUFBO0VBQXNCLGlCQUFBO0VBQW1CLDJCQUFBO0VBQTZCLG1CQUFBO0VBQXFCLGVBQUE7QUF1R2pJOztBQXRHQTtFQUFhLGFBQUE7RUFBZSxvREFBQTtFQUFxRCxtQkFBQTtFQUFxQixTQUFBO0VBQVcsa0JBQUE7RUFBb0IsZ0NBQUE7QUErR3JJOztBQTlHQTtFQUFtQixlQUFBO0FBa0huQjs7QUFqSEE7RUFBNkMsY0FBQTtBQXFIN0M7O0FBcEhBO0VBQTBELGNBQUE7RUFBZ0IsZUFBQTtBQXlIMUU7O0FBeEhBO0VBQVcsYUFBQTtFQUFlLGtCQUFBO0VBQW9CLGNBQUE7QUE4SDlDOztBQTdIQTtFQUFjLGFBQUE7RUFBZSx1QkFBQTtFQUF5QixtQkFBQTtFQUFxQixTQUFBO0VBQVcsYUFBQTtBQXFJdEY7O0FBcElBO0VBQXFCLGlCQUFBO0VBQW1CLHlCQUFBO0VBQTJCLGtCQUFBO0VBQW9CLGlCQUFBO0VBQW1CLGVBQUE7QUE0STFHOztBQTNJQTtFQUE4QixhQUFBO0VBQWMsZUFBQTtBQWdKNUM7O0FBL0lBO0VBQWdCLGNBQUE7RUFBZ0IsZUFBQTtFQUFpQixrQkFBQTtBQXFKakQ7O0FBcEpBO0VBQXdCO0lBQWtCLGNBQUE7RUF5SnhDOztFQXpKc0Q7SUFBd0IsY0FBQTtJQUFjLGdCQUFBO0VBOEo1Rjs7RUE5SjRHO0lBQW1CLFFBQUE7RUFrSy9IOztFQWxLdUk7SUFBdUIsa0JBQUE7RUFzSzlKOztFQXRLZ0w7SUFBVywrQ0FBQTtFQTBLM0w7O0VBMUt5TztJQUEyQixhQUFBO0VBOEtwUTs7RUE5S2lSO0lBQW1CLGlCQUFBO0VBa0xwUzs7RUFsTHFUO0lBQXFCLGVBQUE7RUFzTDFVO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC92aXNpdG9yLWRhc2hib2FyZC92aXNpdG9yLWRhc2hib2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi52aXNpdG9yLWRhc2hib2FyZCB7IHdpZHRoOiBtaW4oMTEyMHB4LCBjYWxjKDEwMCUgLSAzMnB4KSk7IG1hcmdpbjogMCBhdXRvOyBwYWRkaW5nOiA0NHB4IDAgNzBweDsgY29sb3I6ICMyNjMyNDY7IH1cbi5iYWNrLWxpbmsgeyBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZm9udC13ZWlnaHQ6IDUwMDsgfVxuLmRhc2hib2FyZC1oZWFkZXIgeyBkaXNwbGF5OiBmbGV4OyBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47IGFsaWduLWl0ZW1zOiBmbGV4LWVuZDsgZ2FwOiAyNHB4OyBtYXJnaW46IDMwcHggMCAyMnB4OyB9XG4uZGFzaGJvYXJkLWhlYWRlciBzcGFuIHsgY29sb3I6ICM3NzgzOTk7IGZvbnQtc2l6ZTogMTFweDsgZm9udC13ZWlnaHQ6IDYwMDsgbGV0dGVyLXNwYWNpbmc6IDEuNXB4OyB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOyB9XG4uZGFzaGJvYXJkLWhlYWRlciBoMSB7IG1hcmdpbjogM3B4IDA7IGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTsgZm9udC1zaXplOiA0MnB4OyBmb250LXdlaWdodDogNTIwOyB9XG4uZGFzaGJvYXJkLWhlYWRlciBwIHsgbWFyZ2luOiAwOyBjb2xvcjogIzY5NzQ4NzsgfVxuLmRhc2hib2FyZC1oZWFkZXIgbGFiZWwgeyBjb2xvcjogIzcxODA5NjsgZm9udC1zaXplOiAxMnB4OyB9XG4uZGFzaGJvYXJkLWhlYWRlciBzZWxlY3QgeyBkaXNwbGF5OiBibG9jazsgbWluLXdpZHRoOiAxNDVweDsgbWFyZ2luLXRvcDogNXB4OyBwYWRkaW5nOiAxMHB4IDEycHg7IGJvcmRlcjogMXB4IHNvbGlkICNkN2UzZjE7IGJvcmRlci1yYWRpdXM6IDlweDsgYmFja2dyb3VuZDogd2hpdGU7IH1cbi5kYXNoYm9hcmQtc3VtbWFyeSB7IGRpc3BsYXk6IGdyaWQ7IGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDMsIDFmcik7IGdhcDogMTNweDsgbWFyZ2luLWJvdHRvbTogMTZweDsgfVxuLmRhc2hib2FyZC1zdW1tYXJ5IGRpdiwgLm1hcC1jYXJkLCAuYWN0aXZpdHktY2FyZCB7IGJvcmRlcjogMXB4IHNvbGlkICNkY2U4ZjY7IGJvcmRlci1yYWRpdXM6IDE2cHg7IGJhY2tncm91bmQ6ICNmZmY7IGJveC1zaGFkb3c6IDAgMTJweCAzMnB4IHJnYmEoMzAsODAsMTQwLC4wOCk7IH1cbi5kYXNoYm9hcmQtc3VtbWFyeSBkaXYgeyBwYWRkaW5nOiAxN3B4IDIwcHg7IH1cbi5kYXNoYm9hcmQtc3VtbWFyeSBzcGFuIHsgZGlzcGxheTogYmxvY2s7IGNvbG9yOiAjN2I4Nzk4OyBmb250LXNpemU6IDEycHg7IH1cbi5kYXNoYm9hcmQtc3VtbWFyeSBzdHJvbmcgeyBmb250LXNpemU6IDI3cHg7IGZvbnQtd2VpZ2h0OiA1MjA7IH1cbi5tYXAtY2FyZCB7IHBhZGRpbmc6IDEycHg7IH1cbi5hY3Rpdml0eS1jYXJkIHsgbWFyZ2luLXRvcDogMTZweDsgb3ZlcmZsb3c6IGhpZGRlbjsgfVxuLmFjdGl2aXR5LWhlYWRpbmcgeyBkaXNwbGF5OiBmbGV4OyBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47IGFsaWduLWl0ZW1zOiBjZW50ZXI7IHBhZGRpbmc6IDIwcHg7IGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZWRmMmY4OyB9XG4uYWN0aXZpdHktaGVhZGluZyBzcGFuIHsgY29sb3I6ICM3Yjg3OTg7IGZvbnQtc2l6ZTogMTFweDsgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsgbGV0dGVyLXNwYWNpbmc6IDFweDsgfVxuLmFjdGl2aXR5LWhlYWRpbmcgaDIgeyBtYXJnaW46IDJweCAwIDA7IGZvbnQtc2l6ZTogMjJweDsgfVxuLmFjdGl2aXR5LWhlYWRpbmcgYnV0dG9uIHsgYm9yZGVyOiAwOyBib3JkZXItcmFkaXVzOiA5OTlweDsgcGFkZGluZzogOHB4IDEycHg7IGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTsgYmFja2dyb3VuZDogI2VkZjVmZjsgY3Vyc29yOiBwb2ludGVyOyB9XG4udmlzaXQtcm93IHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA0MHB4IG1pbm1heCgwLDFmcikgYXV0byBhdXRvOyBhbGlnbi1pdGVtczogY2VudGVyOyBnYXA6IDEycHg7IHBhZGRpbmc6IDEzcHggMjBweDsgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlZGYyZjg7IH1cbi52aXNpdC1yb3cgLmZsYWcgeyBmb250LXNpemU6IDI1cHg7IH1cbi52aXNpdC1yb3cgZGl2IHN0cm9uZywgLnZpc2l0LXJvdyBkaXYgc3BhbiB7IGRpc3BsYXk6IGJsb2NrOyB9XG4udmlzaXQtcm93IGRpdiBzcGFuLCAudmlzaXQtcm93ID4gc3BhbiwgLnZpc2l0LXJvdyB0aW1lIHsgY29sb3I6ICM3NTgxOTY7IGZvbnQtc2l6ZTogMTJweDsgfVxuLmxvYWRpbmcgeyBwYWRkaW5nOiAzNXB4OyB0ZXh0LWFsaWduOiBjZW50ZXI7IGNvbG9yOiAjNzU4MTk2OyB9XG4ucGFnaW5hdGlvbiB7IGRpc3BsYXk6IGZsZXg7IGp1c3RpZnktY29udGVudDogY2VudGVyOyBhbGlnbi1pdGVtczogY2VudGVyOyBnYXA6IDE2cHg7IHBhZGRpbmc6IDE4cHg7IH1cbi5wYWdpbmF0aW9uIGJ1dHRvbiB7IHBhZGRpbmc6IDhweCAxNHB4OyBib3JkZXI6IDFweCBzb2xpZCAjZDdlM2YxOyBib3JkZXItcmFkaXVzOiA4cHg7IGJhY2tncm91bmQ6IHdoaXRlOyBjdXJzb3I6IHBvaW50ZXI7IH1cbi5wYWdpbmF0aW9uIGJ1dHRvbjpkaXNhYmxlZCB7IG9wYWNpdHk6IC40NTsgY3Vyc29yOiBkZWZhdWx0OyB9XG4ucHJpdmFjeS1ub3RlIHsgY29sb3I6ICM4NzkyYTM7IGZvbnQtc2l6ZTogMTFweDsgdGV4dC1hbGlnbjogY2VudGVyOyB9XG5AbWVkaWEobWF4LXdpZHRoOjY1MHB4KXsuZGFzaGJvYXJkLWhlYWRlcntkaXNwbGF5OmJsb2NrfS5kYXNoYm9hcmQtaGVhZGVyIGxhYmVse2Rpc3BsYXk6YmxvY2s7bWFyZ2luLXRvcDoxOHB4fS5kYXNoYm9hcmQtc3VtbWFyeXtnYXA6N3B4fS5kYXNoYm9hcmQtc3VtbWFyeSBkaXZ7cGFkZGluZzoxM3B4IDEwcHh9LnZpc2l0LXJvd3tncmlkLXRlbXBsYXRlLWNvbHVtbnM6MzRweCBtaW5tYXgoMCwxZnIpIGF1dG99LnZpc2l0LXJvdz5zcGFuOm5vdCguZmxhZyl7ZGlzcGxheTpub25lfS52aXNpdG9yLWRhc2hib2FyZHtwYWRkaW5nLXRvcDoyNXB4fS5kYXNoYm9hcmQtaGVhZGVyIGgxe2ZvbnQtc2l6ZTozNHB4fX1cbiJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VisitorDashboardComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-visitor-dashboard',
+                templateUrl: './visitor-dashboard.component.html',
+                styleUrls: ['./visitor-dashboard.component.scss']
+            }]
+    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }]; }, null); })();
 
 
 /***/ }),
@@ -1909,39 +2331,60 @@ PreTrainImageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.component */ "fECr");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "tyNb");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
+/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./header/header.component */ "fECr");
 
 
 
 
 
+
+
+
+function AppComponent_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-header");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("elevation", ctx_r0.scrolled);
+} }
 class AppComponent {
-    constructor() {
+    constructor(router) {
+        this.router = router;
         this.title = 'sohaib';
         this.scrolled = false;
+        this.isVisitorPage = false;
+        this.updatePageLayout(this.router.url);
+        this.router.events.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["filter"])(event => event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]))
+            .subscribe((event) => this.updatePageLayout(event.urlAfterRedirects));
     }
     onWindowScroll(event) {
         this.scrolled = window.scrollY > 50;
     }
+    updatePageLayout(url) {
+        this.isVisitorPage = url.split('?')[0] === '/visitors';
+    }
 }
-AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 2, consts: [[3, "scroll"], [1, "header"], ["id", "main"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 5, vars: 3, consts: [[3, "scroll"], ["class", "header", 3, "elevation", 4, "ngIf"], ["id", "main"], [1, "header"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scroll", function AppComponent_Template_div_scroll_0_listener($event) { return ctx.onWindowScroll($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_div_1_Template, 2, 2, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "router-outlet");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "app-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-footer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("elevation", ctx.scrolled);
-    } }, directives: [_header_header_component__WEBPACK_IMPORTED_MODULE_1__["HeaderComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], styles: ["#main[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n  clear: both;\n  margin-top: 2em;\n  padding-left: 1em;\n  padding-right: 1em;\n}\n\n.header[_ngcontent-%COMP%] {\n  position: sticky;\n  position: -webkit-sticky;\n  \n  top: 0;\n  \n  z-index: 1000;\n  \n  height: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNGOztBQUVBO0VBQ0UsZ0JBQUE7RUFDQSx3QkFBQTtFQUEwQix5QkFBQTtFQUMxQixNQUFBO0VBQVEseUNBQUE7RUFDUixhQUFBO0VBQWUsK0RBQUE7RUFDZixZQUFBO0FBSUYiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbntcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbiAgY2xlYXI6IGJvdGg7XG4gIG1hcmdpbi10b3A6IDJlbTtcbiAgcGFkZGluZy1sZWZ0OiAxZW07XG4gIHBhZGRpbmctcmlnaHQ6IDFlbTtcbn1cblxuLmhlYWRlciB7XG4gIHBvc2l0aW9uOiBzdGlja3k7XG4gIHBvc2l0aW9uOiAtd2Via2l0LXN0aWNreTsgLyogRm9yIG1hY09TL2lPUyBTYWZhcmkgKi9cbiAgdG9wOiAwOyAvKiBTZXRzIHRoZSBzdGlja3kgdG9vbGJhciB0byBiZSBvbiB0b3AgKi9cbiAgei1pbmRleDogMTAwMDsgLyogRW5zdXJlIHRoYXQgeW91ciBhcHAncyBjb250ZW50IGRvZXNuJ3Qgb3ZlcmxhcCB0aGUgdG9vbGJhciAqL1xuICBoZWlnaHQ6IGF1dG87XG59XG4iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isVisitorPage);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("visitor-page-main", ctx.isVisitorPage);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__["FooterComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"]], styles: ["#main[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n  clear: both;\n  margin-top: 2em;\n  padding-left: 1em;\n  padding-right: 1em;\n}\n\n.header[_ngcontent-%COMP%] {\n  position: sticky;\n  position: -webkit-sticky;\n  \n  top: 0;\n  \n  z-index: 1000;\n  \n  height: auto;\n}\n\n#main.visitor-page-main[_ngcontent-%COMP%] {\n  margin-top: 0;\n  padding-left: 0;\n  padding-right: 0;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNGOztBQUVBO0VBQ0UsZ0JBQUE7RUFDQSx3QkFBQTtFQUEwQix5QkFBQTtFQUMxQixNQUFBO0VBQVEseUNBQUE7RUFDUixhQUFBO0VBQWUsK0RBQUE7RUFDZixZQUFBO0FBSUY7O0FBREE7RUFBMEIsYUFBQTtFQUFlLGVBQUE7RUFBaUIsZ0JBQUE7QUFPMUQiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbntcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbiAgY2xlYXI6IGJvdGg7XG4gIG1hcmdpbi10b3A6IDJlbTtcbiAgcGFkZGluZy1sZWZ0OiAxZW07XG4gIHBhZGRpbmctcmlnaHQ6IDFlbTtcbn1cblxuLmhlYWRlciB7XG4gIHBvc2l0aW9uOiBzdGlja3k7XG4gIHBvc2l0aW9uOiAtd2Via2l0LXN0aWNreTsgLyogRm9yIG1hY09TL2lPUyBTYWZhcmkgKi9cbiAgdG9wOiAwOyAvKiBTZXRzIHRoZSBzdGlja3kgdG9vbGJhciB0byBiZSBvbiB0b3AgKi9cbiAgei1pbmRleDogMTAwMDsgLyogRW5zdXJlIHRoYXQgeW91ciBhcHAncyBjb250ZW50IGRvZXNuJ3Qgb3ZlcmxhcCB0aGUgdG9vbGJhciAqL1xuICBoZWlnaHQ6IGF1dG87XG59XG5cbiNtYWluLnZpc2l0b3ItcGFnZS1tYWluIHsgbWFyZ2luLXRvcDogMDsgcGFkZGluZy1sZWZ0OiAwOyBwYWRkaW5nLXJpZ2h0OiAwOyB9XG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1949,7 +2392,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
                 templateUrl: './app.component.html',
                 styleUrls: ['./app.component.scss']
             }]
-    }], function () { return []; }, null); })();
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }]; }, null); })();
 
 
 /***/ }),
@@ -1999,6 +2442,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _multiconfimage_multiconfimage_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./multiconfimage/multiconfimage.component */ "wfxU");
 /* harmony import */ var _byolimage_byolimage_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./byolimage/byolimage.component */ "mPSg");
 /* harmony import */ var _equibindimage_equibindimage_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./equibindimage/equibindimage.component */ "91xG");
+/* harmony import */ var _visitor_map_visitor_map_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./visitor-map/visitor-map.component */ "uOk1");
+/* harmony import */ var _visitor_dashboard_visitor_dashboard_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./visitor-dashboard/visitor-dashboard.component */ "EmY9");
+
+
 
 
 
@@ -2060,6 +2507,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _angular_material_form_field__WEBPACK_IMPORTED_MODULE_26__["MatFormFieldModule"],
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_27__["ReactiveFormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_27__["FormsModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_20__["HttpClientModule"],
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["NoopAnimationsModule"],
             _angular_material_input__WEBPACK_IMPORTED_MODULE_28__["MatInputModule"],
@@ -2078,7 +2526,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _laarchimage_laarchimage_component__WEBPACK_IMPORTED_MODULE_31__["LAArchImageComponent"],
         _multiconfimage_multiconfimage_component__WEBPACK_IMPORTED_MODULE_32__["MultiConfImageComponent"],
         _byolimage_byolimage_component__WEBPACK_IMPORTED_MODULE_33__["BYOLImageComponent"],
-        _equibindimage_equibindimage_component__WEBPACK_IMPORTED_MODULE_34__["EquiBindImageComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _equibindimage_equibindimage_component__WEBPACK_IMPORTED_MODULE_34__["EquiBindImageComponent"],
+        _visitor_map_visitor_map_component__WEBPACK_IMPORTED_MODULE_35__["VisitorMapComponent"],
+        _visitor_dashboard_visitor_dashboard_component__WEBPACK_IMPORTED_MODULE_36__["VisitorDashboardComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_20__["HttpClientModule"],
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
         _angular_material_slider__WEBPACK_IMPORTED_MODULE_4__["MatSliderModule"],
@@ -2099,6 +2549,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _angular_material_form_field__WEBPACK_IMPORTED_MODULE_26__["MatFormFieldModule"],
         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_27__["ReactiveFormsModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_27__["FormsModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_20__["HttpClientModule"],
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["NoopAnimationsModule"],
         _angular_material_input__WEBPACK_IMPORTED_MODULE_28__["MatInputModule"],
@@ -2120,7 +2571,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _laarchimage_laarchimage_component__WEBPACK_IMPORTED_MODULE_31__["LAArchImageComponent"],
                     _multiconfimage_multiconfimage_component__WEBPACK_IMPORTED_MODULE_32__["MultiConfImageComponent"],
                     _byolimage_byolimage_component__WEBPACK_IMPORTED_MODULE_33__["BYOLImageComponent"],
-                    _equibindimage_equibindimage_component__WEBPACK_IMPORTED_MODULE_34__["EquiBindImageComponent"]
+                    _equibindimage_equibindimage_component__WEBPACK_IMPORTED_MODULE_34__["EquiBindImageComponent"],
+                    _visitor_map_visitor_map_component__WEBPACK_IMPORTED_MODULE_35__["VisitorMapComponent"],
+                    _visitor_dashboard_visitor_dashboard_component__WEBPACK_IMPORTED_MODULE_36__["VisitorDashboardComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -2144,6 +2597,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _angular_material_form_field__WEBPACK_IMPORTED_MODULE_26__["MatFormFieldModule"],
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                     _angular_forms__WEBPACK_IMPORTED_MODULE_27__["ReactiveFormsModule"],
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_27__["FormsModule"],
                     _angular_common_http__WEBPACK_IMPORTED_MODULE_20__["HttpClientModule"],
                     _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["NoopAnimationsModule"],
                     _angular_material_input__WEBPACK_IMPORTED_MODULE_28__["MatInputModule"],
@@ -7420,6 +7874,12 @@ class HeaderComponent {
     }
     ngOnInit() {
     }
+    scrollToSection(event, sectionId) {
+        event.preventDefault();
+        const section = document.getElementById(sectionId);
+        if (section)
+            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
     goToLink(event, url) {
         if (event.button === 0 || event.button === 1) {
             window.open(url, '_blank');
@@ -7449,7 +7909,36 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 0, vars: 0, template: function HeaderComponent_Template(rf, ctx) { }, styles: [".mat-button[_ngcontent-%COMP%] {\n  font-size: 18px;\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.mat-button[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  background-color: var(--color-primary);\n  color: white;\n}\n\n.icon[_ngcontent-%COMP%] {\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.icon[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  color: white;\n}\n\n.button-hover[_ngcontent-%COMP%] {\n  font-size: 30px;\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.button-hover[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  background-color: var(--color-primary);\n  color: white;\n}\n\n.small-button-hover[_ngcontent-%COMP%] {\n  font-size: 20px;\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.small-button-hover[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  background-color: var(--color-primary);\n  color: white;\n}\n\n.smaller[_ngcontent-%COMP%] {\n  height: 40px;\n}\n\nmat-toolbar[_ngcontent-%COMP%] {\n  background-color: white;\n  height: 56px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQkE7RUFDRSxlQUFBO0VBQ0EseUJBQUE7RUFDQSwyQkFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLDJCQUFBO0FBbEJGOztBQXFCQTtFQUNFLHlCQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSxlQUFBO0VBQ0EseUJBQUE7RUFDQSwyQkFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSxlQUFBO0VBQ0EseUJBQUE7RUFDQSwyQkFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSxZQUFBO0FBbEJGOztBQXFCQTtFQUNFLHVCQUFBO0VBQ0EsWUFBQTtBQWxCRiIsImZpbGUiOiJzcmMvYXBwL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvLy5tYXQtYnV0dG9uIHtcbi8vICBjb2xvcjogd2hpdGU7O1xuLy99XG4vL1xuLy8uaWNvbiB7XG4vLyAgZm9udC1zaXplOiAyN3B4O1xuLy8gIGNvbG9yOiB3aGl0ZTtcbi8vfVxuLy9cbi8vLmZsZXgtc3BhY2VyIHtcbi8vICBmbGV4OiAxIDEgYXV0bztcbi8vfVxuLy9cbi8vbWF0LXRvb2xiYXIge1xuLy8gIGhlaWdodDogNTZweDtcbi8vICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbi8vfVxuXG5cbi5tYXQtYnV0dG9uIHtcbiAgZm9udC1zaXplOiAxOHB4O1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG59XG5cbi5tYXQtYnV0dG9uOmhvdmVyIHtcbiAgdHJhbnNpdGlvbi1kdXJhdGlvbjogMC4ycztcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cblxuLmljb24ge1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG59XG5cbi5pY29uOmhvdmVyIHtcbiAgdHJhbnNpdGlvbi1kdXJhdGlvbjogMC4ycztcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4uYnV0dG9uLWhvdmVyIHtcbiAgZm9udC1zaXplOiAzMHB4O1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG59XG5cbi5idXR0b24taG92ZXI6aG92ZXIge1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4uc21hbGwtYnV0dG9uLWhvdmVyIHtcbiAgZm9udC1zaXplOiAyMHB4O1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7XG59XG5cbi5zbWFsbC1idXR0b24taG92ZXI6aG92ZXIge1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4uc21hbGxlciB7XG4gIGhlaWdodDogNDBweDtcbn1cblxubWF0LXRvb2xiYXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgaGVpZ2h0OiA1NnB4O1xufVxuIl19 */"] });
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 14, vars: 0, consts: [["aria-label", "Portfolio navigation", 1, "site-nav"], ["href", "#home", 1, "nav-brand", 3, "click"], [1, "nav-links"], ["href", "#papers", 3, "click"], ["href", "#education", 3, "click"], ["href", "#experience", 3, "click"], ["href", "#projects", 3, "click"], ["href", "#activities", 3, "click"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_1_listener($event) { return ctx.scrollToSection($event, "home"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Muhammad Sohaib");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_4_listener($event) { return ctx.scrollToSection($event, "papers"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_6_listener($event) { return ctx.scrollToSection($event, "education"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Education");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_8_listener($event) { return ctx.scrollToSection($event, "experience"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Experience");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_10_listener($event) { return ctx.scrollToSection($event, "projects"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Projects");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_12_listener($event) { return ctx.scrollToSection($event, "activities"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Activities");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: [".mat-button[_ngcontent-%COMP%] {\n  font-size: 18px;\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.mat-button[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  background-color: var(--color-primary);\n  color: white;\n}\n\n.icon[_ngcontent-%COMP%] {\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.icon[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  color: white;\n}\n\n.button-hover[_ngcontent-%COMP%] {\n  font-size: 30px;\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.button-hover[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  background-color: var(--color-primary);\n  color: white;\n}\n\n.small-button-hover[_ngcontent-%COMP%] {\n  font-size: 20px;\n  transition-duration: 0.2s;\n  color: var(--color-primary);\n}\n\n.small-button-hover[_ngcontent-%COMP%]:hover {\n  transition-duration: 0.2s;\n  background-color: var(--color-primary);\n  color: white;\n}\n\n.smaller[_ngcontent-%COMP%] {\n  height: 40px;\n}\n\nmat-toolbar[_ngcontent-%COMP%] {\n  background-color: white;\n  height: 56px;\n}\n\n.site-nav[_ngcontent-%COMP%] {\n  min-height: 70px;\n  padding: 0 5%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 28px;\n  background: rgba(255, 255, 255, 0.97);\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);\n}\n\n.nav-brand[_ngcontent-%COMP%] {\n  flex: 0 0 auto;\n  color: var(--color-primary);\n  font-size: 22px;\n  font-weight: 600;\n  text-decoration: none;\n}\n\n.nav-links[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  gap: clamp(18px, 3vw, 42px);\n}\n\n.nav-links[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #263246;\n  font-size: 15px;\n  font-weight: 500;\n  text-decoration: none;\n  transition: color 0.2s;\n}\n\n.nav-links[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: var(--color-primary);\n}\n\n@media (max-width: 700px) {\n  .site-nav[_ngcontent-%COMP%] {\n    min-height: auto;\n    padding: 12px 16px;\n    flex-direction: column;\n    gap: 10px;\n  }\n\n  .nav-links[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: space-between;\n    gap: 8px;\n    overflow-x: auto;\n  }\n\n  .nav-links[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n    flex: 0 0 auto;\n    font-size: 12px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQkE7RUFDRSxlQUFBO0VBQ0EseUJBQUE7RUFDQSwyQkFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLDJCQUFBO0FBbEJGOztBQXFCQTtFQUNFLHlCQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSxlQUFBO0VBQ0EseUJBQUE7RUFDQSwyQkFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSxlQUFBO0VBQ0EseUJBQUE7RUFDQSwyQkFBQTtBQWxCRjs7QUFxQkE7RUFDRSx5QkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFDRSxZQUFBO0FBbEJGOztBQXFCQTtFQUNFLHVCQUFBO0VBQ0EsWUFBQTtBQWxCRjs7QUFxQkE7RUFBWSxnQkFBQTtFQUFrQixhQUFBO0VBQWUsYUFBQTtFQUFlLG1CQUFBO0VBQXFCLDhCQUFBO0VBQWdDLFNBQUE7RUFBVyxxQ0FBQTtFQUFtQyx5Q0FBQTtBQVYvSjs7QUFXQTtFQUFhLGNBQUE7RUFBZ0IsMkJBQUE7RUFBNkIsZUFBQTtFQUFpQixnQkFBQTtFQUFrQixxQkFBQTtBQUg3Rjs7QUFJQTtFQUFhLGFBQUE7RUFBZSxtQkFBQTtFQUFxQix5QkFBQTtFQUEyQiwyQkFBQTtBQUc1RTs7QUFGQTtFQUFlLGNBQUE7RUFBZ0IsZUFBQTtFQUFpQixnQkFBQTtFQUFrQixxQkFBQTtFQUF1QixzQkFBQTtBQVV6Rjs7QUFUQTtFQUFxQiwyQkFBQTtBQWFyQjs7QUFaQTtFQUNFO0lBQVksZ0JBQUE7SUFBa0Isa0JBQUE7SUFBb0Isc0JBQUE7SUFBd0IsU0FBQTtFQW1CMUU7O0VBbEJBO0lBQWEsV0FBQTtJQUFhLDhCQUFBO0lBQWdDLFFBQUE7SUFBVSxnQkFBQTtFQXlCcEU7O0VBeEJBO0lBQWUsY0FBQTtJQUFnQixlQUFBO0VBNkIvQjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi8vLm1hdC1idXR0b24ge1xuLy8gIGNvbG9yOiB3aGl0ZTs7XG4vL31cbi8vXG4vLy5pY29uIHtcbi8vICBmb250LXNpemU6IDI3cHg7XG4vLyAgY29sb3I6IHdoaXRlO1xuLy99XG4vL1xuLy8uZmxleC1zcGFjZXIge1xuLy8gIGZsZXg6IDEgMSBhdXRvO1xuLy99XG4vL1xuLy9tYXQtdG9vbGJhciB7XG4vLyAgaGVpZ2h0OiA1NnB4O1xuLy8gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLXByaW1hcnkpO1xuLy99XG5cblxuLm1hdC1idXR0b24ge1xuICBmb250LXNpemU6IDE4cHg7XG4gIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMnM7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbn1cblxuLm1hdC1idXR0b246aG92ZXIge1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4uaWNvbiB7XG4gIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMnM7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbn1cblxuLmljb246aG92ZXIge1xuICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjJzO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbi5idXR0b24taG92ZXIge1xuICBmb250LXNpemU6IDMwcHg7XG4gIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMnM7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbn1cblxuLmJ1dHRvbi1ob3Zlcjpob3ZlciB7XG4gIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMnM7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLXByaW1hcnkpO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbi5zbWFsbC1idXR0b24taG92ZXIge1xuICBmb250LXNpemU6IDIwcHg7XG4gIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMnM7XG4gIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbn1cblxuLnNtYWxsLWJ1dHRvbi1ob3Zlcjpob3ZlciB7XG4gIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMnM7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLXByaW1hcnkpO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbi5zbWFsbGVyIHtcbiAgaGVpZ2h0OiA0MHB4O1xufVxuXG5tYXQtdG9vbGJhciB7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICBoZWlnaHQ6IDU2cHg7XG59XG5cbi5zaXRlLW5hdiB7IG1pbi1oZWlnaHQ6IDcwcHg7IHBhZGRpbmc6IDAgNSU7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsgZ2FwOiAyOHB4OyBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwyNTUsMjU1LC45Nyk7IGJveC1zaGFkb3c6IDAgMnB4IDhweCByZ2JhKDAsMCwwLC4xNik7IH1cbi5uYXYtYnJhbmQgeyBmbGV4OiAwIDAgYXV0bzsgY29sb3I6IHZhcigtLWNvbG9yLXByaW1hcnkpOyBmb250LXNpemU6IDIycHg7IGZvbnQtd2VpZ2h0OiA2MDA7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgfVxuLm5hdi1saW5rcyB7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7IGdhcDogY2xhbXAoMThweCwzdncsNDJweCk7IH1cbi5uYXYtbGlua3MgYSB7IGNvbG9yOiAjMjYzMjQ2OyBmb250LXNpemU6IDE1cHg7IGZvbnQtd2VpZ2h0OiA1MDA7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgdHJhbnNpdGlvbjogY29sb3IgLjJzOyB9XG4ubmF2LWxpbmtzIGE6aG92ZXIgeyBjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7IH1cbkBtZWRpYSAobWF4LXdpZHRoOiA3MDBweCkge1xuICAuc2l0ZS1uYXYgeyBtaW4taGVpZ2h0OiBhdXRvOyBwYWRkaW5nOiAxMnB4IDE2cHg7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IGdhcDogMTBweDsgfVxuICAubmF2LWxpbmtzIHsgd2lkdGg6IDEwMCU7IGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsgZ2FwOiA4cHg7IG92ZXJmbG93LXg6IGF1dG87IH1cbiAgLm5hdi1saW5rcyBhIHsgZmxleDogMCAwIGF1dG87IGZvbnQtc2l6ZTogMTJweDsgfVxufVxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HeaderComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -7576,6 +8065,158 @@ BYOLImageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 
 /***/ }),
 
+/***/ "uOk1":
+/*!******************************************************!*\
+  !*** ./src/app/visitor-map/visitor-map.component.ts ***!
+  \******************************************************/
+/*! exports provided: VisitorMapComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VisitorMapComponent", function() { return VisitorMapComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! leaflet */ "4R65");
+/* harmony import */ var leaflet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(leaflet__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const _c0 = ["mapContainer"];
+class VisitorMapComponent {
+    constructor() {
+        this.locations = [];
+        this.compact = false;
+        this.locationSelected = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.hasFittedLocations = false;
+    }
+    ngAfterViewInit() {
+        this.map = leaflet__WEBPACK_IMPORTED_MODULE_1__["map"](this.mapContainer.nativeElement, {
+            center: [20, 0],
+            zoom: this.compact ? 1 : 2,
+            minZoom: 1,
+            maxZoom: 8,
+            dragging: !this.compact,
+            scrollWheelZoom: !this.compact,
+            doubleClickZoom: !this.compact,
+            touchZoom: !this.compact,
+            zoomControl: !this.compact,
+            worldCopyJump: true
+        });
+        leaflet__WEBPACK_IMPORTED_MODULE_1__["tileLayer"]('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 18
+        }).addTo(this.map);
+        this.markerLayer = leaflet__WEBPACK_IMPORTED_MODULE_1__["layerGroup"]().addTo(this.map);
+        this.map.on('zoomend', () => this.renderMarkers());
+        this.renderMarkers();
+        setTimeout(() => this.map.invalidateSize(), 0);
+    }
+    ngOnChanges(changes) {
+        if (changes.locations && this.map)
+            this.renderMarkers();
+    }
+    ngOnDestroy() {
+        if (this.map)
+            this.map.remove();
+    }
+    renderMarkers() {
+        if (!this.markerLayer)
+            return;
+        this.markerLayer.clearLayers();
+        this.clusterLocations().forEach(cluster => {
+            const size = Math.min(54, 30 + Math.sqrt(cluster.visits) * 2.2);
+            const icon = leaflet__WEBPACK_IMPORTED_MODULE_1__["divIcon"]({
+                className: 'visitor-cluster-marker',
+                html: `<span>${cluster.visits}</span>`,
+                iconSize: [size, size],
+                iconAnchor: [size / 2, size / 2]
+            });
+            const marker = leaflet__WEBPACK_IMPORTED_MODULE_1__["marker"]([cluster.latitude, cluster.longitude], { icon });
+            marker.bindTooltip(this.clusterLabel(cluster), { direction: 'top', offset: [0, -size / 2] });
+            marker.on('click', () => {
+                if (this.compact)
+                    return;
+                if (cluster.locations.length === 1) {
+                    this.locationSelected.emit(cluster.locations[0]);
+                }
+                else {
+                    this.map.setView([cluster.latitude, cluster.longitude], Math.min(7, this.map.getZoom() + 2));
+                }
+            });
+            marker.addTo(this.markerLayer);
+        });
+        this.fitDetailedMapOnce();
+    }
+    fitDetailedMapOnce() {
+        if (this.compact || this.hasFittedLocations || !this.locations || !this.locations.length)
+            return;
+        const coordinates = this.locations
+            .map(location => [Number(location.latitude), Number(location.longitude)])
+            .filter(point => isFinite(point[0]) && isFinite(point[1]));
+        if (!coordinates.length)
+            return;
+        this.hasFittedLocations = true;
+        this.map.fitBounds(leaflet__WEBPACK_IMPORTED_MODULE_1__["latLngBounds"](coordinates), { padding: [55, 55], maxZoom: 5 });
+    }
+    clusterLocations() {
+        const zoom = this.map ? this.map.getZoom() : 1;
+        const gridSize = zoom <= 1 ? 16 : zoom === 2 ? 8 : zoom === 3 ? 4 : zoom === 4 ? 2 : .25;
+        const groups = {};
+        (this.locations || []).forEach(location => {
+            const latitude = Number(location.latitude);
+            const longitude = Number(location.longitude);
+            if (!isFinite(latitude) || !isFinite(longitude))
+                return;
+            const key = `${Math.round(latitude / gridSize)}:${Math.round(longitude / gridSize)}`;
+            if (!groups[key])
+                groups[key] = { latitude: 0, longitude: 0, weight: 0, visits: 0, locations: [] };
+            const weight = Math.max(1, Number(location.visits) || 1);
+            groups[key].latitude += latitude * weight;
+            groups[key].longitude += longitude * weight;
+            groups[key].weight += weight;
+            groups[key].visits += weight;
+            groups[key].locations.push(location);
+        });
+        return Object.keys(groups).map(key => (Object.assign(Object.assign({}, groups[key]), { latitude: groups[key].latitude / groups[key].weight, longitude: groups[key].longitude / groups[key].weight })));
+    }
+    clusterLabel(cluster) {
+        const cities = cluster.locations.map(location => location.city || location.country || 'Unknown')
+            .filter((city, index, all) => all.indexOf(city) === index).slice(0, 3).join(', ');
+        return `${cities}${cluster.locations.length > 3 ? '…' : ''} · ${cluster.visits} ${cluster.visits === 1 ? 'visit' : 'visits'}`;
+    }
+}
+VisitorMapComponent.ɵfac = function VisitorMapComponent_Factory(t) { return new (t || VisitorMapComponent)(); };
+VisitorMapComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VisitorMapComponent, selectors: [["app-visitor-map"]], viewQuery: function VisitorMapComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_c0, true);
+    } if (rf & 2) {
+        var _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.mapContainer = _t.first);
+    } }, inputs: { locations: "locations", compact: "compact" }, outputs: { locationSelected: "locationSelected" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 2, vars: 2, consts: [[1, "map-container"], ["mapContainer", ""]], template: function VisitorMapComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0, 1);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("compact", ctx.compact);
+    } }, styles: [".map-container[_ngcontent-%COMP%] {\n  position: relative;\n  width: 100%;\n  height: 500px;\n  border-radius: 8px;\n  overflow: hidden;\n}\n.map-container.compact[_ngcontent-%COMP%] {\n  height: 350px;\n  pointer-events: none;\n}\n  .leaflet-container {\n  font-family: inherit;\n}\n  .popup-content {\n  padding: 8px;\n  font-size: 12px;\n}\n  .popup-content strong {\n  display: block;\n  margin-bottom: 4px;\n}\n  .popup-content small {\n  display: block;\n  margin-top: 4px;\n  color: #666;\n}\n  .visitor-cluster-marker {\n  display: grid;\n  place-items: center;\n  border: 3px solid white;\n  border-radius: 50%;\n  background: rgba(1, 111, 255, 0.88);\n  color: white;\n  font-size: 12px;\n  font-weight: 600;\n  box-shadow: 0 0 0 7px rgba(1, 111, 255, 0.18), 0 7px 18px rgba(1, 70, 165, 0.3);\n  animation: visitorPulse 2.4s ease-in-out infinite;\n}\n  .visitor-cluster-marker span {\n  line-height: 1;\n}\n@keyframes visitorPulse {\n  0%, 100% {\n    box-shadow: 0 0 0 6px rgba(1, 111, 255, 0.16), 0 7px 18px rgba(1, 70, 165, 0.3);\n  }\n  50% {\n    box-shadow: 0 0 0 11px rgba(1, 111, 255, 0.05), 0 7px 22px rgba(1, 70, 165, 0.38);\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlzaXRvci1tYXAvdmlzaXRvci1tYXAuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtBQUNGO0FBQ0U7RUFDRSxhQUFBO0VBQ0Esb0JBQUE7QUFDSjtBQUlFO0VBQ0Usb0JBQUE7QUFESjtBQUlFO0VBQ0UsWUFBQTtFQUNBLGVBQUE7QUFGSjtBQUlJO0VBQ0UsY0FBQTtFQUNBLGtCQUFBO0FBRk47QUFLSTtFQUNFLGNBQUE7RUFDQSxlQUFBO0VBQ0EsV0FBQTtBQUhOO0FBT0U7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLGtCQUFBO0VBQ0EsbUNBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsK0VBQUE7RUFDQSxpREFBQTtBQUxKO0FBUUU7RUFBK0IsY0FBQTtBQUxqQztBQVFBO0VBQ0U7SUFBVywrRUFBQTtFQUpYO0VBS0E7SUFBTSxpRkFBQTtFQUZOO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC92aXNpdG9yLW1hcC92aXNpdG9yLW1hcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYXAtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiA1MDBweDtcbiAgYm9yZGVyLXJhZGl1czogOHB4O1xuICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICYuY29tcGFjdCB7XG4gICAgaGVpZ2h0OiAzNTBweDtcbiAgICBwb2ludGVyLWV2ZW50czogbm9uZTtcbiAgfVxufVxuXG46Om5nLWRlZXAge1xuICAubGVhZmxldC1jb250YWluZXIge1xuICAgIGZvbnQtZmFtaWx5OiBpbmhlcml0O1xuICB9XG5cbiAgLnBvcHVwLWNvbnRlbnQge1xuICAgIHBhZGRpbmc6IDhweDtcbiAgICBmb250LXNpemU6IDEycHg7XG5cbiAgICBzdHJvbmcge1xuICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICBtYXJnaW4tYm90dG9tOiA0cHg7XG4gICAgfVxuXG4gICAgc21hbGwge1xuICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICBtYXJnaW4tdG9wOiA0cHg7XG4gICAgICBjb2xvcjogIzY2NjtcbiAgICB9XG4gIH1cblxuICAudmlzaXRvci1jbHVzdGVyLW1hcmtlciB7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBwbGFjZS1pdGVtczogY2VudGVyO1xuICAgIGJvcmRlcjogM3B4IHNvbGlkIHdoaXRlO1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDEsMTExLDI1NSwuODgpO1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDEycHg7XG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgICBib3gtc2hhZG93OiAwIDAgMCA3cHggcmdiYSgxLDExMSwyNTUsLjE4KSwgMCA3cHggMThweCByZ2JhKDEsNzAsMTY1LC4zKTtcbiAgICBhbmltYXRpb246IHZpc2l0b3JQdWxzZSAyLjRzIGVhc2UtaW4tb3V0IGluZmluaXRlO1xuICB9XG5cbiAgLnZpc2l0b3ItY2x1c3Rlci1tYXJrZXIgc3BhbiB7IGxpbmUtaGVpZ2h0OiAxOyB9XG59XG5cbkBrZXlmcmFtZXMgdmlzaXRvclB1bHNlIHtcbiAgMCUsIDEwMCUgeyBib3gtc2hhZG93OiAwIDAgMCA2cHggcmdiYSgxLDExMSwyNTUsLjE2KSwgMCA3cHggMThweCByZ2JhKDEsNzAsMTY1LC4zKTsgfVxuICA1MCUgeyBib3gtc2hhZG93OiAwIDAgMCAxMXB4IHJnYmEoMSwxMTEsMjU1LC4wNSksIDAgN3B4IDIycHggcmdiYSgxLDcwLDE2NSwuMzgpOyB9XG59XG4iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VisitorMapComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-visitor-map',
+                templateUrl: './visitor-map.component.html',
+                styleUrls: ['./visitor-map.component.scss']
+            }]
+    }], null, { locations: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], compact: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], locationSelected: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], mapContainer: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+            args: ['mapContainer', { static: false }]
+        }] }); })();
+
+
+/***/ }),
+
 /***/ "vY5A":
 /*!***************************************!*\
   !*** ./src/app/app-routing.module.ts ***!
@@ -7593,6 +8234,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reviews_reviews_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./reviews/reviews.component */ "bZw7");
 /* harmony import */ var _redirect_guard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./redirect.guard */ "/M1j");
 /* harmony import */ var _reading_group_reading_group_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./reading-group/reading-group.component */ "e6Fa");
+/* harmony import */ var _visitor_dashboard_visitor_dashboard_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./visitor-dashboard/visitor-dashboard.component */ "EmY9");
+
 
 
 
@@ -7621,6 +8264,7 @@ const routes = [
         }
     },
     { path: 'reviews', component: _reviews_reviews_component__WEBPACK_IMPORTED_MODULE_3__["ReviewsComponent"] },
+    { path: 'visitors', component: _visitor_dashboard_visitor_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["VisitorDashboardComponent"] },
     { path: '', component: _main_page_main_page_component__WEBPACK_IMPORTED_MODULE_2__["MainPageComponent"] },
     {
         path: 'assets/Light_Attention_Predicts_Protein_Location_from_the_Language_of_Life.pdf',
